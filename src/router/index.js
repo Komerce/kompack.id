@@ -4,13 +4,14 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const router = new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [{
-    path: '/',
-    name: 'home',
-    component: () => import('@/views/pages/Home.vue'),
-  }]
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes: [{
+        path: '/',
+        name: 'home',
+        component: () =>
+            import ('@/views/pages/Home.vue'),
+    }]
 })
 
 export default router
