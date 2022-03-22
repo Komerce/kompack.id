@@ -60,19 +60,277 @@
       </div>
     </section>
     <section id="section-3" class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center row-sect3">
         <div class="col-xl-5 col-lg-5 col-md-5 hero-sect3">
-          <img src="../../assets/hero-sect3.png" alt="hero-sect3">
+          <img src="../../assets/hero-sect3.png" alt="hero-sect3" />
         </div>
         <div class="col-xl-7 col-lg-7 col-md-7 col-12">
           <div class="head-sect3">
-            <span>Mengapa Kompack Menjadi Pilihan Tepat untuk Bisnismu?</span>
+            <span
+              ><sb
+                >Mengapa Kompack Menjadi Pilihan Tepat untuk Bisnismu?</sb
+              ></span
+            >
           </div>
-          <div class="list-sect3">
-            <li><i class="material-icons">check</i>PRAKTIS karena semua urusan pergudanganmu, kami yang tangani.</li>
-            <li><i class="material-icons">check</i>HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman.</li>
-            <li><i class="material-icons">check</i>MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis.</li>
+          <div>
+            <div class="row list-sect3">
+              <div class="col-xl-1 col-lg-1 col-md-1 col-1">
+                <i class="material-icons">check</i>
+              </div>
+              <div class="col-xl-8 col-lg-10 col-md-11 col-10">
+                <span
+                  >PRAKTIS karena semua urusan pergudanganmu, kami yang
+                  tangani.</span
+                >
+              </div>
+            </div>
+            <div class="row list-sect3">
+              <div class="col-xl-1 col-lg-1 col-md-1 col-1">
+                <i class="material-icons">check</i>
+              </div>
+              <div class="col-xl-8 col-lg-10 col-md-11 col-10">
+                <span
+                  >HEMAT karena semua biaya sudah jadi satu paket dan dibebankan
+                  hanya pada setiap pengiriman.</span
+                >
+              </div>
+            </div>
+            <div class="row list-sect3">
+              <div class="col-xl-1 col-lg-1 col-md-1 col-1">
+                <i class="material-icons">check</i>
+              </div>
+              <div class="col-xl-8 col-lg-10 col-md-11 col-10">
+                <span
+                  >MUDAH DIJANGKAU karena gudang kami berada di lokasi
+                  strategis.</span
+                >
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="hero-sect3-mobile">
+          <img src="../../assets/model-55.png" alt="hero-sect3-mobile" />
+        </div>
+      </div>
+    </section>
+    <section id="section-4">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 kardus">
+          <img src="../../assets/model-4.png" alt="kardus" />
+        </div>
+        <div class="col-xl-6 col-lg-7 col-md-8 ctn-sect4">
+          <div class="head-sect4">
+            <span><sb>Apa kelebihan Kompack?</sb></span>
+          </div>
+          <div class="row card-sect4">
+            <div class="col-xl-6 col-lg-6 col-md-6 con1-card">
+              <div class="row kartu card1">
+                <div class="col-2 align-self-center">
+                  <img src="../../assets/group-1.png" alt="" />
+                </div>
+                <div class="col-10 konten-sect4">
+                  <span>Jaminan barang disimpan di gudang yang terpercaya</span>
+                </div>
+              </div>
+              <div class="row kartu card2">
+                <div class="col-2 align-self-center">
+                  <img src="../../assets/group-2.png" alt="" />
+                </div>
+                <div class="col-10 konten-sect4">
+                  <span
+                    >Adanya SOP untuk mendukung keamanan dan kelancaran proses
+                    fullfilment</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 con2-card">
+              <div class="row kartu card3">
+                <div class="col-2 align-self-center">
+                  <img src="../../assets/group-3.png" alt="" />
+                </div>
+                <div class="col-10 konten-sect4">
+                  <span>Harga layanan terjangkau</span>
+                </div>
+              </div>
+              <div class="row kartu card4">
+                <div class="col-2 align-self-center">
+                  <img src="../../assets/group-4.png" alt="" />
+                </div>
+                <div class="col-10 konten-sect4">
+                  <span>Bisa kirim barang ke gudang kapanpun</span>
+                </div>
+              </div>
+              <div class="row kartu card5">
+                <div class="col-2 align-self-center">
+                  <img src="../../assets/group-5.png" alt="" />
+                </div>
+                <div class="col-10 konten-sect4">
+                  <span>Tim yang memiliki keterampilan pergudangan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-5-dekstop">
+      <div class="head-sect5">
+        <span><sb>Layanan Kami</sb></span>
+      </div>
+      <div class="row justify-content-center card-sect5">
+        <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
+          <div class="icon-sect5">
+            <img src="../../assets/icon1-sect5.png" alt="" />
+          </div>
+          <div class="head-card-sect5">
+            <span>Penyimpanan</span>
+          </div>
+          <div class="subhead-card-sect5">
+            <span
+              >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
+              barangmu.
+            </span>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
+          <div class="icon-sect5">
+            <img src="../../assets/icon2-sect5.png" alt="" />
+          </div>
+          <div class="head-card-sect5">
+            <span>Management Stock</span>
+          </div>
+          <div class="subhead-card-sect5">
+            <span
+              >Pemantauan jumlah barang lebih mudah dengan laporan yang selalu
+              kami update.</span
+            >
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
+          <div class="icon-sect5">
+            <img src="../../assets/icon3-sect5.png" alt="" />
+          </div>
+          <div class="head-card-sect5">
+            <span>Pengemasan dan Pengiriman</span>
+          </div>
+          <div class="subhead-card-sect5">
+            <span
+              >Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
+              pilihanmu.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-6">
+      <div class="row justify-content-center">
+        <div class="col-xl-10 col-lg-10 col-md-10 image-alur-dekstop">
+          <img src="../../assets/sect-6.png" alt="" />
+        </div>
+        <div class="col-11 image-alur-mobile">
+          <img src="../../assets/sect6-mobile.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="section-7">
+      <div class="row justify-content-center row-sect7">
+        <div class="col-xl-1 col-lg-1 col-md-1 kosong"></div>
+        <div class="col-xl-5 col-lg-5 col-md-5 col1-sect7">
+          <div class="head-sect7">
+            <span>Pakai Kompack Lebih Hemat dan Terjangkau </span>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col2-sect7">
+          <div class="subhead-sect7">
+            <span
+              >Nikmati layanan Kompack dengan biaya mulai dari
+              <b class="bold-sect7">Rp2.000/ barang yang terjual</b></span
+            >
+            <div class="white-sect7">
+              <span><b>Dapatkan diskon ongkos kirim mulai dari 25%* </b></span>
+            </div>
+            <span class="SKB">*Syarat & Ketentuan Berlaku</span>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-1 kosong"></div>
+      </div>
+    </section>
+    <section id="section7-mobile">
+      <div class="konten-sect7-mobile">
+        <div class="head-sect7-mobile">
+          <span>Pakai Kompack Lebih Hemat dan Terjangkau</span>
+        </div>
+        <div class="subhead-sect7-mobile">
+          <span
+            >Nikmati layanan Kompack dengan biaya mulai dari
+            <span class="bold-sect7-mobile"
+              >Rp2.000/ barang yang terjual</span
+            ></span
+          >
+        </div>
+        <div class="white-sect7-mobile">
+          <span>Dapatkan diskon ongkos kirim mulai dari 25%*</span>
+        </div>
+        <div class="SKB-mobile">
+          <span>*Syarat & Ketentuan Berlaku</span>
+        </div>
+      </div>
+    </section>
+    <section id="section-8">
+      <div class="row justify-content-center sect-8">
+        <div class="isi-sect8">
+          <div class="judul-sect8">
+            <div class="head-sect8">
+              <span>Lokasi Gudang</span>
+            </div>
+          </div>
+          <div class="row row-sect8">
+            <div class="col-1 icon-sect8">
+              <img src="../../assets/house-2.png" alt="" />
+            </div>
+            <div class="col-10 subhead-sect8">
+              <span class="gudang">Gudang Tangerang</span>
+            </div>
+          </div>
+          <div class="row row-sect8">
+            <div class="col-1 icon-sect8">
+              <img src="../../assets/clock.png" alt="" />
+            </div>
+            <div class="col-10 subhead-sect8">
+              <span>Jam operasioanal gudang 24 jam</span>
+            </div>
+          </div>
+          <div class="row row-sect8">
+            <div class="col-1 icon-sect8">
+              <img src="../../assets/truck.png" alt="" />
+            </div>
+            <div class="col-10 bottom-sect8 subhead-sect8">
+              <span
+                >Mendukung berbagai penggunaan ekspedisi untuk pengiriman</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-9">
+      <div class="sect9">
+        <div class="head-sect9">
+          <span>Percayakan Layanan Pergudangan Bisnismu pada Kompack</span>
+        </div>
+        <div class="subhead-sect9">
+          <span
+            >Rasakan kemudahannya! Hubungi kami untuk informasi lebih
+            lanjut</span
+          >
+        </div>
+        <div class="button">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+          >
+            <button class="btn btn-danger">DAFTAR SEKARANG</button>
+          </a>
         </div>
       </div>
     </section>
@@ -95,7 +353,6 @@ img {
 /* <-- section_1 --> */
 .home {
   margin-top: 5%;
-  margin-bottom: 5%;
 }
 .row_home {
   height: 700px;
@@ -178,20 +435,293 @@ img {
 /* <-- section_3 --> */
 #section-3 {
   margin-top: 15%;
+  text-align: -webkit-center;
 }
-li {
-  list-style: none;
+.head-sect3 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ed5f07;
+  text-align: left;
+  margin-bottom: 5%;
+}
+.list-sect3 {
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-bottom: 20px;
 }
 .material-icons {
-  border: solid 1.5px #FF9D00;
-  border-radius: 15px;
-  padding: 3px;
+  border: solid 1.5px #ff9d00;
+  border-radius: 25px;
+  color: #ff9d00;
 }
 /* <-- section_4 --> */
+#section-4 {
+  background-image: url(../../assets/bg-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.kardus {
+  padding-top: 5%;
+}
+.ctn-sect4 {
+  align-self: center;
+}
+.head-sect4 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-bottom: 10%;
+}
+.konten-sect4 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #ed5f07;
+}
+.con1-card {
+  align-self: center;
+}
+.card1 {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card2 {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card3 {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card4 {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card5 {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.kartu {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
 /* <-- section_5 --> */
+#section-5-dekstop {
+  margin-top: 5%;
+  background-image: url(../../assets/bottom-sect5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  height: 700px;
+  background-position: bottom;
+}
+.head-sect5 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.5px;
+  color: #ed5f07;
+  margin-bottom: 10%;
+  height: 100px;
+  background-image: url(../../assets/right-sect5.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 5%;
+}
+.head-card-sect5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ed5f07;
+  margin: 10px;
+}
+.subhead-card-sect5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px;
+}
+.card-sect5 {
+  text-align: center;
+  background-image: url(../../assets/left-sect5.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 10%;
+}
+.kartu-sect5 {
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 20px;
+}
+.icon-sect5 {
+  margin-top: -50px;
+}
+
 /* <-- section_6 --> */
+#section-6 {
+  background-image: url(../../assets/bg-sect-6.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: bottom right;
+  text-align: center;
+  margin-top: 8%;
+}
 /* <-- section_7 --> */
+.row-sect7 {
+  background-image: url(../../assets/bg-sect7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+  padding-top: 5%;
+}
+.col1-sect7 {
+  align-self: center;
+  width: 450px;
+}
+.head-sect7 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.col2-sect7 {
+  align-self: center;
+  width: 550px;
+}
+.subhead-sect7 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+  border-left: solid 2px #ffffff;
+  padding-left: 10px;
+}
+.bold-sect7 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25.2px;
+  color: #ffffff;
+}
+.white-sect7 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38.5px;
+  color: #ed5f07;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+.SKB {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #ffffff;
+}
+.kosong {
+  width: 100px;
+}
 /* <-- section_8 --> */
+#section-8 {
+  text-align: -webkit-center;
+  background-image: url(../../assets/bg-sect8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 407px;
+  padding-top: 100px;
+}
+.sect-8 {
+  background-color: #ed5f07;
+  width: 30%;
+  opacity: 0.8;
+  border-radius: 15px;
+  text-align: left;
+}
+.head-sect8 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44.8px;
+  letter-spacing: 0.5px;
+  /* width: 200px; */
+  background-color: #ffffff;
+  border-top-right-radius: 15px;
+  color: #ed5f07;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.judul-sect8 {
+  text-align: -webkit-right;
+}
+.subhead-sect8 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25.2px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.gudang {
+  font-size: 24px;
+  line-height: 33.6px;
+}
+.bottom-sect8 {
+  padding-bottom: 20px;
+  border-bottom: solid 3px #ffffff;
+}
+.icon-sect8 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.row-sect8 {
+  margin-left: 30px;
+}
+/* section9 */
+#section-9 {
+  background-image: url(../../assets/bg-sect9.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.sect9 {
+  text-align: -webkit-center;
+  padding-top: 5%;
+}
+.head-sect9 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 67.2px;
+  color: #ed5f07;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.subhead-sect9 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151515;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.button .btn-danger {
+  background-color: #d33c0d;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 @media (max-width: 600px) {
   /* <-- section_1 --> */
@@ -217,9 +747,9 @@ li {
 
   /* <-- section_2 --> */
   .sect-2 {
-  width: 100%;
-  padding-bottom: 5%;
-}
+    width: 100%;
+    padding-bottom: 5%;
+  }
   .model-sect2 {
     display: none;
   }
@@ -233,12 +763,168 @@ li {
     font-size: 16px;
   }
   /* <-- section_3 --> */
+  .hero-sect3 {
+    display: none;
+  }
+  #section-3 {
+    margin-top: 250px;
+  }
+  .head-sect3 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .list-sect3 {
+    margin-left: 5px;
+    font-size: 15px;
+  }
 
-/* <-- section_4 --> */
-/* <-- section_5 --> */
-/* <-- section_6 --> */
-/* <-- section_7 --> */
-/* <-- section_8 --> */
+  /* <-- section_4 --> */
+  #section-4 {
+    background-image: url(../../assets/bg-mobile-sect4.png);
+  }
+  .kardus {
+    display: none;
+  }
+  .head-sect4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .con1-card {
+    text-align: -webkit-center;
+  }
+  .con2-card {
+    text-align: -webkit-center;
+  }
+  .kartu {
+    text-align: left;
+    width: 75%;
+  }
+  .konten-sect4 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 5px;
+  }
+  /* <-- section_5 --> */
+  #section-5-dekstop {
+    background: none;
+  }
+  /* <-- section_6 --> */
+  .image-alur-dekstop {
+    display: none;
+  }
+  #section-6 {
+    background-size: 80%;
+  }
+  /* <-- section_7 --> */
+  #section-7 {
+    display: none;
+  }
+  #section7-mobile {
+    background-image: url(../../assets/bg-mobile-sect7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: -webkit-center;
+    background-size: cover;
+  }
+  .konten-sect7-mobile {
+    background-image: url(../../assets/model-sect7.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 85%;
+    height: 450px;
+  }
+  .head-sect7-mobile {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.6px;
+    border-bottom: solid 2px #ffffff;
+    color: #ffffff;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+  }
+  .subhead-sect7-mobile {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .bold-sect7-mobile {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #ffffff;
+  }
+  .white-sect7-mobile {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22.4px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #ed5f07;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .SKB-mobile {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+  }
+  /* <-- section_8 --> */
+  #section-8 {
+    height: 407px;
+  }
+  .head-sect8 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .subhead-sect8 {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+  .sect-8 {
+    width: 90%;
+  }
+  .row-sect8 {
+    margin-left: 0px;
+  }
+  /* section9 */
+  #section-9 {
+    background-position-x: 50px;
+    background-size: 10%;
+  }
+  .sect9 {
+    padding-top: 10%;
+  }
+  .head-sect9 {
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-bottom: 20px;
+    width: 95%;
+  }
+  .subhead-sect9 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 95%;
+  }
+  .button .btn-danger {
+    padding: 10px;
+    border-radius: 10px;
+  }
 }
 @media (min-width: 601px) {
   /* <-- section_1 --> */
@@ -262,12 +948,113 @@ li {
     font-size: 13px;
   }
   /* <-- section_3 --> */
-
-/* <-- section_4 --> */
-/* <-- section_5 --> */
-/* <-- section_6 --> */
-/* <-- section_7 --> */
-/* <-- section_8 --> */
+  #section-3 {
+    margin-top: 0%;
+  }
+  .hero-sect3-mobile {
+    display: none;
+  }
+  .row-sect3 {
+    width: 100%;
+  }
+  .head-sect3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .list-sect3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* <-- section_4 --> */
+  .head-sect4 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 5%;
+  }
+  .konten-sect4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* <-- section_5 --> */
+  #section-5-dekstop {
+    height: 630px;
+  }
+  /* <-- section_6 --> */
+  .image-alur-mobile {
+    display: none;
+  }
+  /* <-- section_7 --> */
+  #section7-mobile {
+    display: none;
+  }
+  .row-sect7 {
+    height: 250px;
+    padding-top: 8%;
+  }
+  .col1-sect7 {
+    width: 350px;
+  }
+  .head-sect7 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 90px;
+  }
+  .col2-sect7 {
+    width: 350px;
+  }
+  .subhead-sect7 {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 10px;
+  }
+  .bold-sect7 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .white-sect7 {
+    font-size: 16px;
+    line-height: 24px;
+    width: 80%;
+    padding: 2px;
+    margin: 2px;
+  }
+  .kosong {
+    width: 20px;
+  }
+  .SKB {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  /* <-- section_8 --> */
+  #section-8 {
+    height: 507px;
+  }
+  .sect-8 {
+    width: 50%;
+  }
+  /* section9 */
+  #section-9 {
+    background-position-x: 10px;
+    background-size: 10%;
+  }
+  .sect9 {
+    padding-top: 7%;
+  }
+  .head-sect9 {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .subhead-sect9 {
+    font-size: 16px;
+    line-height: 24px;
+    width: 95%;
+  }
+  .button .btn-danger {
+    padding: 15px;
+    border-radius: 10px;
+  }
 }
 @media (min-width: 900px) {
   /* section1 */
@@ -292,12 +1079,96 @@ li {
     width: 250px;
   }
   /* <-- section_3 --> */
+  #section-3 {
+    margin-top: 10%;
+  }
+  .row-sect3 {
+    width: 90%;
+  }
+  .head-sect3 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .list-sect3 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  /* <-- section_4 --> */
+  .head-sect4 {
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 8%;
+  }
+  .konten-sect4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* <-- section_5 --> */
+  #section-5-dekstop {
+    height: 700px;
+  }
+  /* <-- section_6 --> */
 
-/* <-- section_4 --> */
-/* <-- section_5 --> */
-/* <-- section_6 --> */
-/* <-- section_7 --> */
-/* <-- section_8 --> */
+  /* <-- section_7 --> */
+  .row-sect7 {
+    height: 350px;
+    padding-top: 10%;
+  }
+  .col1-sect7 {
+    width: 350px;
+  }
+  .head-sect7 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: 50px;
+  }
+  .col2-sect7 {
+    width: 550px;
+  }
+  .subhead-sect7 {
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 10px;
+  }
+  .bold-sect7 {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+  .white-sect7 {
+    font-size: 24px;
+    line-height: 38.5px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .kosong {
+    width: 120px;
+  }
+  /* <-- section_8 --> */
+  #section-8 {
+    height: 507px;
+  }
+  .sect-8 {
+    width: 40%;
+  }
+  /* section9 */
+  #section-9 {
+    background-position-x: 10px;
+    background-size: 10%;
+  }
+  .sect9 {
+    padding-top: 7%;
+  }
+  .head-sect9 {
+    font-size: 48px;
+    line-height: 67.2px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .button .btn-danger {
+    padding: 20px;
+    border-radius: 10px;
+  }
 }
 @media (min-width: 1200px) {
   /* section1 */
@@ -318,11 +1189,82 @@ li {
     width: 66%;
   }
   /* <-- section_3 --> */
+  #section-3 {
+    margin-top: 15%;
+  }
+  .head-sect3 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  /* <-- section_4 --> */
+  .head-sect4 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .konten-sect4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* <-- section_5 --> */
+  /* <-- section_6 --> */
 
-/* <-- section_4 --> */
-/* <-- section_5 --> */
-/* <-- section_6 --> */
-/* <-- section_7 --> */
-/* <-- section_8 --> */
+  /* <-- section_7 --> */
+  .row-sect7 {
+    height: 550px;
+    padding-top: 5%;
+  }
+  .col-sect7 {
+    width: 450px;
+  }
+  .head-sect7 {
+    font-size: 40px;
+    line-height: 56px;
+    margin-left: 30px;
+  }
+  .col2-sect7 {
+    width: 550px;
+  }
+  .subhead-sect7 {
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 10px;
+  }
+  .bold-sect7 {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+  .white-sect7 {
+    font-size: 24px;
+    line-height: 38.5px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .kosong {
+    width: 100px;
+  }
+  /* <-- section_8 --> */
+  #section-8 {
+    height: 407px;
+  }
+  .sect-8 {
+    width: 30%;
+  }
+  /* section9 */
+  #section-9 {
+    background-position-x: 50px;
+    background-size: 10%;
+  }
+  .head-sect9 {
+    font-size: 48px;
+  line-height: 67.2px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .subhead-sect9 {
+    font-size: 16px;
+    line-height: 24px;
+    width: 80%;
+  }
 }
 </style>
