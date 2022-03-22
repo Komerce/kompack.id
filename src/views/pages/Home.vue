@@ -12,9 +12,11 @@
               pengemasan barang.
             </p>
             <div class="button-komponen">
+              <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"> -->
               <button type="button" class="btn btn-1 btn-outline-danger">
-                <span class="text-btn">DAFTAR SEKARANG</span>
+                DAFTAR SEKARANG
               </button>
+              <!-- </a> -->
             </div>
           </div>
         </div>
@@ -220,6 +222,87 @@
               pilihanmu.</span
             >
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-5-mobile">
+      <div class="sect5-mobile">
+        <div class="head-mobile-sect5">
+          <span>Layanan Kami</span>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="kartu-mobile-sect5">
+                <div class="icon-mobile-sect5">
+                  <img src="../../assets/icon1-sect5.png" alt="" />
+                </div>
+                <div class="head-card-mobile-sect5">
+                  <span>Penyimpanan</span>
+                </div>
+                <div class="subhead-card-mobile-sect5">
+                  <span
+                    >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
+                    barangmu.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="kartu-mobile-sect5">
+                <div class="icon-mobile-sect5">
+                  <img src="../../assets/icon2-sect5.png" alt="" />
+                </div>
+                <div class="head-card-mobile-sect5">
+                  <span>Management Stock</span>
+                </div>
+                <div class="subhead-card-mobile-sect5">
+                  <span
+                    >Pemantauan jumlah barang lebih mudah dengan laporan yang
+                    selalu kami update.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="kartu-mobile-sect5">
+                <div class="icon-mobile-sect5">
+                  <img src="../../assets/icon3-sect5.png" alt="" />
+                </div>
+                <div class="head-card-mobile-sect5">
+                  <span>Pengemasan dan Pengiriman</span>
+                </div>
+                <div class="subhead-card-mobile-sect5">
+                  <span
+                    >Kami bantu kemas dan kirimkan barang melalui ekspedisi
+                    sesuai pilihanmu.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
@@ -812,7 +895,49 @@ img {
   }
   /* <-- section_5 --> */
   #section-5-dekstop {
+    display: none;
+  }
+  #section-5-mobile {
+    margin-top: 5%;
+    background-image: url(../../assets/bottom-sect5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    background-position: bottom;
+    text-align: -webkit-center;
+  }
+  .head-mobile-sect5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #ed5f07;
+    margin-bottom: 5%;
+  }
+  .head-card-mobile-sect5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #ed5f07;
+  }
+  .subhead-card-mobile-sect5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+  }
+  .card-mobile-sect5 {
+    text-align: -webkit-center;
     background: none;
+  }
+  .kartu-mobile-sect5 {
+    background-color: #ffffff;
+    margin-bottom: 20%;
+    border-radius: 20px;
+    width: 80%;
+    height: 250px;
   }
   /* <-- section_6 --> */
   .image-alur-dekstop {
@@ -821,6 +946,9 @@ img {
   #section-6 {
     background-size: 80%;
   }
+
+  /* section5-mobile */
+
   /* <-- section_7 --> */
   #section-7 {
     display: none;
@@ -1257,7 +1385,7 @@ img {
   }
   .head-sect9 {
     font-size: 48px;
-  line-height: 67.2px;
+    line-height: 67.2px;
     margin-bottom: 20px;
     width: 80%;
   }
