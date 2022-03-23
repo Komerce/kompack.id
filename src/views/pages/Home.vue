@@ -2,7 +2,7 @@
   <div class="home">
     <section id="section_1" class="section_1">
       <div class="row justify-content-center row_home">
-        <div class="col-xl-5 col-lg-5 col-md-6 col-11 colom-pertama">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-11 colom-pertama">
           <div class="komponen-pertama">
             <span class="judul-komponen">
               Jasa Pergudangan Terpercaya untuk Bisnis Online Kamu
@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-5 col-10 kolom-kedua">
+        <div class="col-xl-5 col-lg-6 col-md-6 col-10 kolom-kedua">
           <div class="model-img">
             <img class="img-dekstop" src="@/assets/hero.png" alt="" />
             <img class="img-mobile" src="@/assets/hero-mobile.png" alt="" />
@@ -125,18 +125,18 @@
           <div class="row card-sect4">
             <div class="col-xl-6 col-lg-6 col-md-6 con1-card">
               <div class="row kartu card1">
-                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-2">
                   <img src="../../assets/group-1.png" alt="" />
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-10 konten-sect4">
                   <span>Jaminan barang disimpan di gudang yang terpercaya</span>
                 </div>
               </div>
               <div class="row kartu card2">
-                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-2">
                   <img src="../../assets/group-2.png" alt="" />
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-10 konten-sect4">
                   <span
                     >Adanya SOP untuk mendukung keamanan dan kelancaran proses
                     fullfilment</span
@@ -146,26 +146,26 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 con2-card">
               <div class="row kartu card3">
-                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-2">
                   <img src="../../assets/group-3.png" alt="" />
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-10 konten-sect4">
                   <span>Harga layanan terjangkau</span>
                 </div>
               </div>
               <div class="row kartu card4">
-                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-2">
                   <img src="../../assets/group-4.png" alt="" />
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-10 konten-sect4">
                   <span>Bisa kirim barang ke gudang kapanpun</span>
                 </div>
               </div>
               <div class="row kartu card5">
-                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-2">
                   <img src="../../assets/group-5.png" alt="" />
                 </div>
-                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-9 col-10 konten-sect4">
                   <span>Tim yang memiliki keterampilan pergudangan</span>
                 </div>
               </div>
@@ -324,25 +324,23 @@
     </section>
     <section id="section-7">
       <div class="row justify-content-center row-sect7">
-        <div class="col-xl-1 col-lg-1 col-md-1 kosong"></div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col1-sect7">
+        <div class="col-xl-5 col-lg-6 col-md-5 col1-sect7">
           <div class="head-sect7">
             <span>Pakai Kompack Lebih Hemat dan Terjangkau </span>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-5 col-md-5 col2-sect7">
+        <div class="col-xl-7 col-lg-6 col-md-7 col2-sect7">
           <div class="subhead-sect7">
             <span
               >Nikmati layanan Kompack dengan biaya mulai dari
-              <b class="bold-sect7">Rp2.000/ barang yang terjual</b></span
+              <span class="bold-sect7">Rp2.000/ barang yang terjual</span></span
             >
             <div class="white-sect7">
-              <span><b>Dapatkan diskon ongkos kirim mulai dari 25%* </b></span>
+              <span>Dapatkan diskon ongkos kirim mulai dari 25%*</span>
             </div>
             <span class="SKB">*Syarat & Ketentuan Berlaku</span>
           </div>
         </div>
-        <div class="col-xl-1 col-lg-1 col-md-1 kosong"></div>
       </div>
     </section>
     <section id="section7-mobile">
@@ -630,7 +628,6 @@ img {
   margin-bottom: 20px;
   padding: 10px;
 }
-
 /* <-- section_5 --> */
 #section-5-dekstop {
   background-image: url(../../assets/left-sect5.png);
@@ -659,6 +656,7 @@ img {
 .ayam {
   box-sizing: content-box;
   margin-top: -210px;
+  width: 150%;
 }
 .head-card-sect5 {
   font-weight: 500;
@@ -703,16 +701,23 @@ img {
   padding-top: 80px;
 }
 /* <-- section_7 --> */
-.row-sect7 {
+#section-7 {
   background-image: url(../../assets/bg-sect7.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 550px;
-  padding-top: 5%;
+  /* height: 540px; */
+  padding-bottom: 80px;
+  text-align: -webkit-right;
+}
+.row-sect7 {
+  padding-top: 15%;
+  width: 80%;
+  text-align: left;
+  margin-right: 50px;
+  padding-right: 50px;
 }
 .col1-sect7 {
   align-self: center;
-  width: 450px;
 }
 .head-sect7 {
   font-weight: 700;
@@ -723,7 +728,6 @@ img {
 }
 .col2-sect7 {
   align-self: center;
-  width: 550px;
 }
 .subhead-sect7 {
   font-weight: 500;
@@ -756,21 +760,19 @@ img {
   line-height: 19.6px;
   color: #ffffff;
 }
-.kosong {
-  width: 100px;
-}
+
 /* <-- section_8 --> */
 #section-8 {
   text-align: -webkit-center;
   background-image: url(../../assets/bg-sect8.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 407px;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .sect-8 {
   background-color: #ed5f07;
-  width: 30%;
+  width: 37%;
   opacity: 0.8;
   border-radius: 15px;
   text-align: left;
@@ -1058,7 +1060,7 @@ img {
   }
   /* <-- section_8 --> */
   #section-8 {
-    height: 407px;
+    /* height: 407px; */
   }
   .head-sect8 {
     font-size: 20px;
@@ -1069,10 +1071,10 @@ img {
     line-height: 16.8px;
   }
   .sect-8 {
-    width: 90%;
+    /* width: 90%; */
   }
   .row-sect8 {
-    margin-left: 0px;
+    /* margin-left: 0px; */
   }
   /* section9 */
   #section-9 {
@@ -1103,7 +1105,7 @@ img {
 @media (min-width: 601px) {
   /* <-- section_1 --> */
   .judul-komponen {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 38px;
   }
   .ket-komponen {
@@ -1113,6 +1115,9 @@ img {
     display: none;
   }
   /* section2 */
+  .section-2 {
+    margin-top: -50px;
+  }
   .head-sect2 {
     padding-top: 20px;
     font-size: 28px;
@@ -1132,29 +1137,47 @@ img {
     width: 100%;
   }
   .head-sect3 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .list-sect3 {
     font-size: 14px;
     line-height: 20px;
   }
+  .content-sect3 {
+    padding-left: 0px;
+  }
   /* <-- section_4 --> */
   .head-sect4 {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 36px;
     margin-bottom: 5%;
   }
   .konten-sect4 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
   /* <-- section_5 --> */
-  #section-5-dekstop {
-    height: 630px;
-  }
   #section-5-mobile {
     display: none;
+  }
+  .head-sect5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .head-card-sect5 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .subhead-card-sect5 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .kartu-sect5 {
+    padding: 0px;
+  }
+  .ayam {
+    margin-top: -110px;
   }
   /* <-- section_6 --> */
   .image-alur-mobile {
@@ -1165,11 +1188,11 @@ img {
     display: none;
   }
   .row-sect7 {
-    height: 250px;
-    padding-top: 8%;
+    /* height: 250px; */
+    /* padding-top: 8%; */
   }
   .col1-sect7 {
-    width: 350px;
+    /* width: 350px; */
   }
   .head-sect7 {
     font-size: 24px;
@@ -1177,7 +1200,7 @@ img {
     margin-left: 90px;
   }
   .col2-sect7 {
-    width: 350px;
+    /* width: 350px; */
   }
   .subhead-sect7 {
     font-size: 14px;
@@ -1191,12 +1214,9 @@ img {
   .white-sect7 {
     font-size: 16px;
     line-height: 24px;
-    width: 80%;
+    /* width: 80%; */
     padding: 2px;
     margin: 2px;
-  }
-  .kosong {
-    width: 20px;
   }
   .SKB {
     font-size: 12px;
@@ -1204,10 +1224,10 @@ img {
   }
   /* <-- section_8 --> */
   #section-8 {
-    height: 507px;
+    /* height: 507px; */
   }
   .sect-8 {
-    width: 50%;
+    /* width: 50%; */
   }
   /* section9 */
   #section-9 {
@@ -1243,6 +1263,9 @@ img {
     font-size: 16px;
   }
   /* section2 */
+  .section-2 {
+    margin-top: 0px;
+  }
   .head-sect2 {
     padding-top: 20px;
     font-size: 36px;
@@ -1263,7 +1286,7 @@ img {
     width: 80%;
   }
   .head-sect3 {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 46px;
   }
   .list-sect3 {
@@ -1274,25 +1297,36 @@ img {
   .head-sect4 {
     font-size: 40px;
     line-height: 56px;
-    margin-bottom: 8%;
   }
   .konten-sect4 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
   }
   /* <-- section_5 --> */
-  #section-5-dekstop {
-    height: 700px;
+  .head-sect5 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .head-card-sect5 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .subhead-card-sect5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .ayam {
+    margin-top: -150px;
   }
   /* <-- section_6 --> */
 
   /* <-- section_7 --> */
   .row-sect7 {
-    height: 350px;
-    padding-top: 10%;
+    /* height: 350px; */
+    /* padding-top: 10%; */
   }
   .col1-sect7 {
-    width: 350px;
+    /* width: 350px; */
   }
   .head-sect7 {
     font-size: 32px;
@@ -1300,7 +1334,7 @@ img {
     margin-left: 50px;
   }
   .col2-sect7 {
-    width: 550px;
+    /* width: 550px; */
   }
   .subhead-sect7 {
     font-size: 18px;
@@ -1314,19 +1348,16 @@ img {
   .white-sect7 {
     font-size: 24px;
     line-height: 38.5px;
-    width: 80%;
+    /* width: 80%; */
     padding: 10px;
     margin: 10px;
   }
-  .kosong {
-    width: 120px;
-  }
   /* <-- section_8 --> */
   #section-8 {
-    height: 507px;
+    /* height: 507px; */
   }
   .sect-8 {
-    width: 40%;
+    /* width: 40%; */
   }
   /* section9 */
   #section-9 {
@@ -1367,6 +1398,9 @@ img {
   #section-3 {
     margin-top: 15%;
   }
+  .content-sect3 {
+    padding-left: 30px;
+  }
   .head-sect3 {
     font-size: 40px;
     line-height: 56px;
@@ -1381,15 +1415,33 @@ img {
     line-height: 24px;
   }
   /* <-- section_5 --> */
+  .head-sect5 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .head-card-sect5 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .subhead-card-sect5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .kartu-sect5 {
+    padding: 10px;
+  }
+  .ayam {
+    margin-top: -180px;
+  }
   /* <-- section_6 --> */
 
   /* <-- section_7 --> */
   .row-sect7 {
-    height: 550px;
-    padding-top: 5%;
+    /* height: 550px; */
+    /* padding-top: 5%; */
   }
   .col-sect7 {
-    width: 450px;
+    /* width: 450px; */
   }
   .head-sect7 {
     font-size: 40px;
@@ -1397,7 +1449,7 @@ img {
     margin-left: 30px;
   }
   .col2-sect7 {
-    width: 550px;
+    /* width: 550px; */
   }
   .subhead-sect7 {
     font-size: 18px;
@@ -1411,19 +1463,16 @@ img {
   .white-sect7 {
     font-size: 24px;
     line-height: 38.5px;
-    width: 80%;
+    /* width: 80%; */
     padding: 10px;
     margin: 10px;
   }
-  .kosong {
-    width: 100px;
-  }
   /* <-- section_8 --> */
   #section-8 {
-    height: 407px;
+    /* height: 407px; */
   }
   .sect-8 {
-    width: 30%;
+    /* width: 30%; */
   }
   /* section9 */
   #section-9 {
