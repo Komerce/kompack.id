@@ -78,6 +78,9 @@ color: #828282;
 text-decoration: none;
 display: inline-block;
 }
+.nav-item {
+  margin-left: 10px;
+}
 .nav-link:after {    
 background: none repeat scroll 0 0 transparent;
 bottom: 0;
