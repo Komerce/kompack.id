@@ -12,11 +12,13 @@
               pengemasan barang.
             </p>
             <div class="button-komponen">
-              <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"> -->
-              <button type="button" class="btn btn-1 btn-outline-danger">
-                DAFTAR SEKARANG
-              </button>
-              <!-- </a> -->
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+              >
+                <button type="button" class="btn btn-1 btn-outline-danger">
+                  DAFTAR SEKARANG
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -61,12 +63,12 @@
         </div>
       </div>
     </section>
-    <section id="section-3" class="container">
+    <section id="section-3">
       <div class="row justify-content-center row-sect3">
-        <div class="col-xl-5 col-lg-5 col-md-5 hero-sect3">
+        <div class="col-xl-4 col-lg-5 col-md-5 hero-sect3">
           <img src="../../assets/hero-sect3.png" alt="hero-sect3" />
         </div>
-        <div class="col-xl-7 col-lg-7 col-md-7 col-12">
+        <div class="col-xl-8 col-lg-7 col-md-7 col-12 content-sect3">
           <div class="head-sect3">
             <span>Mengapa Kompack Menjadi Pilihan Tepat untuk Bisnismu?</span>
           </div>
@@ -75,7 +77,7 @@
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
                 <i class="material-icons li-sect3">check</i>
               </div>
-              <div class="col-xl-8 col-lg-10 col-md-11 col-10">
+              <div class="col-xl-10 col-lg-10 col-md-11 col-10">
                 <span
                   >PRAKTIS karena semua urusan pergudanganmu, kami yang
                   tangani.</span
@@ -86,7 +88,7 @@
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
                 <i class="material-icons li-sect3">check</i>
               </div>
-              <div class="col-xl-8 col-lg-10 col-md-11 col-10">
+              <div class="col-xl-10 col-lg-10 col-md-11 col-10">
                 <span
                   >HEMAT karena semua biaya sudah jadi satu paket dan dibebankan
                   hanya pada setiap pengiriman.</span
@@ -97,7 +99,7 @@
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
                 <i class="material-icons li-sect3">check</i>
               </div>
-              <div class="col-xl-8 col-lg-10 col-md-11 col-10">
+              <div class="col-xl-10 col-lg-10 col-md-11 col-10">
                 <span
                   >MUDAH DIJANGKAU karena gudang kami berada di lokasi
                   strategis.</span
@@ -123,18 +125,18 @@
           <div class="row card-sect4">
             <div class="col-xl-6 col-lg-6 col-md-6 con1-card">
               <div class="row kartu card1">
-                <div class="col-2 align-self-center">
+                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
                   <img src="../../assets/group-1.png" alt="" />
                 </div>
-                <div class="col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
                   <span>Jaminan barang disimpan di gudang yang terpercaya</span>
                 </div>
               </div>
               <div class="row kartu card2">
-                <div class="col-2 align-self-center">
+                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
                   <img src="../../assets/group-2.png" alt="" />
                 </div>
-                <div class="col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
                   <span
                     >Adanya SOP untuk mendukung keamanan dan kelancaran proses
                     fullfilment</span
@@ -144,26 +146,26 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 con2-card">
               <div class="row kartu card3">
-                <div class="col-2 align-self-center">
+                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
                   <img src="../../assets/group-3.png" alt="" />
                 </div>
-                <div class="col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
                   <span>Harga layanan terjangkau</span>
                 </div>
               </div>
               <div class="row kartu card4">
-                <div class="col-2 align-self-center">
+                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
                   <img src="../../assets/group-4.png" alt="" />
                 </div>
-                <div class="col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
                   <span>Bisa kirim barang ke gudang kapanpun</span>
                 </div>
               </div>
               <div class="row kartu card5">
-                <div class="col-2 align-self-center">
+                <div class="col-xl-3 col-lg-3 col-md-2 col-2">
                   <img src="../../assets/group-5.png" alt="" />
                 </div>
-                <div class="col-10 konten-sect4">
+                <div class="col-xl-9 col-lg-9 col-md-10 col-10 konten-sect4">
                   <span>Tim yang memiliki keterampilan pergudangan</span>
                 </div>
               </div>
@@ -173,50 +175,58 @@
       </div>
     </section>
     <section id="section-5-dekstop">
-      <div class="head-sect5">
-        <span>Layanan Kami</span>
-      </div>
-      <div class="row justify-content-center card-sect5">
-        <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
-          <div class="icon-sect5">
-            <img src="../../assets/icon1-sect5.png" alt="" />
-          </div>
-          <div class="head-card-sect5">
-            <span>Penyimpanan</span>
-          </div>
-          <div class="subhead-card-sect5">
-            <span
-              >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
-              barangmu.
-            </span>
-          </div>
+      <div class="section-5">
+        <div class="bebek">
+        <img class="icon-right" src="../../assets/right-sect5.png" alt="">
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
-          <div class="icon-sect5">
-            <img src="../../assets/icon2-sect5.png" alt="" />
-          </div>
-          <div class="head-card-sect5">
-            <span>Management Stock</span>
-          </div>
-          <div class="subhead-card-sect5">
-            <span
-              >Pemantauan jumlah barang lebih mudah dengan laporan yang selalu
-              kami update.</span
-            >
-          </div>
+        <div class="head-sect5">
+          <span class="layanan">Layanan Kami</span>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
-          <div class="icon-sect5">
-            <img src="../../assets/icon3-sect5.png" alt="" />
+        <div class="row justify-content-center card-sect5">
+          <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
+            <div class="icon-sect5">
+              <img src="../../assets/icon1-sect5.png" alt="" />
+            </div>
+            <div class="head-card-sect5">
+              <span>Penyimpanan</span>
+            </div>
+            <div class="subhead-card-sect5">
+              <span
+                >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
+                barangmu.
+              </span>
+            </div>
           </div>
-          <div class="head-card-sect5">
-            <span>Pengemasan dan Pengiriman</span>
+          <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
+            <div class="icon-sect5">
+              <img src="../../assets/icon2-sect5.png" alt="" />
+            </div>
+            <div class="head-card-sect5">
+              <span>Management Stock</span>
+            </div>
+            <div class="subhead-card-sect5">
+              <span
+                >Pemantauan jumlah barang lebih mudah dengan laporan yang selalu
+                kami update.</span
+              >
+            </div>
           </div>
-          <div class="subhead-card-sect5">
-            <span
-              >Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
-              pilihanmu.</span
-            >
+          <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
+            <div class="icon-sect5">
+              <img src="../../assets/icon3-sect5.png" alt="" />
+            </div>
+            <div class="head-card-sect5">
+              <span>Pengemasan dan Pengiriman</span>
+            </div>
+            <div class="subhead-card-sect5">
+              <span
+                >Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
+                pilihanmu.</span
+              >
+            </div>
+          </div>
+          <div class="hero-sect5">
+            <img class="ayam" src="../../assets/bottom-sect5.png" alt="model-sect5">
           </div>
         </div>
       </div>
@@ -422,7 +432,6 @@
 </template>
 
 <script>
-
 </script>
 
 <style scoped>
@@ -478,13 +487,14 @@ img {
   letter-spacing: 0.5px;
   text-align: left;
   color: #fff;
-  padding-top: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .button-komponen {
   padding-top: 3%;
 }
 .btn-1 {
-  padding: 10px;
+  padding: 12px;
   border-radius: 14px;
   background-color: #d33c0d;
   color: #fff;
@@ -502,14 +512,14 @@ img {
   letter-spacing: 0.5px;
   text-align: center;
 }
-.img-model {
-  padding-top: 50px;
+.model-img {
+  padding-top: 80px;
 }
 
 /* <-- container 2 --> */
 .sect-2 {
   background-color: #fff;
-  width: 80%;
+  width: 75%;
   border-radius: 20px;
 }
 .section-2 {
@@ -535,7 +545,7 @@ img {
 
 /* <-- section_3 --> */
 #section-3 {
-  margin-top: 15%;
+  padding-top: 5%;
   text-align: -webkit-center;
 }
 .head-sect3 {
@@ -544,6 +554,7 @@ img {
   color: #ed5f07;
   text-align: left;
   margin-bottom: 5%;
+  border-bottom: solid 2px #ed5f07;
 }
 .list-sect3 {
   text-align: left;
@@ -558,12 +569,17 @@ img {
   border-radius: 25px;
   color: #ff9d00;
 }
+.content-sect3 {
+  align-self: center;
+  padding-left: 30px;
+}
 /* <-- section_4 --> */
 #section-4 {
   background-image: url(../../assets/bg-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 7%;
 }
 .kardus {
   padding-top: 5%;
@@ -586,27 +602,27 @@ img {
   align-self: center;
 }
 .card1 {
-  width: 80%;
+  width: 90%;
   background-color: #ffffff;
   border-radius: 10px;
 }
 .card2 {
-  width: 80%;
+  width: 90%;
   background-color: #ffffff;
   border-radius: 10px;
 }
 .card3 {
-  width: 80%;
+  width: 90%;
   background-color: #ffffff;
   border-radius: 10px;
 }
 .card4 {
-  width: 80%;
+  width: 90%;
   background-color: #ffffff;
   border-radius: 10px;
 }
 .card5 {
-  width: 80%;
+  width: 90%;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -617,13 +633,11 @@ img {
 
 /* <-- section_5 --> */
 #section-5-dekstop {
-  margin-top: 5%;
-  background-image: url(../../assets/bottom-sect5.png);
+  background-image: url(../../assets/left-sect5.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100%;
-  height: 700px;
-  background-position: bottom;
+  background-position: left;
+  background-position-y: 200px;
+  margin-bottom: 150px;
 }
 .head-sect5 {
   text-align: center;
@@ -632,12 +646,19 @@ img {
   line-height: 56px;
   letter-spacing: 0.5px;
   color: #ed5f07;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
   height: 100px;
-  background-image: url(../../assets/right-sect5.png);
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: 5%;
+}
+.layanan {
+  border-bottom: solid 2px #ed5f07;
+  padding-bottom: 10px;
+}
+.hero-sect5 {
+  text-align-last: end;
+}
+.ayam {
+  box-sizing: content-box;
+  margin-top: -210px;
 }
 .head-card-sect5 {
   font-weight: 500;
@@ -655,18 +676,21 @@ img {
 }
 .card-sect5 {
   text-align: center;
-  background-image: url(../../assets/left-sect5.png);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 10%;
 }
 .kartu-sect5 {
   background-color: #ffffff;
   margin: 10px;
   border-radius: 20px;
+  padding: 20px;
 }
 .icon-sect5 {
   margin-top: -50px;
+}
+.bebek {
+  text-align-last: end;
+}
+.icon-right {
+  padding-top: -50px;
 }
 
 /* <-- section_6 --> */
@@ -676,7 +700,7 @@ img {
   background-size: 50%;
   background-position: bottom right;
   text-align: center;
-  margin-top: 8%;
+  padding-top: 80px;
 }
 /* <-- section_7 --> */
 .row-sect7 {
@@ -1236,7 +1260,7 @@ img {
     margin-top: 10%;
   }
   .row-sect3 {
-    width: 90%;
+    width: 80%;
   }
   .head-sect3 {
     font-size: 32px;
@@ -1326,12 +1350,10 @@ img {
 @media (min-width: 1200px) {
   /* section1 */
   .judul-komponen {
-    font-size: 56px;
-    line-height: 78px;
+    font-size: 52px;
+    line-height: 68px;
   }
-  .head-sect2 {
-    font-size: 40px;
-  }
+
   /* section2 */
   .head-sect2 {
     padding-top: 20px;

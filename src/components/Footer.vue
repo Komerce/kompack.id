@@ -22,9 +22,9 @@
               <div class=""><span class="title-footer">Perusahaan</span></div>
               <div class="row text-title pt-3">
                 <ul>
-                  <li class="ket-text"><a href="https://kompack.id/tentang-kami/"><span class="text-ket">Tentang Kami</span></a></li>
-                  <li class="ket-text"><a href="https://kompack.id/syarat-ketentuan/"><span class="text-ket">Syarat dan Ketentuan</span></a></li>
-                  <li class="ket-text"><a href="https://kompack.id/kebijakan-privasi/"><span class="text-ket">Kebijakan Privasi</span></a></li>
+                  <li class="ket-text"><a class="link" href="https://kompack.id/tentang-kami/"><span class="text-ket">Tentang Kami</span></a></li>
+                  <li class="ket-text"><a class="link" href="https://kompack.id/syarat-ketentuan/"><span class="text-ket">Syarat dan Ketentuan</span></a></li>
+                  <li class="ket-text"><a class="link" href="https://kompack.id/kebijakan-privasi/"><span class="text-ket">Kebijakan Privasi</span></a></li>
                 </ul>
               </div>
           </div>
@@ -69,9 +69,9 @@
               <div class=""><span class="title-footer">Perusahaan</span></div>
               <div class="row justify-content-center text-title pt-3">
                 <ul>
-                  <li class="ket-text"><a href="https://kompack.id/tentang-kami/"><span class="text-ket">Tentang Kami</span></a></li>
-                  <li class="ket-text"><a href="https://kompack.id/syarat-ketentuan/"><span class="text-ket">Syarat dan Ketentuan</span></a></li>
-                  <li class="ket-text"><a href="https://kompack.id/kebijakan-privasi/"><span class="text-ket">Kebijakan Privasi</span></a></li>
+                  <li class="ket-text"><a class="link" href="https://kompack.id/tentang-kami/"><span class="text-ket">Tentang Kami</span></a></li>
+                  <li class="ket-text"><a class="link" href="https://kompack.id/syarat-ketentuan/"><span class="text-ket">Syarat dan Ketentuan</span></a></li>
+                  <li class="ket-text"><a class="link" href="https://kompack.id/kebijakan-privasi/"><span class="text-ket">Kebijakan Privasi</span></a></li>
                 </ul>
               </div>
           </div>
@@ -126,7 +126,6 @@ img {
     padding-bottom: 1%;
     padding-left: 0%;
     padding-right: 0%;
-    /* display: none; */
   }
   .ket-loc {
     font-family: Poppins;
@@ -147,12 +146,12 @@ padding: 0;
 list-style: none; 
 text-align: left;
 }
-a {
+.link {
 color: #fff;
 text-decoration: none;
 display: inline-block;
 }
-a:after {    
+.link:after {    
 background: none repeat scroll 0 0 transparent;
 bottom: 0;
 content: "";
@@ -163,7 +162,7 @@ background: #fff;
 transition: width 0.3s ease 0s, left 0.3s ease 0s;
 width: 0;
 }
-a:hover:after { 
+.link:hover:after { 
 width: 100%; 
 left: 0; 
 }
