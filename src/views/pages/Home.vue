@@ -31,7 +31,7 @@
           <div class="row sect-2">
             <div class="col-xl-12">
               <div class="head-sect2">
-                <span><sb>Apakah kamu mengalami masalah ini?</sb></span>
+                <span>Apakah kamu mengalami masalah ini?</span>
               </div>
               <div class="row">
                 <div class="col-lg-2 col-md-2 model-sect2">
@@ -68,16 +68,12 @@
         </div>
         <div class="col-xl-7 col-lg-7 col-md-7 col-12">
           <div class="head-sect3">
-            <span
-              ><sb
-                >Mengapa Kompack Menjadi Pilihan Tepat untuk Bisnismu?</sb
-              ></span
-            >
+            <span>Mengapa Kompack Menjadi Pilihan Tepat untuk Bisnismu?</span>
           </div>
           <div>
             <div class="row list-sect3">
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
-                <i class="material-icons">check</i>
+                <i class="material-icons li-sect3">check</i>
               </div>
               <div class="col-xl-8 col-lg-10 col-md-11 col-10">
                 <span
@@ -88,7 +84,7 @@
             </div>
             <div class="row list-sect3">
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
-                <i class="material-icons">check</i>
+                <i class="material-icons li-sect3">check</i>
               </div>
               <div class="col-xl-8 col-lg-10 col-md-11 col-10">
                 <span
@@ -99,7 +95,7 @@
             </div>
             <div class="row list-sect3">
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
-                <i class="material-icons">check</i>
+                <i class="material-icons li-sect3">check</i>
               </div>
               <div class="col-xl-8 col-lg-10 col-md-11 col-10">
                 <span
@@ -122,7 +118,7 @@
         </div>
         <div class="col-xl-6 col-lg-7 col-md-8 ctn-sect4">
           <div class="head-sect4">
-            <span><sb>Apa kelebihan Kompack?</sb></span>
+            <span>Apa kelebihan Kompack?</span>
           </div>
           <div class="row card-sect4">
             <div class="col-xl-6 col-lg-6 col-md-6 con1-card">
@@ -178,7 +174,7 @@
     </section>
     <section id="section-5-dekstop">
       <div class="head-sect5">
-        <span><sb>Layanan Kami</sb></span>
+        <span>Layanan Kami</span>
       </div>
       <div class="row justify-content-center card-sect5">
         <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
@@ -417,10 +413,16 @@
         </div>
       </div>
     </section>
+    <div class="back-top">
+      <div onClick="window.scrollTo(0, 0)">
+        <i class="material-icons top">expand_less</i>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+
 </script>
 
 <style scoped>
@@ -431,6 +433,22 @@
 }
 img {
   max-width: 100%;
+}
+
+.top {
+  width: 60px;
+  background-color: #ed5f07;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align-last: center;
+}
+.back-top {
+  text-align-last: end;
+  margin-right: 50px;
 }
 
 /* <-- section_1 --> */
@@ -535,7 +553,7 @@ img {
   line-height: 22.4px;
   margin-bottom: 20px;
 }
-.material-icons {
+.li-sect3 {
   border: solid 1.5px #ff9d00;
   border-radius: 25px;
   color: #ff9d00;
@@ -906,6 +924,12 @@ img {
     background-position: bottom;
     text-align: -webkit-center;
   }
+  #carouselExampleControls {
+    border: solid;
+  }
+  .carousel-item {
+    border: solid;
+  }
   .head-mobile-sect5 {
     text-align: center;
     font-weight: 600;
@@ -934,10 +958,8 @@ img {
   }
   .kartu-mobile-sect5 {
     background-color: #ffffff;
-    margin-bottom: 20%;
     border-radius: 20px;
     width: 80%;
-    height: 250px;
   }
   /* <-- section_6 --> */
   .image-alur-dekstop {
@@ -1106,6 +1128,9 @@ img {
   /* <-- section_5 --> */
   #section-5-dekstop {
     height: 630px;
+  }
+  #section-5-mobile {
+    display: none;
   }
   /* <-- section_6 --> */
   .image-alur-mobile {
