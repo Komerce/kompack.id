@@ -324,12 +324,12 @@
     </section>
     <section id="section-7">
       <div class="row justify-content-center row-sect7">
-        <div class="col-xl-5 col-lg-6 col-md-5 col1-sect7">
+        <div class="col-xl-5 col-lg-6 col-md-6 col1-sect7">
           <div class="head-sect7">
             <span>Pakai Kompack Lebih Hemat dan Terjangkau </span>
           </div>
         </div>
-        <div class="col-xl-7 col-lg-6 col-md-7 col2-sect7">
+        <div class="col-xl-7 col-lg-6 col-md-6 col2-sect7">
           <div class="subhead-sect7">
             <span
               >Nikmati layanan Kompack dengan biaya mulai dari
@@ -513,7 +513,6 @@ img {
 .model-img {
   padding-top: 80px;
 }
-
 /* <-- container 2 --> */
 .sect-2 {
   background-color: #fff;
@@ -540,7 +539,6 @@ img {
   padding-bottom: 20px;
   border-bottom: solid 1px #ed5f07;
 }
-
 /* <-- section_3 --> */
 #section-3 {
   padding-top: 5%;
@@ -634,7 +632,6 @@ img {
   background-repeat: no-repeat;
   background-position: left;
   background-position-y: 200px;
-  margin-bottom: 150px;
 }
 .head-sect5 {
   text-align: center;
@@ -690,7 +687,6 @@ img {
 .icon-right {
   padding-top: -50px;
 }
-
 /* <-- section_6 --> */
 #section-6 {
   background-image: url(../../assets/bg-sect-6.png);
@@ -698,7 +694,7 @@ img {
   background-size: 50%;
   background-position: bottom right;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 5%;
 }
 /* <-- section_7 --> */
 #section-7 {
@@ -706,7 +702,7 @@ img {
   background-repeat: no-repeat;
   background-size: 100%;
   /* height: 540px; */
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   text-align: -webkit-right;
 }
 .row-sect7 {
@@ -1189,7 +1185,7 @@ img {
   }
   .row-sect7 {
     /* height: 250px; */
-    /* padding-top: 8%; */
+    padding-top: 5%;
   }
   .col1-sect7 {
     /* width: 350px; */
@@ -1197,7 +1193,7 @@ img {
   .head-sect7 {
     font-size: 24px;
     line-height: 36px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
   }
   .col2-sect7 {
     /* width: 350px; */
@@ -1205,7 +1201,7 @@ img {
   .subhead-sect7 {
     font-size: 14px;
     line-height: 22px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
   }
   .bold-sect7 {
     font-size: 14px;
