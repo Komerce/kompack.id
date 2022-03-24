@@ -13,7 +13,7 @@
             </p>
             <div class="button-komponen">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+                href="Url/kompack-register"
               >
                 <button type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
@@ -271,6 +271,12 @@
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 0"
+            ></button>
           </div>
           <div class="carousel-inner">
             <div class="unta">
@@ -325,12 +331,12 @@
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev "
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon icon-sect6" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
@@ -339,7 +345,7 @@
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon icon-sect6" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -450,7 +456,7 @@
         </div>
         <div class="button">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+            href="Url/kompack-register"
           >
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
@@ -464,6 +470,7 @@
     </div>
     
   </div>
+  
 </template>
 
 <script>
@@ -497,7 +504,6 @@ html {
 .back-top {
   text-align-last: end;
   margin-right: 50px;
-  position: sticky;
 }
 
 
@@ -1046,6 +1052,21 @@ html {
     background-color: #ffffff;
     border-radius: 20px;
     width: 80%;
+  }
+  .carousel-control-next-icon {
+    background-image: url(../../assets/arrow-right.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .carousel-control-prev-icon {
+    background-image: url(../../assets/arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .icon-sect6 {
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 25px;
   }
   /* <-- section_6 --> */
   .image-alur-dekstop {
