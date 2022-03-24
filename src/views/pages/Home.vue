@@ -42,7 +42,7 @@
                 <div class="col-lg-1 col-md-1 col-3 icon-sect2">
                   <img src="../../assets/icon-1.png" alt="" />
                 </div>
-                <div class="col-lg-3 col-md-4 col-7 subhead-sect2">
+                <div class="col-lg-3 col-md-4 col-8 subhead-sect2">
                   <span
                     >Keterbatasan tempat dan biaya dalam menyediakan fasilitas
                     gudang sendiri</span
@@ -51,7 +51,7 @@
                 <div class="col-lg-1 col-md-1 col-3 icon-sect2">
                   <img src="../../assets/icon-2.png" alt="" />
                 </div>
-                <div class="col-lg-3 col-md-4 col-6 subhead-sect2">
+                <div class="col-lg-3 col-md-4 col-8 subhead-sect2">
                   <span
                     >Tidak cukup waktu dalam mengurus penyimpanan hingga
                     pengemasan barang</span
@@ -64,11 +64,11 @@
       </div>
     </section>
     <section id="section-3">
-      <div class="row justify-content-center row-sect3">
+      <div class="row row-sect3">
         <div class="col-xl-4 col-lg-5 col-md-5 hero-sect3">
           <img src="../../assets/hero-sect3.png" alt="hero-sect3" />
         </div>
-        <div class="col-xl-8 col-lg-7 col-md-7 col-12 content-sect3">
+        <div class="col-xl-8 col-lg-7 col-md-7 col-11 content-sect3">
           <div class="head-sect3">
             <span>Mengapa Kompack Menjadi Pilihan Tepat untuk Bisnismu?</span>
           </div>
@@ -77,7 +77,7 @@
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
                 <i class="material-icons li-sect3">check</i>
               </div>
-              <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+              <div class="col-xl-10 col-lg-10 col-md-11 col-11 isi-sect3">
                 <span
                   >PRAKTIS karena semua urusan pergudanganmu, kami yang
                   tangani.</span
@@ -88,7 +88,7 @@
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
                 <i class="material-icons li-sect3">check</i>
               </div>
-              <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+              <div class="col-xl-10 col-lg-10 col-md-11 col-11 isi-sect3">
                 <span
                   >HEMAT karena semua biaya sudah jadi satu paket dan dibebankan
                   hanya pada setiap pengiriman.</span
@@ -99,7 +99,7 @@
               <div class="col-xl-1 col-lg-1 col-md-1 col-1">
                 <i class="material-icons li-sect3">check</i>
               </div>
-              <div class="col-xl-10 col-lg-10 col-md-11 col-10">
+              <div class="col-xl-10 col-lg-10 col-md-11 col-11 isi-sect3">
                 <span
                   >MUDAH DIJANGKAU karena gudang kami berada di lokasi
                   strategis.</span
@@ -109,6 +109,11 @@
           </div>
         </div>
         <div class="hero-sect3-mobile">
+          <img
+            class="vector-sect3"
+            src="../../assets/vector-sect3.png"
+            alt="vector-sect3-mobile"
+          />
           <img src="../../assets/model-55.png" alt="hero-sect3-mobile" />
         </div>
       </div>
@@ -177,7 +182,7 @@
     <section id="section-5-dekstop">
       <div class="section-5">
         <div class="bebek">
-        <img class="icon-right" src="../../assets/right-sect5.png" alt="">
+          <img class="icon-right" src="../../assets/right-sect5.png" alt="" />
         </div>
         <div class="head-sect5">
           <span class="layanan">Layanan Kami</span>
@@ -226,7 +231,11 @@
             </div>
           </div>
           <div class="hero-sect5">
-            <img class="ayam" src="../../assets/bottom-sect5.png" alt="model-sect5">
+            <img
+              class="ayam"
+              src="../../assets/bottom-sect5.png"
+              alt="model-sect5"
+            />
           </div>
         </div>
       </div>
@@ -324,12 +333,12 @@
     </section>
     <section id="section-7">
       <div class="row justify-content-center row-sect7">
-        <div class="col-xl-5 col-lg-6 col-md-6 col1-sect7">
+        <div class="col-xl-5 col-lg-6 col-md-5 col1-sect7">
           <div class="head-sect7">
             <span>Pakai Kompack Lebih Hemat dan Terjangkau </span>
           </div>
         </div>
-        <div class="col-xl-7 col-lg-6 col-md-6 col2-sect7">
+        <div class="col-xl-7 col-lg-6 col-md-7 col2-sect7">
           <div class="subhead-sect7">
             <span
               >Nikmati layanan Kompack dengan biaya mulai dari
@@ -363,6 +372,9 @@
           <span>*Syarat & Ketentuan Berlaku</span>
         </div>
       </div>
+      <div class="hero-sect7">
+        <img src="../../assets/model-sect7.png" alt="hero-sect7" />
+      </div>
     </section>
     <section id="section-8">
       <div class="row justify-content-center sect-8">
@@ -376,7 +388,7 @@
             <div class="col-1 icon-sect8">
               <img src="../../assets/house-2.png" alt="" />
             </div>
-            <div class="col-10 subhead-sect8">
+            <div class="col-9 subhead-sect8">
               <span class="gudang">Gudang Tangerang</span>
             </div>
           </div>
@@ -384,7 +396,7 @@
             <div class="col-1 icon-sect8">
               <img src="../../assets/clock.png" alt="" />
             </div>
-            <div class="col-10 subhead-sect8">
+            <div class="col-9 subhead-sect8">
               <span>Jam operasioanal gudang 24 jam</span>
             </div>
           </div>
@@ -392,7 +404,7 @@
             <div class="col-1 icon-sect8">
               <img src="../../assets/truck.png" alt="" />
             </div>
-            <div class="col-10 bottom-sect8 subhead-sect8">
+            <div class="col-9 bottom-sect8 subhead-sect8">
               <span
                 >Mendukung berbagai penggunaan ekspedisi untuk pengiriman</span
               >
@@ -539,18 +551,22 @@ img {
   padding-bottom: 20px;
   border-bottom: solid 1px #ed5f07;
 }
+.li-sect3 {
+  font-size: 18px;
+}
 /* <-- section_3 --> */
 #section-3 {
   padding-top: 5%;
   text-align: -webkit-center;
 }
 .head-sect3 {
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.5px;
   color: #ed5f07;
   text-align: left;
   margin-bottom: 5%;
   border-bottom: solid 2px #ed5f07;
+  padding-bottom: 10px;
 }
 .list-sect3 {
   text-align: left;
@@ -701,8 +717,8 @@ img {
   background-image: url(../../assets/bg-sect7.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  /* height: 540px; */
-  /* padding-bottom: 80px; */
+  height: 540px;
+  padding-bottom: 80px;
   text-align: -webkit-right;
 }
 .row-sect7 {
@@ -748,7 +764,7 @@ img {
   border-radius: 10px;
   width: 80%;
   padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
 }
 .SKB {
   font-size: 14px;
@@ -756,7 +772,6 @@ img {
   line-height: 19.6px;
   color: #ffffff;
 }
-
 /* <-- section_8 --> */
 #section-8 {
   text-align: -webkit-center;
@@ -852,7 +867,7 @@ img {
     padding-top: 12%;
   }
   .komponen-pertama {
-    margin-top: 5%;
+    margin-top: 30px;
   }
   .judul-komponen {
     font-size: 24px;
@@ -867,6 +882,9 @@ img {
   .row_home {
     background-image: url("../../assets/bg-mobile.png");
   }
+  .model-img {
+    padding-top: 0px;
+  }
 
   /* <-- section_2 --> */
   .sect-2 {
@@ -880,10 +898,13 @@ img {
     padding-top: 20px;
     font-size: 24px;
     line-height: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .subhead-sect2 {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-right: 8px;
   }
   /* <-- section_3 --> */
   .hero-sect3 {
@@ -893,19 +914,33 @@ img {
     margin-top: 250px;
   }
   .head-sect3 {
-    font-size: 24px;
+    font-size: 23px;
     line-height: 36px;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 30px;
   }
   .list-sect3 {
-    margin-left: 5px;
+    margin-left: 0px;
     font-size: 15px;
   }
-
+  .isi-sect3 {
+    padding-left: 10px;
+  }
+  .hero-sect3-mobile {
+    text-align-last: end;
+  }
+  .vector-sect3 {
+    padding-bottom: 30%;
+  }
+  .row-sect3 {
+    justify-content: left;
+  }
   /* <-- section_4 --> */
   #section-4 {
     background-image: url(../../assets/bg-mobile-sect4.png);
+    margin-top: 0px;
   }
+
   .kardus {
     display: none;
   }
@@ -929,8 +964,8 @@ img {
     width: 75%;
   }
   .konten-sect4 {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 22.4px;
     padding-left: 5px;
   }
   /* <-- section_5 --> */
@@ -947,10 +982,12 @@ img {
     text-align: -webkit-center;
   }
   #carouselExampleControls {
-    border: solid;
+    /* border: solid; */
+    /* display: block; */
   }
   .carousel-item {
-    border: solid;
+    /* border: solid; */
+    /* display: block; */
   }
   .head-mobile-sect5 {
     text-align: center;
@@ -973,6 +1010,7 @@ img {
     font-size: 16px;
     line-height: 24px;
     margin: 20px;
+    padding-bottom: 20px;
   }
   .card-mobile-sect5 {
     text-align: -webkit-center;
@@ -983,12 +1021,17 @@ img {
     border-radius: 20px;
     width: 80%;
   }
+  .carousel-control-next {
+    display: block;
+  }
   /* <-- section_6 --> */
   .image-alur-dekstop {
     display: none;
   }
   #section-6 {
     background-size: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 
   /* section5-mobile */
@@ -1005,11 +1048,11 @@ img {
     background-size: cover;
   }
   .konten-sect7-mobile {
-    background-image: url(../../assets/model-sect7.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
     width: 85%;
-    height: 450px;
+  }
+  .hero-sect7 {
+    text-align-last: end;
+    margin-top: -80px;
   }
   .head-sect7-mobile {
     font-weight: 700;
@@ -1023,21 +1066,21 @@ img {
     font-style: normal;
   }
   .subhead-sect7-mobile {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28.8px;
+    font-weight: 500,medium;
+    font-size: 14px;
+    line-height: 20.8px;
     color: #ffffff;
     margin-top: 10px;
   }
   .bold-sect7-mobile {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 28.8px;
+    font-size: 14px;
+    line-height: 19.2px;
     color: #ffffff;
   }
   .white-sect7-mobile {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22.4px;
     border-radius: 10px;
     background-color: #ffffff;
@@ -1047,16 +1090,16 @@ img {
     margin-top: 10px;
   }
   .SKB-mobile {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
-    line-height: 19.6px;
+    line-height: 14px;
     color: #ffffff;
     text-align: left;
     margin-top: 10px;
   }
   /* <-- section_8 --> */
-  #section-8 {
-    /* height: 407px; */
+  .sect-8 {
+    width: 85%;
   }
   .head-sect8 {
     font-size: 20px;
@@ -1064,13 +1107,22 @@ img {
   }
   .subhead-sect8 {
     font-size: 12px;
-    line-height: 16.8px;
+    line-height: 26.8px;
+    margin-left: 10px;
   }
-  .sect-8 {
-    /* width: 90%; */
+  .gudang {
+    font-size: 12px;
+    line-height: 26.8px;
+  }
+  .bottom-sect8 {
+    padding-bottom: 10px;
+  }
+  .icon-sect8 {
+    margin-left: 0px;
+    margin-bottom: 20px;
   }
   .row-sect8 {
-    /* margin-left: 0px; */
+    margin-left: 20px;
   }
   /* section9 */
   #section-9 {
@@ -1131,10 +1183,12 @@ img {
   }
   .row-sect3 {
     width: 100%;
+    justify-content: center;
   }
   .head-sect3 {
     font-size: 24px;
     line-height: 32px;
+    margin-right: 50px;
   }
   .list-sect3 {
     font-size: 14px;
@@ -1183,25 +1237,16 @@ img {
   #section7-mobile {
     display: none;
   }
-  .row-sect7 {
-    /* height: 250px; */
-    padding-top: 5%;
-  }
-  .col1-sect7 {
-    /* width: 350px; */
+  #section-7 {
+    height: 290px;
   }
   .head-sect7 {
     font-size: 24px;
     line-height: 36px;
-    /* margin-left: 90px; */
-  }
-  .col2-sect7 {
-    /* width: 350px; */
   }
   .subhead-sect7 {
-    font-size: 14px;
-    line-height: 22px;
-    /* padding-left: 10px; */
+    font-size: 12px;
+    line-height: 20px;
   }
   .bold-sect7 {
     font-size: 14px;
@@ -1210,20 +1255,37 @@ img {
   .white-sect7 {
     font-size: 16px;
     line-height: 24px;
-    /* width: 80%; */
-    padding: 2px;
-    margin: 2px;
   }
   .SKB {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 9px;
+    line-height: 14px;
   }
   /* <-- section_8 --> */
-  #section-8 {
-    /* height: 507px; */
-  }
   .sect-8 {
-    /* width: 50%; */
+    width: 55%;
+  }
+  .head-sect8 {
+    font-size: 32px;
+    line-height: 44.8px;
+  }
+  .subhead-sect8 {
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-left: 10px;
+  }
+  .gudang {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+  .bottom-sect8 {
+    padding-bottom: 20px;
+  }
+  .icon-sect8 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .row-sect8 {
+    margin-left: 30px;
   }
   /* section9 */
   #section-9 {
@@ -1282,8 +1344,9 @@ img {
     width: 80%;
   }
   .head-sect3 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 46px;
+    margin-right: 0px;
   }
   .list-sect3 {
     font-size: 16px;
@@ -1317,43 +1380,32 @@ img {
   /* <-- section_6 --> */
 
   /* <-- section_7 --> */
-  .row-sect7 {
-    /* height: 350px; */
-    /* padding-top: 10%; */
-  }
-  .col1-sect7 {
-    /* width: 350px; */
+  #section-7 {
+    height: 389px;
   }
   .head-sect7 {
-    font-size: 32px;
-    line-height: 48px;
-    margin-left: 50px;
-  }
-  .col2-sect7 {
-    /* width: 550px; */
+    font-size: 36px;
+    line-height: 50px;
   }
   .subhead-sect7 {
     font-size: 18px;
-    line-height: 29px;
-    padding-left: 10px;
+    line-height: 28.8px;
   }
   .bold-sect7 {
     font-size: 18px;
-    line-height: 25.2px;
+    line-height: 28.8px;
   }
   .white-sect7 {
-    font-size: 24px;
-    line-height: 38.5px;
-    /* width: 80%; */
-    padding: 10px;
-    margin: 10px;
+    font-size: 20px;
+    line-height: 28.8px;
+  }
+  .SKB {
+    font-size: 12px;
+    line-height: 17px;
   }
   /* <-- section_8 --> */
-  #section-8 {
-    /* height: 507px; */
-  }
   .sect-8 {
-    /* width: 40%; */
+    width: 45%;
   }
   /* section9 */
   #section-9 {
@@ -1432,43 +1484,32 @@ img {
   /* <-- section_6 --> */
 
   /* <-- section_7 --> */
-  .row-sect7 {
-    /* height: 550px; */
-    /* padding-top: 5%; */
-  }
-  .col-sect7 {
-    /* width: 450px; */
+  #section-7 {
+    height: 485px;
   }
   .head-sect7 {
     font-size: 40px;
     line-height: 56px;
-    margin-left: 30px;
-  }
-  .col2-sect7 {
-    /* width: 550px; */
   }
   .subhead-sect7 {
     font-size: 18px;
-    line-height: 29px;
-    padding-left: 10px;
+    line-height: 28.8px;
   }
   .bold-sect7 {
     font-size: 18px;
-    line-height: 25.2px;
+    line-height: 28.8px;
   }
   .white-sect7 {
     font-size: 24px;
-    line-height: 38.5px;
-    /* width: 80%; */
-    padding: 10px;
-    margin: 10px;
+    line-height: 38.4px;
+  }
+  .SKB {
+    font-size: 14px;
+    line-height: 19.6px;
   }
   /* <-- section_8 --> */
-  #section-8 {
-    /* height: 407px; */
-  }
   .sect-8 {
-    /* width: 30%; */
+    width: 37%;
   }
   /* section9 */
   #section-9 {

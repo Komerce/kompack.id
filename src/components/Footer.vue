@@ -35,7 +35,7 @@
             <div class="row bawah-kontak pt-3">
               <div class="col-satu d-flex">
                 <div class="col-2 col_img"><img src="../assets/sms.png" alt=""></div>
-                <div class="col-10"><span class="col_text">support@kompack.id</span></div>
+                <div class="col-10"><span class="col_text">bd@kompack.id</span></div>
               </div>
               <div class="col-dua pt-2 d-flex">
                 <div class="col-2 col_img"><img src="../assets/call.png" alt=""></div>
@@ -82,7 +82,7 @@
             <div class="row bawah-kontak pt-3">
               <div class="col-satu d-flex">
                 <div class="col-2 col_img"><img src="../assets/sms.png" alt=""></div>
-                <div class="col-10"><span class="col_text">support@kompack.id</span></div>
+                <div class="col-10"><span class="col_text">bd@kompack.id</span></div>
               </div>
               <div class="col-dua pt-2 d-flex">
                 <div class="col-2 col_img"><img src="../assets/call.png" alt=""></div>
