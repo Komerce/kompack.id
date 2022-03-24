@@ -246,56 +246,80 @@
           <span>Layanan Kami</span>
         </div>
         <div
-          id="carouselExampleControls"
+          id="carouselExampleIndicators"
           class="carousel slide"
           data-bs-ride="carousel"
         >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="kartu-mobile-sect5">
-                <div class="icon-mobile-sect5">
-                  <img src="../../assets/icon1-sect5.png" alt="" />
-                </div>
-                <div class="head-card-mobile-sect5">
-                  <span>Penyimpanan</span>
-                </div>
-                <div class="subhead-card-mobile-sect5">
-                  <span
-                    >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
-                    barangmu.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="kartu-mobile-sect5">
-                <div class="icon-mobile-sect5">
-                  <img src="../../assets/icon2-sect5.png" alt="" />
-                </div>
-                <div class="head-card-mobile-sect5">
-                  <span>Management Stock</span>
-                </div>
-                <div class="subhead-card-mobile-sect5">
-                  <span
-                    >Pemantauan jumlah barang lebih mudah dengan laporan yang
-                    selalu kami update.</span
-                  >
+            <div class="unta">
+              <div class="carousel-item active">
+                <div class="kartu-mobile-sect5">
+                  <div class="icon-mobile-sect5">
+                    <img src="../../assets/icon1-sect5.png" alt="" />
+                  </div>
+                  <div class="head-card-mobile-sect5">
+                    <span>Penyimpanan</span>
+                  </div>
+                  <div class="subhead-card-mobile-sect5">
+                    <span
+                      >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
+                      barangmu.
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="kartu-mobile-sect5">
-                <div class="icon-mobile-sect5">
-                  <img src="../../assets/icon3-sect5.png" alt="" />
+              <div class="carousel-item">
+                <div class="kartu-mobile-sect5">
+                  <div class="icon-mobile-sect5">
+                    <img src="../../assets/icon2-sect5.png" alt="" />
+                  </div>
+                  <div class="head-card-mobile-sect5">
+                    <span>Management Stock</span>
+                  </div>
+                  <div class="subhead-card-mobile-sect5">
+                    <span
+                      >Pemantauan jumlah barang lebih mudah dengan laporan yang
+                      selalu kami update.</span
+                    >
+                  </div>
                 </div>
-                <div class="head-card-mobile-sect5">
-                  <span>Pengemasan dan Pengiriman</span>
-                </div>
-                <div class="subhead-card-mobile-sect5">
-                  <span
-                    >Kami bantu kemas dan kirimkan barang melalui ekspedisi
-                    sesuai pilihanmu.</span
-                  >
+              </div>
+              <div class="carousel-item">
+                <div class="kartu-mobile-sect5">
+                  <div class="icon-mobile-sect5">
+                    <img src="../../assets/icon3-sect5.png" alt="" />
+                  </div>
+                  <div class="head-card-mobile-sect5">
+                    <span>Pengemasan dan Pengiriman</span>
+                  </div>
+                  <div class="subhead-card-mobile-sect5">
+                    <span
+                      >Kami bantu kemas dan kirimkan barang melalui ekspedisi
+                      sesuai pilihanmu.</span
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -303,7 +327,7 @@
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -312,7 +336,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -433,15 +457,17 @@
         </div>
       </div>
     </section>
-    <div class="back-top">
+    <div class="back-top" id="backtotop">
       <div onClick="window.scrollTo(0, 0)">
         <i class="material-icons top">expand_less</i>
       </div>
     </div>
+    
   </div>
 </template>
 
 <script>
+
 </script>
 
 <style scoped>
@@ -454,6 +480,9 @@ img {
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .top {
   width: 60px;
   background-color: #ed5f07;
@@ -468,7 +497,9 @@ img {
 .back-top {
   text-align-last: end;
   margin-right: 50px;
+  position: sticky;
 }
+
 
 /* <-- section_1 --> */
 .home {
@@ -969,6 +1000,9 @@ img {
     padding-left: 5px;
   }
   /* <-- section_5 --> */
+  .unta {
+    display: -webkit-box;
+  }
   #section-5-dekstop {
     display: none;
   }
@@ -980,14 +1014,6 @@ img {
     height: 400px;
     background-position: bottom;
     text-align: -webkit-center;
-  }
-  #carouselExampleControls {
-    /* border: solid; */
-    /* display: block; */
-  }
-  .carousel-item {
-    /* border: solid; */
-    /* display: block; */
   }
   .head-mobile-sect5 {
     text-align: center;
@@ -1020,9 +1046,6 @@ img {
     background-color: #ffffff;
     border-radius: 20px;
     width: 80%;
-  }
-  .carousel-control-next {
-    display: block;
   }
   /* <-- section_6 --> */
   .image-alur-dekstop {
@@ -1066,7 +1089,7 @@ img {
     font-style: normal;
   }
   .subhead-sect7-mobile {
-    font-weight: 500,medium;
+    font-weight: 500, medium;
     font-size: 14px;
     line-height: 20.8px;
     color: #ffffff;
