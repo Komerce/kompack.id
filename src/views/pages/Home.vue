@@ -12,9 +12,7 @@
               pengemasan barang.
             </p>
             <div class="button-komponen">
-              <a
-                href="Url/kompack-register"
-              >
+              <a href="Url/kompack-register">
                 <button type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
                 </button>
@@ -331,12 +329,15 @@
             </div>
           </div>
           <button
-            class="carousel-control-prev "
+            class="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon icon-sect6" aria-hidden="true"></span>
+            <span
+              class="carousel-control-prev-icon icon-sect6"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
@@ -345,7 +346,10 @@
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon icon-sect6" aria-hidden="true"></span>
+            <span
+              class="carousel-control-next-icon icon-sect6"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -455,26 +459,47 @@
           >
         </div>
         <div class="button">
-          <a
-            href="Url/kompack-register"
-          >
+          <a href="Url/kompack-register">
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
         </div>
       </div>
     </section>
-    <div class="back-top" id="backtotop">
-      <div onClick="window.scrollTo(0, 0)">
+    <div
+      class="scrolltotop"
+      id="scrolltotop"
+    >
+      <button
+        class="button__to__top"
+        @click="scrollToTop"
+      >
         <i class="material-icons top">expand_less</i>
-      </div>
+      </button>
     </div>
-    
   </div>
-  
 </template>
 
 <script>
-
+window.onscroll = function() {myFunction()}
+function myFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop < 50) {
+    document.getElementById("scrolltotop").classList.add('d-none')
+  } 
+  else {
+    document.getElementById("scrolltotop").classList.remove('d-none')
+  }
+}
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      document.getElementById('scrolltotop').classList.add('d-none')
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -487,10 +512,7 @@ img {
   max-width: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-.top {
+.scrolltotop button {
   width: 60px;
   background-color: #ed5f07;
   margin-bottom: 20px;
@@ -501,11 +523,14 @@ html {
   border-radius: 10px;
   text-align-last: center;
 }
-.back-top {
+.scrolltotop {
   text-align-last: end;
-  margin-right: 50px;
+  margin-right: 10px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  position: fixed;
 }
-
 
 /* <-- section_1 --> */
 .home {
@@ -899,6 +924,27 @@ html {
 }
 
 @media (max-width: 600px) {
+
+.scrolltotop button {
+  width: 40px;
+  background-color: #ed5f07;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align-last: center;
+}
+.scrolltotop {
+  text-align-last: end;
+  margin-right: 10px;
+  bottom: 30px;
+  right: 0px;
+  z-index: 1000;
+  position: fixed;
+}
+
   /* <-- section_1 --> */
   .home {
     padding-top: 12%;
@@ -1064,7 +1110,7 @@ html {
     background-size: 100%;
   }
   .icon-sect6 {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding: 15px;
     border-radius: 25px;
   }
@@ -1195,6 +1241,27 @@ html {
   }
 }
 @media (min-width: 601px) {
+
+.scrolltotop button {
+  width: 50px;
+  background-color: #ed5f07;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align-last: center;
+}
+.scrolltotop {
+  text-align-last: end;
+  margin-right: 10px;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1000;
+  position: fixed;
+}
+
   /* <-- section_1 --> */
   .judul-komponen {
     font-size: 26px;
@@ -1356,6 +1423,27 @@ html {
   }
 }
 @media (min-width: 900px) {
+
+.scrolltotop button {
+  width: 60px;
+  background-color: #ed5f07;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align-last: center;
+}
+.scrolltotop {
+  text-align-last: end;
+  margin-right: 10px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  position: fixed;
+}
+
   /* section1 */
   .judul-komponen {
     font-size: 42px;
