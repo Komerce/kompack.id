@@ -126,6 +126,7 @@ img {
     padding-bottom: 1%;
     padding-left: 0%;
     padding-right: 0%;
+    z-index: 2000;
   }
   .ket-loc {
     font-family: Poppins;
