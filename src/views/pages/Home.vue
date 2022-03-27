@@ -482,7 +482,7 @@
 <script>
 window.onscroll = function() {myFunction()}
 function myFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop < 750) {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop < 750) {
     document.getElementById("scrolltotop").classList.add('d-none')
   } 
   else {
