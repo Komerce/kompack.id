@@ -15,7 +15,6 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <!-- <span class="navbar-toggler-icon"></span> -->
             <div class="humburgers">
               <input id="menu-toggle" type="checkbox" />
               <label class="menu-button-container" for="menu-toggle">
@@ -34,33 +33,33 @@
                 <span class="nav-ink"></span>
               </li>
               <li class="nav-item">
-                <a
-                  href="https://kompack.id/tentang-kami/"
+                <router-link
+                  to="/Tentang"
                   class="nav-link"
                   aria-current="page"
-                  ><span class="title-nav">Tentang Kami</span></a
+                  ><span class="title-nav">Tentang Kami</span></router-link
                 >
               </li>
               <li class="nav-item">
                 <span class="nav-ink"></span>
               </li>
               <li class="nav-item">
-                <a
-                  href="https://kompack.id/syarat-ketentuan/"
+                <router-link
+                  to="/Syarat"
                   class="nav-link"
                   aria-current="page"
-                  ><span class="title-nav">Syarat dan Ketentuan</span></a
+                  ><span class="title-nav">Syarat dan Ketentuan</span></router-link
                 >
               </li>
               <li class="nav-item">
                 <span class="nav-ink"></span>
               </li>
               <li class="nav-item">
-                <a
-                  href="https://kompack.id/kebijakan-privasi/"
+                <router-link
+                  to="/Kebijakan"
                   class="nav-link"
                   aria-current="page"
-                  ><span class="title-nav">Kebijakan Privasi</span></a
+                  ><span class="title-nav">Kebijakan Privasi</span></router-link
                 >
               </li>
               <li class="nav-item">
@@ -270,5 +269,13 @@ ul {
   .navbar-collapse {
     background-color: #ff6a3a;
   }
+}
+@media (max-width: 450px) {
+  .humburgers {
+  margin-right: 10px;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
 }
 </style>

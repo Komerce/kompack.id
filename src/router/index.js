@@ -11,7 +11,23 @@ const router = new Router({
         name: 'home',
         component: () =>
             import ('@/views/pages/Home.vue'),
+    }, {
+        path: '/Tentang',
+        name: 'Tentang',
+        component: () =>
+            import ('@/views/pages/Tentang.vue'),
+    }, {
+        path: '/Syarat',
+        name: 'Syarat',
+        component: () =>
+            import ('@/views/pages/Syarat.vue'),
+    }, {
+        path: '/Kebijakan',
+        name: 'Kebijakan',
+        component: () =>
+            import ('@/views/pages/Kebijakan.vue'),
     }]
+
 })
 
 export default router

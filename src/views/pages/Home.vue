@@ -534,7 +534,7 @@ img {
 
 /* <-- section_1 --> */
 .home {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .row_home {
   height: 700px;
