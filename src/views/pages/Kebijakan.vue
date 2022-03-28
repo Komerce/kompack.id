@@ -75,7 +75,7 @@ img {
 }
 
 .Kebijakan {
-  margin-top: 8%;
+  margin-top: 10%;
   margin-bottom: 5%;
 }
 .head-kebijakan {
@@ -83,7 +83,7 @@ img {
   line-height: 44.8px;
   font-weight: 700;
   color: #222222;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   text-align: center;
 }
 .PT {
