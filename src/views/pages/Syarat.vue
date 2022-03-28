@@ -193,10 +193,10 @@ img {
 
 .Syarat {
     margin-bottom: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .head-syarat {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   font-weight: 700;
   font-size: 32px;
   text-align: center;
@@ -205,6 +205,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  margin-bottom: 2%;
 }
 .content-subhead1 {
   font-weight: 400;

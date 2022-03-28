@@ -43,8 +43,8 @@ img {
 }
 
 .Tentang {
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
   text-align: -webkit-center;
 }
 .head-about {
@@ -53,7 +53,7 @@ img {
   line-height: 44.8px;
   letter-spacing: 0.5px;
   color: #222222;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .subhead1-about {
   font-size: 1rem;
@@ -62,7 +62,7 @@ img {
   letter-spacing: 0.5px;
   color: #222222;
   text-align: left;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 .subhead2-about {
   font-size: 1rem;
