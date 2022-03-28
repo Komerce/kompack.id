@@ -37,6 +37,7 @@
                   to="/Tentang"
                   class="nav-link"
                   aria-current="page"
+                  @click.native="movePage"
                   ><span class="title-nav">Tentang Kami</span></router-link
                 >
               </li>
@@ -48,6 +49,7 @@
                   to="/Syarat"
                   class="nav-link"
                   aria-current="page"
+                  @click.native="movePage"
                   ><span class="title-nav">Syarat dan Ketentuan</span></router-link
                 >
               </li>
@@ -59,6 +61,7 @@
                   to="/Kebijakan"
                   class="nav-link"
                   aria-current="page"
+                  @click.native="movePage"
                   ><span class="title-nav">Kebijakan Privasi</span></router-link
                 >
               </li>
@@ -75,7 +78,11 @@
 
 <script>
 export default {
-  setup() {},
+  methods: {
+    movePage() {
+      window.scrollTo(0,0);
+    },
+  },
 };
 </script>
 
