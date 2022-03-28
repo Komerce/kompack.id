@@ -228,6 +228,8 @@ left: 0;
 .text-ket {
   color: #fff;
 }
+
+
 @media (max-width: 429px) {
   .row_footer-1 {
     display: none;

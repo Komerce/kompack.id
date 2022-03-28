@@ -12,7 +12,7 @@
               pengemasan barang.
             </p>
             <div class="button-komponen">
-              <a href="Url/kompack-register">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform">
                 <button type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
                 </button>
@@ -459,7 +459,7 @@
           >
         </div>
         <div class="button">
-          <a href="Url/kompack-register">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform">
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
         </div>
