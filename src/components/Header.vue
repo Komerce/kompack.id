@@ -25,8 +25,8 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="/" class="nav-link" aria-current="page"
-                  ><span class="title-nav">Beranda</span></a
+                <router-link to="/" class="nav-link" aria-current="page"
+                  ><span class="title-nav">Beranda</span></router-link
                 >
               </li>
               <li class="nav-item">
@@ -36,7 +36,6 @@
                 <router-link
                   to="/Tentang"
                   class="nav-link"
-                  aria-current="page"
                   @click.native="movePage"
                   ><span class="title-nav">Tentang Kami</span></router-link
                 >
@@ -82,7 +81,7 @@ export default {
     movePage() {
       window.scrollTo(0,0);
     },
-  },
+  },  
 };
 </script>
 
@@ -96,6 +95,8 @@ export default {
 img {
   max-width: 100%;
 }
+
+
 
 /* animated humberger menu */
 
@@ -213,9 +214,14 @@ ul {
 .title-nav:hover {
   color: #ff6a3a;
 }
+.title-nav:hover:after {
+  color: #ff6a3a;
+}
 .container-fluid {
   padding: 0%;
 }
+
+
 
 @media (max-width: 900px) {
   .humburgers {
