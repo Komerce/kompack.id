@@ -239,13 +239,13 @@ img {
 @media (max-width: 450px) {
     .Syarat {
         margin-top: 30%;
-        margin-bottom: 30%;
+        margin-bottom: 5%;
         text-align: justify;
     }
     .head-syarat {
         font-size: 20px;
         line-height: 30px;
-        margin-bottom: 15%;
+        margin-bottom: 5%;
     }
     .subhead1-syarat {
         margin-bottom: 8%;
