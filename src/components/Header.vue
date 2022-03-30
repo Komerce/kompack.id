@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header" id="header">
     <div class="row row_header">
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container-fluid cntr_header">
@@ -25,8 +25,8 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="/" class="nav-link" aria-current="page"
-                  ><span class="title-nav">Beranda</span></a
+                <router-link to="/" class="nav-link" aria-current="page"
+                  ><span class="title-nav">Beranda</span></router-link
                 >
               </li>
               <li class="nav-item">
@@ -50,7 +50,9 @@
                   class="nav-link"
                   aria-current="page"
                   @click.native="movePage"
-                  ><span class="title-nav">Syarat dan Ketentuan</span></router-link
+                  ><span class="title-nav"
+                    >Syarat dan Ketentuan</span
+                  ></router-link
                 >
               </li>
               <li class="nav-item">
@@ -80,10 +82,18 @@
 export default {
   methods: {
     movePage() {
-      window.scrollTo(0,0);
+      window.scrollTo(0, 0);
     },
   },
 };
+
+import $ from "jquery";
+
+$("#navbarSupportedContent").on("show.bs.collapse", function () {
+  $("li.nav-link").click(function () {
+    $("#navbarSupportedContent").collapse("hide");
+  });
+});
 </script>
 
 <style>
@@ -157,12 +167,17 @@ img {
 .row_header > * {
   padding-right: 0px;
   padding-left: 0px;
+  
+}
+.row {
+  --bs-gutter-x: 0rem;
 }
 .header,
 .navbar {
   max-width: 100%;
   padding-top: 0rem;
   padding-bottom: 0rem;
+  position: relative;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -213,37 +228,40 @@ ul {
 .title-nav:hover {
   color: #ff6a3a;
 }
+.title-nav:hover:after {
+  color: #ff6a3a;
+}
 .container-fluid {
   padding: 0%;
 }
 
 @media (max-width: 900px) {
   .humburgers {
-  border: solid 0.5px #ff6a3a;
-  margin-right: 40px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  border-radius: 6px; 
-}
-.title-nav {
-  color: #FFFFFF;
-}
-.title-nav:hover {
-  color: #FFFFFF;
-}
-.nav-link:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  background: #FFFFFF;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-  right: 0;
-}
+    border: solid 0.5px #ff6a3a;
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .title-nav {
+    color: #ffffff;
+  }
+  .title-nav:hover {
+    color: #ffffff;
+  }
+  .nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #ffffff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    right: 0;
+  }
   .menu-button-container {
     display: flex;
   }
@@ -279,10 +297,10 @@ ul {
 }
 @media (max-width: 450px) {
   .humburgers {
-  margin-right: 10px;
-}
-.navbar-brand {
-  margin-left: 10px;
-}
+    margin-right: 10px;
+  }
+  .navbar-brand {
+    margin-left: 10px;
+  }
 }
 </style>

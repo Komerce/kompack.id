@@ -478,6 +478,7 @@
 </template>
 
 <script>
+
 window.onscroll = function () {
   myFunction();
 };
@@ -536,7 +537,7 @@ img {
 
 /* <-- section_1 --> */
 .home {
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 .row_home {
   height: 700px;
