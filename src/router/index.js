@@ -8,21 +8,21 @@ const router = new Router({
     base: process.env.BASE_URL,
     routes: [{
         path: '/',
-        name: 'home',
+        name: 'Home',
         component: () =>
             import ('@/views/pages/Home.vue'),
     }, {
-        path: '/Tentang',
+        path: '/tentang',
         name: 'Tentang',
         component: () =>
             import ('@/views/pages/Tentang.vue'),
     }, {
-        path: '/Syarat',
+        path: '/syarat',
         name: 'Syarat',
         component: () =>
             import ('@/views/pages/Syarat.vue'),
     }, {
-        path: '/Kebijakan',
+        path: '/kebijakan',
         name: 'Kebijakan',
         component: () =>
             import ('@/views/pages/Kebijakan.vue'),
