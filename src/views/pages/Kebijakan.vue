@@ -83,7 +83,7 @@ img {
   line-height: 44.8px;
   font-weight: 700;
   color: #222222;
-  margin-bottom: 3%;
+  margin-bottom: 7%;
   text-align: center;
 }
 .PT {
@@ -126,13 +126,14 @@ img {
 }
 @media (max-width: 450px) {
   .Kebijakan {
-    margin-top: 30%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: justify;
   }
   .head-kebijakan {
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 10%;
   }
   .content-kebijakan {
       letter-spacing: 0.5px;

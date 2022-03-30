@@ -53,7 +53,7 @@ img {
   line-height: 44.8px;
   letter-spacing: 0.5px;
   color: #222222;
-  margin-bottom: 3%;
+  margin-bottom: 7%;
 }
 .subhead1-about {
   font-size: 1rem;
@@ -82,10 +82,11 @@ img {
 
 @media (max-width: 450px) {
   .Tentang {
-    margin-top: 30%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;;
   }
   .head-about {
+    margin-bottom: 10%;
     font-size: 20px;
     line-height: 30px;
   }
