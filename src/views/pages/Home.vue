@@ -12,7 +12,9 @@
               pengemasan barang.
             </p>
             <div class="button-komponen">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+              >
                 <button type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
                 </button>
@@ -333,24 +335,24 @@
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
-          >
-            <span
+          ><i class="material-icons kanan">chevron_left</i>
+            <!-- <span
               class="carousel-control-prev-icon icon-sect6"
               aria-hidden="true"
             ></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Previous</span> -->
           </button>
           <button
             class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
-          >
-            <span
+          ><i class="material-icons kanan">chevron_right</i>
+            <!-- <span
               class="carousel-control-next-icon icon-sect6"
               aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
+            ></span> -->
+            <!-- <span class="visually-hidden">Next</span> -->
           </button>
         </div>
       </div>
@@ -459,20 +461,16 @@
           >
         </div>
         <div class="button">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+          >
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
         </div>
       </div>
     </section>
-    <div
-      class="scrolltotop"
-      id="scrolltotop"
-    >
-      <button
-        class="button__to__top"
-        @click="scrollToTop"
-      >
+    <div class="scrolltotop" id="scrolltotop">
+      <button class="button__to__top" @click="scrollToTop">
         <i class="material-icons top">expand_less</i>
       </button>
     </div>
@@ -480,13 +478,18 @@
 </template>
 
 <script>
-window.onscroll = function() {myFunction()}
+
+window.onscroll = function () {
+  myFunction();
+};
 function myFunction() {
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop < 750) {
-    document.getElementById("scrolltotop").classList.add('d-none')
-  } 
-  else {
-    document.getElementById("scrolltotop").classList.remove('d-none')
+  if (
+    document.body.scrollTop > 150 ||
+    document.documentElement.scrollTop < 750
+  ) {
+    document.getElementById("scrolltotop").classList.add("d-none");
+  } else {
+    document.getElementById("scrolltotop").classList.remove("d-none");
   }
 }
 export default {
@@ -496,7 +499,7 @@ export default {
         top: 0,
         behavior: "smooth",
       });
-      document.getElementById('scrolltotop').classList.add('d-none')
+      document.getElementById("scrolltotop").classList.add("d-none");
     },
   },
 };
@@ -534,7 +537,7 @@ img {
 
 /* <-- section_1 --> */
 .home {
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 .row_home {
   height: 700px;
@@ -769,10 +772,12 @@ img {
 #section-6 {
   background-image: url(../../assets/bg-sect-6.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-position: bottom right;
   text-align: center;
   padding-top: 5%;
+  margin-bottom: -15%;
+  height: 1100px;
 }
 /* <-- section_7 --> */
 #section-7 {
@@ -924,26 +929,25 @@ img {
 }
 
 @media (max-width: 600px) {
-
-.scrolltotop button {
-  width: 40px;
-  background-color: #ed5f07;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  padding-top: 0px;
-  border: none;
-  color: #ffffff;
-  border-radius: 10px;
-  text-align-last: center;
-}
-.scrolltotop {
-  text-align-last: end;
-  margin-right: 10px;
-  bottom: 30px;
-  right: 0px;
-  z-index: 1000;
-  position: fixed;
-}
+  .scrolltotop button {
+    width: 40px;
+    background-color: #ed5f07;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align-last: center;
+  }
+  .scrolltotop {
+    text-align-last: end;
+    margin-right: 10px;
+    bottom: 30px;
+    right: 0px;
+    z-index: 1000;
+    position: fixed;
+  }
 
   /* <-- section_1 --> */
   .home {
@@ -1099,15 +1103,11 @@ img {
     border-radius: 20px;
     width: 80%;
   }
-  .carousel-control-next-icon {
-    background-image: url(../../assets/arrow-right.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  .carousel-control-prev-icon {
-    background-image: url(../../assets/arrow-left.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  .kanan {
+    color: #ed5f07;
+    font-size: 50px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
   }
   .icon-sect6 {
     background-color: #f2f2f2;
@@ -1119,9 +1119,10 @@ img {
     display: none;
   }
   #section-6 {
-    background-size: 80%;
+    background-size: 100%;
     padding-top: 30px;
     padding-bottom: 50px;
+    height: 950px;
   }
 
   /* section5-mobile */
@@ -1241,26 +1242,25 @@ img {
   }
 }
 @media (min-width: 601px) {
-
-.scrolltotop button {
-  width: 50px;
-  background-color: #ed5f07;
-  margin-bottom: 20px;
-  padding-bottom: 30px;
-  padding-top: 10px;
-  border: none;
-  color: #ffffff;
-  border-radius: 10px;
-  text-align-last: center;
-}
-.scrolltotop {
-  text-align-last: end;
-  margin-right: 10px;
-  bottom: 30px;
-  right: 10px;
-  z-index: 1000;
-  position: fixed;
-}
+  .scrolltotop button {
+    width: 50px;
+    background-color: #ed5f07;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align-last: center;
+  }
+  .scrolltotop {
+    text-align-last: end;
+    margin-right: 10px;
+    bottom: 30px;
+    right: 10px;
+    z-index: 1000;
+    position: fixed;
+  }
 
   /* <-- section_1 --> */
   .judul-komponen {
@@ -1423,26 +1423,25 @@ img {
   }
 }
 @media (min-width: 900px) {
-
-.scrolltotop button {
-  width: 60px;
-  background-color: #ed5f07;
-  margin-bottom: 20px;
-  padding-bottom: 50px;
-  padding-top: 10px;
-  border: none;
-  color: #ffffff;
-  border-radius: 10px;
-  text-align-last: center;
-}
-.scrolltotop {
-  text-align-last: end;
-  margin-right: 10px;
-  bottom: 30px;
-  right: 30px;
-  z-index: 1000;
-  position: fixed;
-}
+  .scrolltotop button {
+    width: 60px;
+    background-color: #ed5f07;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align-last: center;
+  }
+  .scrolltotop {
+    text-align-last: end;
+    margin-right: 10px;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    position: fixed;
+  }
 
   /* section1 */
   .judul-komponen {
