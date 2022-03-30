@@ -81,6 +81,10 @@ img {
 }
 
 @media (max-width: 450px) {
+  .Tentang {
+    margin-top: 30%;
+    margin-bottom: 5%;
+  }
   .head-about {
     font-size: 20px;
     line-height: 30px;

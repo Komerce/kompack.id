@@ -951,7 +951,7 @@ img {
 
   /* <-- section_1 --> */
   .home {
-    padding-top: 12%;
+    /* padding-top: 12%; */
   }
   .komponen-pertama {
     margin-top: 30px;
