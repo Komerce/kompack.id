@@ -537,7 +537,7 @@ img {
 
 /* <-- section_1 --> */
 .home {
-  /* margin-top: 2%; */
+  position: relative;
 }
 .row_home {
   height: 700px;

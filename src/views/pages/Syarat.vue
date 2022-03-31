@@ -37,7 +37,7 @@
             </div>
             <div class="col-1 list">1.4</div>
             <div class="col-11">
-              “Mitra gudang” : Usaha perorangan atau kelompok yang menyadiakan
+              “Mitra gudang” : Usaha perorangan atau kelompok yang menyediakan
               jasa fulfillment yang telah bermitra dengan Kompack.
             </div>
             <div class="col-1 list">1.5</div>

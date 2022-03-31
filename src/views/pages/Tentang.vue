@@ -16,7 +16,7 @@
         <div class="subhead2-about">
           <p>
             Rasakan pengalaman layanan fulfillment yang mudah, hemat, dan
-            beragam manfaat lainnya dari Kompack. Kami juga berkomitment untuk
+            beragam manfaat lainnya dari Kompack. Kami juga berkomitmen untuk
             terus mendukung perekonomian dalam negeri dengan memberikan
             kemudahan dalam menjalankan bisnis bagi UMKM dan pebisnis online.
           </p>
