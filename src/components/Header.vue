@@ -1,6 +1,6 @@
 <template>
   <div class="header" id="header">
-    <div class="row row_header">
+    <div class="row row_header ">
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container-fluid cntr_header">
           <a class="navbar-brand"
@@ -177,8 +177,9 @@ img {
   max-width: 100%;
   padding-top: 0rem;
   padding-bottom: 0rem;
-  position: relative;
+  position: relative; 
 }
+
 .navbar-collapse {
   justify-content: flex-end;
   padding-right: 50px;

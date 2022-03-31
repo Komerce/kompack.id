@@ -23,48 +23,48 @@
             <div class="col-1 list">1.1</div>
             <div class="col-11">
               "Kami" : Adalah PT. Kampung Marketerindo Berdaya selaku pemilik
-              Komerce dan pengelola platform Kompack
+              Komerce dan pengelola platform Kompack.
             </div>
             <div class="col-1 list">1.2</div>
             <div class="col-11">
               "Anda" : Adalah orang yang mengakses situs atau pengguna platform
-              Kompack
+              Kompack.
             </div>
             <div class="col-1 list">1.3</div>
             <div class="col-11">
               "Partner" : Usaha perorangan atau kelompok yang menggunakan jasa
-              fulfillment dari Kompack
+              fulfillment dari Kompack.
             </div>
             <div class="col-1 list">1.4</div>
             <div class="col-11">
-              “Mitra gudang” : Usaha perorangan atau kelompok yang menyadiakan
+              “Mitra gudang” : Usaha perorangan atau kelompok yang menyediakan
               jasa fulfillment yang telah bermitra dengan Kompack.
             </div>
             <div class="col-1 list">1.5</div>
             <div class="col-11">
-              "Ekspedisi" : Perusahaan penyedia jasa pengiriman
+              "Ekspedisi" : Perusahaan penyedia jasa pengiriman.
             </div>
             <div class="col-1 list">1.6</div>
             <div class="col-11">
               "UMKM" : Bisnis yang dijalankan oleh perseorangan, rumah tangga,
               atau badan usaha yang memenuhi kriteria yang ditetapkan oleh
-              Undang- undang No. 20 tahun 2008
+              Undang- undang No. 20 tahun 2008.
             </div>
             <div class="col-1 list">1.7</div>
             <div class="col-11">
               "Pebinsis online" : Perusahaan atau perseorangan yang menjalankan
-              bisnisnya melalui sistem digital atau elektronik
+              bisnisnya melalui sistem digital atau elektronik.
             </div>
             <div class="col-1 list">1.8</div>
             <div class="col-11">
               "Data Pribadi" : Data-data pribadi Pengguna yang diberikan kepada
               pihak Komerce yang tak terbatas pada meliputi nama, jenis kelamin,
               nomor telepon, alamat lengkap, informasi bisnis sebagaimana yang
-              diminta dalam proses registrasi
+              diminta dalam proses registrasi.
             </div>
             <div class="col-1 list">1.9</div>
             <div class="col-11">
-              “Inbound” Proses memasukkan barang milik partner ke gudang milik
+              “Inbound” : Proses memasukkan barang milik partner ke gudang milik
               mitra gudang.
             </div>
             <div class="col-1 list">1.10</div>
@@ -73,7 +73,7 @@
             </div>
             <div class="col-1 list">1.11</div>
             <div class="col-11">
-              “fulfillment” : Proses lengkap pemenuhan pesanan dari pelanggan
+              “Fulfillment” : Proses lengkap pemenuhan pesanan dari pelanggan.
             </div>
           </div>
         </div>
@@ -238,9 +238,9 @@ img {
 
 @media (max-width: 450px) {
     .Syarat {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        text-align: justify;
+        margin-top: 30%;
+        margin-bottom: 5%;
+        /* text-align: justify; */
     }
     .head-syarat {
         font-size: 20px;
