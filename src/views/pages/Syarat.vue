@@ -196,7 +196,7 @@ img {
     margin-top: 10%;
 }
 .head-syarat {
-  margin-bottom: 3%;
+  margin-bottom: 7%;
   font-weight: 700;
   font-size: 32px;
   text-align: center;
@@ -245,7 +245,7 @@ img {
     .head-syarat {
         font-size: 20px;
         line-height: 30px;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
     .subhead1-syarat {
         margin-bottom: 8%;
