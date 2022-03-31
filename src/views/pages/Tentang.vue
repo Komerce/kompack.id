@@ -43,8 +43,8 @@ img {
 }
 
 .Tentang {
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-top: 40px;
+  margin-bottom: 78px;
   text-align: -webkit-center;
 }
 .head-about {
@@ -53,7 +53,7 @@ img {
   line-height: 44.8px;
   letter-spacing: 0.5px;
   color: #222222;
-  margin-bottom: 3%;
+  margin-bottom: 40px;
 }
 .subhead1-about {
   font-size: 1rem;
@@ -82,12 +82,13 @@ img {
 
 @media (max-width: 450px) {
   .Tentang {
-    margin-top: 30%;
-    margin-bottom: 5%;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
   .head-about {
-    font-size: 20px;
+    font-size: 20px; 
     line-height: 30px;
+    margin-bottom: 24px;
   }
     .subhead1-about, .subhead2-about {
         line-height: 25.6px;

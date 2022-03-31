@@ -75,15 +75,15 @@ img {
 }
 
 .Kebijakan {
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-top: 40px;
+  margin-bottom: 78px;
 }
 .head-kebijakan {
   font-size: 32px;
   line-height: 44.8px;
   font-weight: 700;
   color: #222222;
-  margin-bottom: 3%;
+  margin-bottom: 40px;
   text-align: center;
 }
 .PT {
@@ -126,13 +126,14 @@ img {
 }
 @media (max-width: 450px) {
   .Kebijakan {
-    margin-top: 30%;
-    margin-bottom: 5%;
-    text-align: justify;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    /* text-align: justify; */
   }
   .head-kebijakan {
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 24px;
   }
   .content-kebijakan {
       letter-spacing: 0.5px;
