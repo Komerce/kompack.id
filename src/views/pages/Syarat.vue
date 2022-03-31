@@ -240,7 +240,7 @@ img {
     .Syarat {
         margin-top: 30%;
         margin-bottom: 5%;
-        text-align: justify;
+        /* text-align: justify; */
     }
     .head-syarat {
         font-size: 20px;
