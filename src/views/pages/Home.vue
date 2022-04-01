@@ -14,6 +14,7 @@
             <div class="button-komponen">
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+                target="_blank"
               >
                 <button type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
@@ -463,6 +464,7 @@
         <div class="button">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
+            target="_blank"
           >
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
@@ -536,9 +538,6 @@ img {
 }
 
 /* <-- section_1 --> */
-.home {
-  /* position: relative; */
-}
 .row_home {
   height: 700px;
   background-image: url("../../assets/bg-hero.png");
@@ -950,9 +949,6 @@ img {
   }
 
   /* <-- section_1 --> */
-  .home {
-    /* padding-top: 12%; */
-  }
   .komponen-pertama {
     margin-top: 30px;
   }
