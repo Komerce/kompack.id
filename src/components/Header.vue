@@ -34,7 +34,7 @@
               </li>
               <li class="nav-item">
                 <router-link
-                  to="/Tentang"
+                  to="/tentang"
                   class="nav-link"
                   aria-current="page"
                   @click.native="movePage"
@@ -46,7 +46,7 @@
               </li>
               <li class="nav-item">
                 <router-link
-                  to="/Syarat"
+                  to="/syarat"
                   class="nav-link"
                   aria-current="page"
                   @click.native="movePage"
@@ -60,7 +60,7 @@
               </li>
               <li class="nav-item">
                 <router-link
-                  to="/Kebijakan"
+                  to="/kebijakan"
                   class="nav-link"
                   aria-current="page"
                   @click.native="movePage"
