@@ -192,11 +192,11 @@ img {
 }
 
 .Syarat {
-    margin-bottom: 5%;
-    margin-top: 10%;
+    margin-bottom: 78px;
+    margin-top: 40px;
 }
 .head-syarat {
-  margin-bottom: 7%;
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 32px;
   text-align: center;
@@ -238,17 +238,18 @@ img {
 
 @media (max-width: 450px) {
     .Syarat {
-        margin-top: 30%;
-        margin-bottom: 5%;
+        margin-top: 32px; 
+        margin-bottom: 32px;
         /* text-align: justify; */
     }
     .head-syarat {
         font-size: 20px;
         line-height: 30px;
-        margin-bottom: 10%;
+        margin-bottom: 24px;
     }
     .subhead1-syarat {
-        margin-bottom: 8%;
+        margin-bottom: 5%;
+        font-size: 16px;
     }
     .judul{
         margin-bottom: 8%;
