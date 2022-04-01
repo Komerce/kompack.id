@@ -103,19 +103,19 @@
           <div class="perusahaan">
             <div class=""><span class="title-footer">Perusahaan</span></div>
             <div class="row justify-content-center text-title pt-3">
-              <div class="ul">
+              <!-- <div class="ul"> -->
                 <router-link class="ket-text link" to="/Tentang"
-                  ><span class="text-ket">Tentang Kami</span></router-link
+                  ><div class="text-ket">Tentang Kami</div></router-link
                 >
                 <router-link class="ket-text link" to="/Syarat"
-                  ><span class="text-ket"
-                    >Syarat dan Ketentuan</span
+                  ><div class="text-ket"
+                    >Syarat dan Ketentuan</div
                   ></router-link
                 >
                 <router-link class="ket-text link" to="/Kebijakan"
-                  ><span class="text-ket">Kebijakan Privasi</span></router-link
+                  ><div class="text-ket">Kebijakan Privasi</div></router-link
                 >
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>
