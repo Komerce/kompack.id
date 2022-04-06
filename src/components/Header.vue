@@ -86,14 +86,6 @@ export default {
     },
   },
 };
-
-import $ from "jquery";
-
-$("#navbarSupportedContent").on("show.bs.collapse", function () {
-  $("li.nav-link").click(function () {
-    $("#navbarSupportedContent").collapse("hide");
-  });
-});
 </script>
 
 <style>

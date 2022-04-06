@@ -31,15 +31,18 @@
               <div class=""><span class="title-footer">Perusahaan</span></div>
               <div class="row text-title pt-3">
                 <div class="ul">
-                  <router-link class="ket-text link" to="/tentang"
+                  <router-link class="ket-text link" to="/tentang" aria-current="page"
+                  @click.native="movePage"
                     ><span class="text-ket">Tentang Kami</span></router-link
                   >
-                  <router-link class="ket-text link" to="/syarat"
+                  <router-link class="ket-text link" to="/syarat" aria-current="page"
+                  @click.native="movePage"
                     ><span class="text-ket"
                       >Syarat dan Ketentuan</span
                     ></router-link
                   >
-                  <router-link class="ket-text link" to="/kebijakan"
+                  <router-link class="ket-text link" to="/kebijakan" aria-current="page"
+                  @click.native="movePage"
                     ><span class="text-ket"
                       >Kebijakan Privasi</span
                     ></router-link
@@ -102,20 +105,23 @@
         <div class="col-lg-3 tiga-dua">
           <div class="perusahaan">
             <div class=""><span class="title-footer">Perusahaan</span></div>
-            <div class="row justify-content-center text-title pt-3">
-              <!-- <div class="ul"> -->
-                <router-link class="ket-text link" to="/tentang"
+            <div class="row justify-content-left text-title pt-3">
+              <div class="col-9">
+                <router-link class="ket-text link" to="/tentang" aria-current="page"
+                  @click.native="movePage"
                   ><div class="text-ket">Tentang Kami</div></router-link
                 >
-                <router-link class="ket-text link" to="/syarat"
+                <router-link class="ket-text link" to="/syarat" aria-current="page"
+                  @click.native="movePage"
                   ><div class="text-ket"
                     >Syarat dan Ketentuan</div
                   ></router-link
                 >
-                <router-link class="ket-text link" to="/kebijakan"
+                <router-link class="ket-text link" to="/kebijakan" aria-current="page"
+                  @click.native="movePage"
                   ><div class="text-ket">Kebijakan Privasi</div></router-link
                 >
-              <!-- </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -155,7 +161,11 @@
 
 <script>
 export default {
-  setup() {},
+  methods: {
+    movePage() {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 
@@ -308,9 +318,13 @@ ul {
     padding-left: 15%;
     margin-top: 6%;
   }
-  .perusahaan,
-  .bawah-logo-white {
+  .perusahaan {
     padding-left: 10%;
+    margin-top: 10%;
+  }
+
+  .bawah-logo-white {
+    padding-left: 6%;
     margin-top: 10%;
   }
   .row_footer-3 {
