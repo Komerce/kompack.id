@@ -516,6 +516,9 @@ export default {
 img {
   max-width: 100%;
 }
+.home {
+  position: absolute;
+}
 
 .scrolltotop button {
   width: 60px;

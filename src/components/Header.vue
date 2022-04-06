@@ -177,7 +177,7 @@ img {
   max-width: 100%;
   padding-top: 0rem;
   padding-bottom: 0rem;
-  position: relative; 
+  position: relative;
 }
 
 .navbar-collapse {

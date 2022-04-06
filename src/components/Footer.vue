@@ -172,8 +172,8 @@ img {
 .footer {
   background-color: #ed5f07;
   width: 100%;
-  padding-bottom: 5%;
-  padding-bottom: 1%;
+  padding-bottom: 93px;
+  padding-bottom: 24px;
   padding-left: 0%;
   padding-right: 0%;
   z-index: 2000;
@@ -356,7 +356,7 @@ ul {
   }
   footer {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 93px;
   }
   .icon {
     background-size: 10%;
