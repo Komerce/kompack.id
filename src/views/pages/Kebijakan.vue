@@ -12,7 +12,7 @@
         </div>
         <div class="content-kebijakan">
           Anda wajib membaca dan memahami Kebijakan Privasi kami sebelum
-          menggunakan layanan Kompack. Dengan menggunakan layanan Kompack, ka mi
+          menggunakan layanan Kompack. Dengan menggunakan layanan Kompack, kami
           menganggap Anda telah setuju dengan Kebijakan Privasi Kami.
         </div>
         <div class="subhead1-kebijakan">PEROLEHAN DATA</div>

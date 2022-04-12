@@ -86,14 +86,6 @@ export default {
     },
   },
 };
-
-import $ from "jquery";
-
-$("#navbarSupportedContent").on("show.bs.collapse", function () {
-  $("li.nav-link").click(function () {
-    $("#navbarSupportedContent").collapse("hide");
-  });
-});
 </script>
 
 <style>
@@ -177,7 +169,7 @@ img {
   max-width: 100%;
   padding-top: 0rem;
   padding-bottom: 0rem;
-  position: relative; 
+  position: relative;
 }
 
 .navbar-collapse {
