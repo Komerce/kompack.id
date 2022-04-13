@@ -27,8 +27,8 @@ const router = new Router({
         component: () =>
             import ('@/views/pages/Kebijakan.vue'),
     }, {
-        path: '/register-page',
-        name: 'Register-Page',
+        path: '/register',
+        name: 'Register',
         component: () =>
             import ('@/views/pages/register-page.vue'),
     }

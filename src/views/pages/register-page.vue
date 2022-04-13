@@ -93,7 +93,13 @@
           </div>
         </div>
         <div class="button">
-          <router-link to="" class="tombol">Kembali</router-link>
+          <router-link
+            to="/"
+            class="tombol"
+            aria-current="page"
+            @click.native="movePage"
+            >Kembali</router-link
+          >
           <input class="tombol" type="submit" value="Daftar" />
         </div>
       </div>
@@ -115,7 +121,13 @@ $(function () {
       : $(".message.error").show();
   });
 });
-export default {};
+export default {
+  methods: {
+    movePage() {
+      window.scrollTo(0, 0);
+    },
+  },
+};
 </script>
 
 <style scoped>
