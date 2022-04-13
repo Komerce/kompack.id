@@ -11,12 +11,17 @@
         <h4>Hallo, sobat kompack!!</h4>
       </div>
     </div>
-    <form method="post" action="https://aplikasi.kirim.email/form/form-lp-komship-8Uh75HX7" class="form-register container">
+    <form
+      method="post"
+      action="https://aplikasi.kirim.email/form/form-lp-komship-8Uh75HX7"
+      class="form-register container"
+    >
       <div class="row justify-content-center">
         <div class="col-lg-5">
           <div class="form-group">
             <label for="name">Nama Lengkap</label>
             <input
+              name="full_name"
               type="text"
               class="form-control"
               id="name"
@@ -27,6 +32,7 @@
           <div class="form-group">
             <label for="phonenum">Nomor HP (Whatsapp)</label>
             <input
+              name="subscriber_field_values_16909"
               type="tel"
               class="form-control"
               id="phonenum"
@@ -41,6 +47,7 @@
           <div class="form-group">
             <label for="kota">Kota</label>
             <input
+              name="subscriber_field_values_17305"
               type="text"
               class="form-control"
               id="kota"
@@ -50,15 +57,23 @@
           </div>
           <div class="">
             <label>Email</label>
-            <input type="email" name="" class="form-control" placeholder="Masukan email kamu" />
+            <input
+              name="email"
+              type="email"
+              class="form-control"
+              placeholder="Masukan email kamu"
+            />
             <div class="message success">Email Benar!</div>
-            <div class="message error">Email Salah! tambahkan @ dan dot (.)</div>
+            <div class="message error">
+              Email Salah! tambahkan @ dan dot (.)
+            </div>
           </div>
         </div>
         <div class="col-lg-11">
           <div class="form-group">
             <label for="produk">Jenis Produk</label>
             <input
+              name="subscriber_field_values_19477"
               type="text"
               class="form-control"
               id="produk"
@@ -69,6 +84,7 @@
           <div class="form-group">
             <label for="url-type-input">Toko Online atau Landing Page</label>
             <input
+              name="subscriber_field_values_19478"
               type="url"
               class="form-control"
               id="url-type-input"
@@ -77,9 +93,9 @@
           </div>
         </div>
         <div class="button">
-        <router-link to="" class="tombol">Kembali</router-link>
-        <input class="tombol" type="submit" value="Daftar">
-      </div>
+          <router-link to="" class="tombol">Kembali</router-link>
+          <input class="tombol" type="submit" value="Daftar" />
+        </div>
       </div>
     </form>
   </div>
@@ -112,8 +128,6 @@ img {
   max-width: 100%;
 }
 
-
-
 input[type="tel"] {
   border: 1px solid #ddd;
   padding: 4px 8px;
@@ -122,10 +136,8 @@ input[type="tel"]:focus {
   border: 1px solid #000;
 }
 
-
-
 .message {
-  font: 14px;;
+  font: 14px;
   display: none;
   padding: 5px;
   color: #fff;
@@ -136,8 +148,6 @@ input[type="tel"]:focus {
 .success {
   background: green;
 }
-
-
 
 .register-page {
   background-image: url("../../assets/bg-formregister.png");
@@ -184,11 +194,11 @@ input[type="tel"]:focus {
   border-radius: 10px;
 }
 input[type="submit"] {
-    font-weight: 600;
-    padding: 16px;
-    border: none;
-    background: none;
-    color: #f95031;
+  font-weight: 600;
+  padding: 16px;
+  border: none;
+  background: none;
+  color: #f95031;
 }
 .tombol:hover {
   border: solid 1px #f95031;

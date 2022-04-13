@@ -31,11 +31,6 @@ const router = new Router({
         name: 'Register-Page',
         component: () =>
             import ('@/views/pages/register-page.vue'),
-    }, {
-        path: '/coba',
-        name: 'Coba',
-        component: () =>
-            import ('@/views/pages/coba.vue'),
     }
 ]
 
