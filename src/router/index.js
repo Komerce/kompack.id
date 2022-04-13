@@ -26,7 +26,13 @@ const router = new Router({
         name: 'Kebijakan',
         component: () =>
             import ('@/views/pages/Kebijakan.vue'),
-    }]
+    }, {
+        path: '/register-page',
+        name: 'Register-Page',
+        component: () =>
+            import ('@/views/pages/register-page.vue'),
+    }
+]
 
 })
 
