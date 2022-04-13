@@ -11,7 +11,7 @@
         <h4>Hallo, sobat kompack!!</h4>
       </div>
     </div>
-    <form method="post" class="form-register container">
+    <form method="post" action="https://aplikasi.kirim.email/form/form-lp-komship-8Uh75HX7" class="form-register container">
       <div class="row justify-content-center">
         <div class="col-lg-5">
           <div class="form-group">
@@ -30,8 +30,8 @@
               type="tel"
               class="form-control"
               id="phonenum"
-              placeholder="xxxx-xxxx-xxxx"
-              pattern="^\d{4}-\d{4}-\d{4}$"
+              placeholder="6281234567890"
+              pattern="[62][0-9]{10,13}"
               required
             />
           </div>
@@ -143,7 +143,7 @@ input[type="tel"]:focus {
   background-image: url("../../assets/bg-formregister.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  min-height: 900px;
   text-align: -webkit-center;
   padding-top: 28px;
 }
