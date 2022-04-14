@@ -16,7 +16,7 @@
               pengemasan barang.
             </p>
             <div class="button-komponen">
-              <router-link to="/register-page" target="_blank">
+              <router-link to="/register" target="_blank">
                 <button type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
                 </button>
@@ -473,7 +473,7 @@
           >
         </div>
         <div class="button">
-          <router-link to="/register-page" target="_blank">
+          <router-link to="/register" target="_blank">
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
           </router-link>
         </div>
