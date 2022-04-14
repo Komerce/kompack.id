@@ -36,8 +36,9 @@
               type="number"
               class="form-control"
               id="phonenum"
-              placeholder="6281234567890"
-              pattern="[62][0-9]{10,13}"
+              placeholder="Masukan nomor hp kamu"
+              maxlength="13"
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
               required
             />
           </div>
@@ -138,6 +139,18 @@ export default {
 }
 img {
   max-width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 input[type="tel"] {
