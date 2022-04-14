@@ -33,7 +33,7 @@
             <label for="phonenum">Nomor HP (Whatsapp)</label>
             <input
               name="subscriber_field_values_16909"
-              type="tel"
+              type="number"
               class="form-control"
               id="phonenum"
               placeholder="6281234567890"
@@ -85,7 +85,7 @@
             <label for="url-type-input">Toko Online atau Landing Page</label>
             <input
               name="subscriber_field_values_19478"
-              type="url"
+              type="text"
               class="form-control"
               id="url-type-input"
               placeholder="Masukan link tokomu atau landingpagemu"
