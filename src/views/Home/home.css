@@ -113,6 +113,7 @@ img {
   padding-top: 5%;
   text-align: -webkit-center;
   background-color: #ffffff;
+  padding-bottom: 7%;
 }
 .head-sect3 {
   font-weight: 700;
@@ -134,8 +135,8 @@ img {
 .content-sect3:hover {
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 25) 1px 1px 4px 0px;
-  background-color: #F66A1E;
-  color: #ffffff
+  background-color: #f66a1e;
+  color: #ffffff;
 }
 .content-sect3:hover .desc-sect3 {
   display: block;
@@ -149,216 +150,205 @@ img {
 }
 /* <-- section_4 --> */
 #section-4 {
-  background-image: url(../../assets/bg-2.png);
-  background-size: cover;
+  background-color: #EDF8FF;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+.section-4 {
+  background-image: url(../../assets/background/bg-sect4.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  margin-top: 7%;
+  background-position: center;
+  background-position-x: 15vw;
+  height: 60vh;
 }
-.kardus {
-  padding-top: 5%;
-}
-.ctn-sect4 {
-  align-self: center;
-}
-.head-sect4 {
+.row-sect4 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: -webkit-left;
   font-weight: 600;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  margin-bottom: 10%;
 }
-.konten-sect4 {
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  color: #ed5f07;
+.content-sect4-1 {
+  margin-bottom: 9vh;
 }
-.con1-card {
-  align-self: center;
+.content-sect4-3 {
+  margin-top: -5vh;
+  margin-bottom: 7vh;
 }
-.card1 {
-  width: 90%;
-  background-color: #ffffff;
-  border-radius: 10px;
+.content-sect4-4 {
+  margin-bottom: 6vh;
 }
-.card2 {
-  width: 90%;
-  background-color: #ffffff;
-  border-radius: 10px;
+/* section-5 Komship */
+#section-komship {
+  background-color: #FCEBBE;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
-.card3 {
-  width: 90%;
-  background-color: #ffffff;
-  border-radius: 10px;
+.benefit {
+  width: 80%;
+  margin-top: 2rem;
 }
-.card4 {
-  width: 90%;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-.card5 {
-  width: 90%;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-.kartu {
-  margin-bottom: 20px;
-  padding: 10px;
-}
-/* <-- section_5 --> */
-#section-5-dekstop {
-  background-image: url(../../assets/left-sect5.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-position-y: 200px;
-}
-.head-sect5 {
-  text-align: center;
+.benefit-head {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 56px;
-  letter-spacing: 0.5px;
-  color: #ed5f07;
-  margin-bottom: 50px;
-  height: 100px;
+  font-family: 'Poppins';
 }
-.layanan {
-  border-bottom: solid 2px #ed5f07;
-  padding-bottom: 10px;
+
+.benefit .list-benefit::marker {
+  color: #F95031;
+  font-family: 'Poppins';
 }
-.hero-sect5 {
-  text-align-last: end;
+
+.benefit .logo {
+  width: 120px;
+  margin: auto;
 }
-.ayam {
-  box-sizing: content-box;
-  margin-top: -210px;
-  width: 150%;
-}
-.head-card-sect5 {
-  font-weight: 500;
+
+.benefit .content {
   font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  color: #ed5f07;
-  margin: 10px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  text-align: -webkit-left;
 }
-.subhead-card-sect5 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 10px;
-}
-.card-sect5 {
+
+.benefit-table-desktop {
+  margin-top: 50px;
   text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
 }
-.kartu-sect5 {
+
+.benefit-table-desktop .row {
+  border-radius: 12px;
   background-color: #ffffff;
-  margin: 10px;
-  border-radius: 20px;
+  padding: 0;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  font-family: 'Poppins';
+}
+
+.benefit-table-desktop .head {
+  background-color: #FBA63C;
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.benefit-table-desktop .subhead {
+  background-color: #FF6A3A;
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.benefit-table-mobile {
+  display: none;
+}
+
+.benefit-table-mobile .btn-menu {
+  width: auto;
+  margin-right: 6px;
+  color: #C2C2C2;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
+.benefit-table-mobile .btn-menu:hover {
+  opacity: 0.7;
+}
+
+.benefit-table-mobile .btn-menu:focus {
+  box-shadow: unset;
+}
+
+.benefit-table-mobile .active {
+  color: #FF6A3A;
+  border: 1px solid #FF6A3A;
+}
+
+.recommend .card {
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.recommend .card .image {
+  height: 180px;
+  display: flex;
+}
+
+.recommend .card img {
+  margin-top: auto;
+}
+
+.recommend .card .content {
+  background-color: #ffffff;
   padding: 20px;
-}
-.icon-sect5 {
-  margin-top: -50px;
-}
-.bebek {
-  text-align-last: end;
-}
-.icon-right {
-  padding-top: -50px;
-}
-/* <-- section_6 --> */
-#section-6 {
-  background-image: url(../../assets/bg-sect-6.png);
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: bottom right;
+  min-height: 25vh;
+  border-radius: 0px 0px 20px 20px;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
-  padding-top: 5%;
-  margin-bottom: -15%;
-  height: 1100px;
+  font-family: 'Poppins';
 }
+
+/* end section-5 Komship */
 /* <-- section_7 --> */
 #section-7 {
-  background-image: url(../../assets/bg-sect7.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 540px;
+  background-color: #f6f6f9;
   padding-bottom: 80px;
-  text-align: -webkit-right;
+  text-align: -webkit-center;
+  
 }
 .row-sect7 {
-  padding-top: 15%;
+  background-color: #F66A1E;
   width: 80%;
   text-align: left;
-  margin-right: 50px;
-  padding-right: 50px;
+  padding: 2rem;
+  border-radius: 37px;
+  margin-top: -1vh;
 }
 .col1-sect7 {
   align-self: center;
+  border-right: solid 2px #ffffff;
 }
 .head-sect7 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 56px;
+  font-weight: 600;
   color: #ffffff;
-  margin-left: 30px;
 }
 .col2-sect7 {
   align-self: center;
 }
 .subhead-sect7 {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 29px;
+  font-weight: 600;
   color: #ffffff;
-  border-left: solid 2px #ffffff;
-  padding-left: 10px;
+  padding-left: 2rem;
 }
 .bold-sect7 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25.2px;
-  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
 }
-.white-sect7 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 38.5px;
-  color: #ed5f07;
-  background-color: #ffffff;
-  border-radius: 10px;
-  width: 80%;
-  padding: 10px;
-  margin-top: 10px;
-}
-.SKB {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.6px;
-  color: #ffffff;
-}
+
 /* <-- section_8 --> */
 #section-8 {
   text-align: -webkit-center;
-  background-image: url(../../assets/bg-sect8.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .sect-8 {
   background-color: #ed5f07;
   width: 37%;
-  opacity: 0.8;
   border-radius: 15px;
   text-align: left;
+  z-index: -1;
 }
 .head-sect8 {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44.8px;
-  letter-spacing: 0.5px;
-  /* width: 200px; */
-  background-color: #ffffff;
+  background-color: #FCD4BE;
   border-top-right-radius: 15px;
   color: #ed5f07;
   text-align: center;
@@ -370,15 +360,9 @@ img {
   text-align: -webkit-right;
 }
 .subhead-sect8 {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25.2px;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 20px;
-}
-.gudang {
-  font-size: 24px;
-  line-height: 33.6px;
 }
 .bottom-sect8 {
   padding-bottom: 20px;
@@ -391,11 +375,13 @@ img {
 .row-sect8 {
   margin-left: 30px;
 }
+.kardus{
+  width: 55%;
+  text-align: -webkit-right;
+  margin-top: -20vh;
+}
 /* section9 */
 #section-9 {
-  background-image: url(../../assets/bg-sect9.png);
-  background-repeat: no-repeat;
-  background-size: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -404,23 +390,19 @@ img {
   padding-top: 5%;
 }
 .head-sect9 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 67.2px;
   color: #ed5f07;
   margin-bottom: 20px;
   width: 70%;
 }
 .subhead-sect9 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: #151515;
+  font-weight: 600;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .button .btn-danger {
-  background-color: #d33c0d;
-  padding: 20px;
-  border-radius: 10px;
+  background-color: #ED5F07;
+  padding: 15px;
+  border-radius: 16px;
+  font-weight: 600;
 }

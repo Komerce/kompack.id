@@ -1,3 +1,6 @@
+import "vue3-carousel/dist/carousel.css";
+// import { Carousel, Navigation, Slide } from "vue3-carousel";
+
 window.onscroll = function () {
     myFunction();
   };

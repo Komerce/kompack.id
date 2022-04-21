@@ -79,261 +79,373 @@
           <div class="content-sect3 pt-3 pb-3">
             <img src="../../assets/icon/practis.svg" alt="" />
             <h4 class="pt-3">Praktis</h4>
-            <p class="desc-sect3">PRAKTIS karena semua urusan pergudanganmu, kami yang tangani</p>
+            <p class="desc-sect3">
+              PRAKTIS karena semua urusan pergudanganmu, kami yang tangani
+            </p>
           </div>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-4 col-12">
           <div class="content-sect3 pt-3 pb-3">
             <img src="../../assets/icon/hemat.svg" alt="" />
             <h4 class="pt-3">Hemat</h4>
-            <p class="desc-sect3">HEMAT karena semua biaya sudah jadi satu paket dan dibebankan hanya pada setiap pengiriman</p>
+            <p class="desc-sect3">
+              HEMAT karena semua biaya sudah jadi satu paket dan dibebankan
+              hanya pada setiap pengiriman
+            </p>
           </div>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-4 col-12">
           <div class="content-sect3 pt-5 pb-3">
             <img src="../../assets/icon/mudah.svg" alt="" />
             <h4 class="pt-3">Mudah</h4>
-            <p class="desc-sect3">MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis</p>
+            <p class="desc-sect3">
+              MUDAH DIJANGKAU karena gudang kami berada di lokasi strategis
+            </p>
           </div>
         </div>
       </div>
     </section>
     <section id="section-4">
-      <div class="head-sect4">
-        <h4>Kenapa Harus Kompack?</h4>
+      <div class="container section-4">
+        <div class="head-sect4">
+          <h4>Kenapa Harus Kompack?</h4>
+        </div>
+        <div class="row justify-content-between row-sect4">
+          <div class="col-xl-4 col-lg-4 col-md-5 col-12">
+            <div class="row content-sect4-1">
+              <div class="col-lg-2 col-md-3 col-2">
+                <img src="../../assets/icon/group-1.png" alt="" />
+              </div>
+              <div class="col-lg-8 col-md-8 col-10">
+                <p>Jaminan barang disimpan di gudang yang terpercaya</p>
+              </div>
+            </div>
+            <div class="row content-sect4-2">
+              <div class="col-lg-2 col-md-3 col-2">
+                <img src="../../assets/icon/group-2.png" alt="" />
+              </div>
+              <div class="col-lg-9 col-md-8 col-10">
+                <p>
+                  Adanya SOP untuk mendukung keamanan dan kelancaran proses
+                  fullfilment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-5 col-12"
+            style="padding-left: 2vw"
+          >
+            <div class="row content-sect4-3">
+              <div class="col-lg-2 col-md-3 col-2">
+                <img src="../../assets/icon/group-3.png" alt="" />
+              </div>
+              <div class="col-lg-8 col-md-8 col-10">
+                <p>Harga layanan terjangkau</p>
+              </div>
+            </div>
+            <div class="row content-sect4-4">
+              <div class="col-lg-2 col-md-3 col-2">
+                <img src="../../assets/icon/group-4.png" alt="" />
+              </div>
+              <div class="col-lg-8 col-md-8 col-10">
+                <p>Bisa kirim barang ke gudang kapanpun</p>
+              </div>
+            </div>
+            <div class="row content-sect4-5">
+              <div class="col-lg-2 col-md-3 col-2">
+                <img src="../../assets/icon/group-5.png" alt="" />
+              </div>
+              <div class="col-lg-8 col-md-8 col-10">
+                <p>Tim yang memiliki keterampilan pergudangan</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- <section id="section-5-dekstop">
-      <div class="section-5">
-        <div class="bebek">
-          <img class="icon-right" src="../../assets/right-sect5.png" alt="" />
-        </div>
-        <div class="head-sect5">
-          <span class="layanan">Layanan Kami</span>
-        </div>
-        <div class="row justify-content-center card-sect5">
-          <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
-            <div class="icon-sect5">
-              <img src="../../assets/icon1-sect5.png" alt="" />
-            </div>
-            <div class="head-card-sect5">
-              <span>Penyimpanan</span>
-            </div>
-            <div class="subhead-card-sect5">
-              <span
-                >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
-                barangmu.
-              </span>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
-            <div class="icon-sect5">
-              <img src="../../assets/icon2-sect5.png" alt="" />
-            </div>
-            <div class="head-card-sect5">
-              <span>Management Stock</span>
-            </div>
-            <div class="subhead-card-sect5">
-              <span
-                >Pemantauan jumlah barang lebih mudah dengan laporan yang selalu
-                kami update.</span
-              >
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 kartu-sect5">
-            <div class="icon-sect5">
-              <img src="../../assets/icon3-sect5.png" alt="" />
-            </div>
-            <div class="head-card-sect5">
-              <span>Pengemasan dan Pengiriman</span>
-            </div>
-            <div class="subhead-card-sect5">
-              <span
-                >Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
-                pilihanmu.</span
-              >
-            </div>
-          </div>
-          <div class="hero-sect5">
-            <img
-              class="ayam"
-              src="../../assets/bottom-sect5.png"
-              alt="model-sect5"
-            />
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- <section id="section-5-mobile">
-      <div class="sect5-mobile">
-        <div class="head-mobile-sect5">
-          <span>Layanan Kami</span>
-        </div>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="3"
-              aria-label="Slide 0"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="unta">
-              <div class="carousel-item active">
-                <div class="kartu-mobile-sect5">
-                  <div class="icon-mobile-sect5">
-                    <img src="../../assets/icon1-sect5.png" alt="" />
-                  </div>
-                  <div class="head-card-mobile-sect5">
-                    <span>Penyimpanan</span>
-                  </div>
-                  <div class="subhead-card-mobile-sect5">
-                    <span
-                      >Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
-                      barangmu.
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="kartu-mobile-sect5">
-                  <div class="icon-mobile-sect5">
-                    <img src="../../assets/icon2-sect5.png" alt="" />
-                  </div>
-                  <div class="head-card-mobile-sect5">
-                    <span>Management Stock</span>
-                  </div>
-                  <div class="subhead-card-mobile-sect5">
-                    <span
-                      >Pemantauan jumlah barang lebih mudah dengan laporan yang
-                      selalu kami update.</span
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="kartu-mobile-sect5">
-                  <div class="icon-mobile-sect5">
-                    <img src="../../assets/icon3-sect5.png" alt="" />
-                  </div>
-                  <div class="head-card-mobile-sect5">
-                    <span>Pengemasan dan Pengiriman</span>
-                  </div>
-                  <div class="subhead-card-mobile-sect5">
-                    <span
-                      >Kami bantu kemas dan kirimkan barang melalui ekspedisi
-                      sesuai pilihanmu.</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <i class="material-icons kanan">chevron_left</i>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <i class="material-icons kanan">chevron_right</i>
-          </button>
-        </div>
-      </div>
-    </section> -->
-    <!-- <section id="section-6">
-      <div class="row justify-content-center">
-        <div class="col-xl-10 col-lg-10 col-md-10 image-alur-dekstop">
-          <img src="../../assets/sect-6.png" alt="" />
-        </div>
-        <div class="col-11 image-alur-mobile">
-          <img src="../../assets/sect6-mobile.png" alt="" />
-        </div>
-      </div>
-    </section> -->
-    <!-- <section id="section-7">
+    <section id="section-7">
       <div class="row justify-content-center row-sect7">
         <div class="col-xl-5 col-lg-6 col-md-5 col1-sect7">
           <div class="head-sect7">
-            <span>Pakai Kompack Lebih Hemat dan Terjangkau </span>
+            <h2>Pakai Kompack Lebih Hemat dan Terjangkau</h2>
           </div>
         </div>
-        <div class="col-xl-7 col-lg-6 col-md-7 col2-sect7">
+        <div class="col-xl-6 col-lg-6 col-md-7 col2-sect7">
           <div class="subhead-sect7">
-            <span
-              >Nikmati layanan Kompack dengan biaya mulai dari
-              <span class="bold-sect7">Rp2.000/ barang yang terjual</span></span
-            >
-            <div class="white-sect7">
-              <span>Dapatkan diskon ongkos kirim mulai dari 25%*</span>
-            </div>
-            <span class="SKB">*Syarat & Ketentuan Berlaku</span>
+            <p>
+              Nikmati layanan Kompack dengan biaya mulai dari
+              <span class="bold-sect7">Rp2.000/ barang yang terjual</span>
+            </p>
           </div>
         </div>
       </div>
-    </section> -->
-    <!-- <section id="section7-mobile">
-      <div class="konten-sect7-mobile">
-        <div class="head-sect7-mobile">
-          <span>Pakai Kompack Lebih Hemat dan Terjangkau</span>
+    </section>
+    <section id="section-komship" class="container section-komship">
+      <div class="head-sect5">
+        <h2>Makin hemat atur pengiriman</h2>
+        <h2>
+          paket orderan dengan
+          <img src="../../assets/logo/komship-logo.svg" alt="" />
+        </h2>
+      </div>
+      <section class="benefit">
+        <div
+          class="card benefit-head"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6 content">
+                <p>
+                  Kami telah bekerjasama dengan Ekspedisi ternama yang mendukung
+                  pengiriman
+                  <span style="color: #f95031; font-size: 32px"
+                    >COD dan Non-COD</span
+                  >
+                </p>
+              </div>
+              <div class="col-lg-6 d-flex justify-between">
+                <img
+                  class="logo"
+                  :src="require('../../assets/logo/logo_jne.png')"
+                />
+                <img
+                  class="logo"
+                  :src="require('../../assets/logo/logo_sicepat.png')"
+                />
+                <img
+                  class="logo"
+                  :src="require('../../assets/logo/logo_idexpress.png')"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="subhead-sect7-mobile">
-          <span
-            >Nikmati layanan Kompack dengan biaya mulai dari
-            <span class="bold-sect7-mobile"
-              >Rp2.000/ barang yang terjual</span
-            ></span
+        <div class="benefit-table-desktop">
+          <h2
+            class="d-block text-center mb-4"
+            data-aos="fade-up"
+            data-aos-duration="1500"
           >
+            Rekomendasi untuk Kamu
+          </h2>
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
+            <div class="col-md-3 p-4 head">Benefit</div>
+            <div class="col-md-3 p-4 subhead">JNE</div>
+            <div class="col-md-3 p-4 subhead">SiCepat</div>
+            <div class="col-md-3 p-4 subhead">IDExpress</div>
+          </div>
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
+            <div class="col-md-3 p-4 head">Diskon Ongkir</div>
+            <div class="col-md-3 p-4">Reg 25%</div>
+            <div class="col-md-3 p-4">
+              <li class="list-benefit">Reg 30%</li>
+              <li class="list-benefit">
+                Cargo mulai dari 2.500/kg + diskon 5% (min. 10Kg)
+              </li>
+            </div>
+            <div class="col-md-3 p-4">
+              <li class="list-benefit">Reg 25% (>1/2 kg)</li>
+              <li class="list-benefit">
+                &lt;1/2 Kg bayar 1/2-nya * + diskon 15%
+              </li>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
+            <div class="col-md-3 p-4 head">Biaya COD</div>
+            <div class="col-md-3 p-4">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+            <div class="col-md-3 p-4">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+            <div class="col-md-3 p-4">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
+            <div class="col-md-3 p-4 head">Biaya Retur</div>
+            <div class="col-md-3 p-4">Gratis se-lndonesia*</div>
+            <div class="col-md-3 p-4">Gratis se-lndonesia*</div>
+            <div class="col-md-3 p-4">Gratis se-lndonesia*</div>
+          </div>
         </div>
-        <div class="white-sect7-mobile">
-          <span>Dapatkan diskon ongkos kirim mulai dari 25%*</span>
+        <div class="benefit-table-mobile">
+          <div
+            class="mt-4 mb-2"
+            style="text-align: left !important"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <button
+              :class="benefitContent === 'JNE' ? 'active' : ''"
+              class="btn btn-sm btn-menu"
+              @click="benefitTabs('JNE')"
+            >
+              JNE
+            </button>
+            <button
+              :class="benefitContent === 'SICEPAT' ? 'active' : ''"
+              class="btn btn-sm btn-menu"
+              @click="benefitTabs('SICEPAT')"
+            >
+              SiCepat
+            </button>
+            <button
+              :class="benefitContent === 'IDEXPRESS' ? 'active' : ''"
+              class="btn btn-sm btn-menu"
+              @click="benefitTabs('IDEXPRESS')"
+            >
+              IDExpress
+            </button>
+          </div>
+          <div class="row" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="col-6 p-3 head">Benefit</div>
+            <div v-if="benefitContent === 'JNE'" class="col-6 p-3 subhead">
+              JNE
+            </div>
+            <div v-if="benefitContent === 'SICEPAT'" class="col-6 p-3 subhead">
+              SiCepat
+            </div>
+            <div
+              v-if="benefitContent === 'IDEXPRESS'"
+              class="col-6 p-3 subhead"
+            >
+              IDExpress
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="col-6 p-3 head">Diskon Ongkir</div>
+            <div v-if="benefitContent === 'JNE'" class="col-6 p-3">Reg 25%</div>
+            <div v-if="benefitContent === 'SICEPAT'" class="col-6 p-3">
+              <li class="list-benefit">Reg 30%</li>
+              <li class="list-benefit">
+                Cargo mulai dari 2.500/kg + diskon 5% (min. 10Kg)
+              </li>
+            </div>
+            <div v-if="benefitContent === 'IDEXPRESS'" class="col-6 p-3">
+              <li class="list-benefit">Reg 25% (>1/2 kg)</li>
+              <li class="list-benefit">
+                &lt;1/2 Kg bayar 1/2-nya * + diskon 15%
+              </li>
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="col-6 p-3 head">Biaya COD</div>
+            <div v-if="benefitContent === 'JNE'" class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+            <div v-if="benefitContent === 'SICEPAT'" class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+            <div v-if="benefitContent === 'IDEXPRESS'" class="col-6 p-3">
+              2.8%
+              <div>(PPN ditanggung Komship)</div>
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="col-6 p-3 head">Biaya Retur</div>
+            <div v-if="benefitContent === 'JNE'" class="col-6 p-3">
+              Gratis se-lndonesia*
+            </div>
+            <div v-if="benefitContent === 'SICEPAT'" class="col-6 p-3">
+              Gratis se-lndonesia*
+            </div>
+            <div v-if="benefitContent === 'IDEXPRESS'" class="col-6 p-3">
+              Gratis se-lndonesia*
+            </div>
+          </div>
         </div>
-        <div class="SKB-mobile">
-          <span>*Syarat & Ketentuan Berlaku</span>
+      </section>
+      <section class="recommend mt-5">
+        <div class="container">
+          <div class="row justify-content-evenly">
+            <div
+              class="col-md-3"
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+            >
+              <div class="card">
+                <div class="image">
+                  <img src="../../assets/partials/jne-counter.png" />
+                </div>
+                <span class="content">
+                  Makin tenang kirim orderan dengan
+                  <span style="color: #f95031">
+                    gerai terbanyak dan cakupan terluas
+                  </span>
+                  di Indonesia
+                </span>
+              </div>
+            </div>
+            <div
+              class="col-md-3"
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+            >
+              <div class="card">
+                <div class="image">
+                  <img src="../../assets/partials/sicepat-counter.png" />
+                </div>
+                <span class="content">
+                  Makin <span style="color: #f95031">untung</span> dan
+                  <span style="color: #f95031">hemat</span> kirim orderan bahkan
+                  ke pelosok Indonesia. Kirim pakai
+                  <span style="color: #f95031">Cargo</span> gak kalah
+                  <span style="color: #f95031">hemat</span>nya!
+                </span>
+              </div>
+            </div>
+            <div
+              class="col-md-3"
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+            >
+              <div class="card">
+                <div class="image">
+                  <img src="../../assets/partials/idexpress-counter.png" />
+                </div>
+                <span class="content">
+                  <span style="color: #f95031"
+                    >Cocok bagi pebisnis dengan paket ringan.</span
+                  >
+                  Kirim orderan makin hemat dan mantap
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+    </section>
+    <section id="layanan" class="layanan">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+          <h2 class="head-layanan">Layanan Kami</h2>
+        </div>
+        <div>
+          <h6>Penyimpanan</h6>
+          <div class="subhead-layanan">
+            <p>
+              Kami menerapkan SOP untuk menyimpan dan menjamin keamanan barangmu
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 img-layanan"></div>
       </div>
-      <div class="hero-sect7">
-        <img src="../../assets/model-sect7.png" alt="hero-sect7" />
-      </div>
-    </section> -->
-    <!-- <section id="section-8">
+    </section>
+    <section id="section-8">
       <div class="row justify-content-center sect-8">
         <div class="isi-sect8">
           <div class="judul-sect8">
             <div class="head-sect8">
-              <span>Lokasi Gudang</span>
+              <h2>Lokasi Gudang</h2>
             </div>
           </div>
           <div class="row row-sect8">
@@ -341,7 +453,7 @@
               <img src="../../assets/house-2.png" alt="" />
             </div>
             <div class="col-9 subhead-sect8">
-              <span class="gudang">Gudang Tangerang</span>
+              <p class="gudang">Gudang Tangerang</p>
             </div>
           </div>
           <div class="row row-sect8">
@@ -349,7 +461,7 @@
               <img src="../../assets/clock.png" alt="" />
             </div>
             <div class="col-9 subhead-sect8">
-              <span>Jam operasioanal gudang 24 jam</span>
+              <p>Jam operasioanal gudang 24 jam</p>
             </div>
           </div>
           <div class="row row-sect8">
@@ -357,35 +469,36 @@
               <img src="../../assets/truck.png" alt="" />
             </div>
             <div class="col-9 bottom-sect8 subhead-sect8">
-              <span
-                >Mendukung berbagai penggunaan ekspedisi untuk pengiriman</span
+              <p
+                >Mendukung berbagai penggunaan ekspedisi untuk pengiriman</p
               >
             </div>
           </div>
         </div>
       </div>
-    </section> -->
-    <!-- <section id="section-9">
+      <div class="kardus">
+      <img class="kardus-sect8" src="../../assets/partials/kardus-sect8.svg" alt="">
+      </div>
+    </section>
+    <section id="section-9">
       <div class="sect9">
         <div class="head-sect9">
-          <span>Percayakan Layanan Pergudangan Bisnismu pada Kompack</span>
+          <h2>Percayakan Layanan Pergudangan Bisnismu pada Kompack</h2>
         </div>
         <div class="subhead-sect9">
-          <span
+          <p
             >Rasakan kemudahannya! Hubungi kami untuk informasi lebih
-            lanjut</span
+            lanjut</p
           >
         </div>
         <div class="button">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
-            target="_blank"
+          <router-link to="/register"
           >
             <button class="btn btn-danger">DAFTAR SEKARANG</button>
-          </a>
+          </router-link>
         </div>
       </div>
-    </section> -->
+    </section>
     <div class="scrolltotop" id="scrolltotop">
       <button class="button__to__top" @click="scrollToTop">
         <i class="material-icons top">expand_less</i>
