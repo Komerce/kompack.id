@@ -37,7 +37,7 @@ export default {
   background-color: #f8f8f8;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 600;
