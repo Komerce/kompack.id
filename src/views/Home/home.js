@@ -1,4 +1,7 @@
+import Vue from "vue";
 import { Carousel, Slide } from "vue-carousel";
+
+Vue.use(Carousel, Slide);
 
 window.onscroll = function () {
   myFunction();
@@ -15,8 +18,8 @@ function myFunction() {
 }
 export default {
   components: {
-    Carousel,
-    Slide,
+    'carousel': Carousel,
+    'slide': Slide
   },
   data() {
     return {
@@ -60,6 +63,9 @@ export default {
           title: "Partner membayar invoice per bulan",
         },
       ],
+
+      nextNavigation: Image.next,
+      prevNavigation: Image.prev,
     };
   },
   methods: {

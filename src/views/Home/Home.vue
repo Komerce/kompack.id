@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <section id="section_1" class="section_1 container">
-      <div class="row row_home">
+    <section id="section_1" class="section_1">
+      <div class="row container row_home">
         <div class="col-xl-5 col-lg-5 col-md-5 col-12 colom-pertama">
           <div class="komponen-pertama">
             <h2 class="judul-komponen">
@@ -221,7 +221,7 @@
     </section>
     <section id="section-7">
       <div class="row justify-content-center row-sect7">
-        <div class="col-xl-5 col-lg-6 col-md-5 col-12 col1-sect7">
+        <div class="col-xl-6 col-lg-6 col-md-5 col-12 col1-sect7">
           <div class="head-sect7">
             <h2>Pakai Kompack Lebih Hemat dan Terjangkau</h2>
           </div>
@@ -486,139 +486,152 @@
       </section>
     </section>
     <section id="layanan" class="container layanan">
-      <div class="row justify-content-between">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-12 mobile-layanan">
-          <div class="col-lg-5 col-7 head-layanan">
-            <h2>Layanan Kami</h2>
-          </div>
-          <div class="row row-layanan">
-            <div class="col-lg-11 col-11 subhead-layanan">
-              <div
-                :active="this.activeAccordionId == 'collapseExample'"
-                v-on:click="activate"
-                class="row justify-content-between"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseExample"
-                aria-expanded="true"
-                aria-controls="collapseExample"
-              >
-                <div class="col-md-6 col-5">
-                  <div style="padding-left: 20px">Penyimpanan</div>
-                </div>
-                <div class="col-md-2 col-2">
-                  <img
-                    class=""
-                    src="../../assets/vector/bottom-arrow.svg"
-                    alt="arrow"
-                  />
-                </div>
-              </div>
+      <div class="">
+        <div class="row justify-content-between">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 mobile-layanan">
+            <div class="col-lg-5 col-7 head-layanan">
+              <h2>Layanan Kami</h2>
             </div>
-            <div
-              class="col-lg-11 col-11 collapse content-layanan collapse show"
-              id="collapseExample"
-            >
-              <p>
-                Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
-                barangmu
-              </p>
-            </div>
-          </div>
-          <div class="row row-layanan">
-            <div class="col-lg-11 col-11 subhead-layanan">
-              <div
-              :active="this.activeAccordionId == 'collapseExample1'"
-                v-on:click="activate"
-                class="row justify-content-between"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseExample1"
-                aria-expanded="false"
-                aria-controls="collapseExample1"
-              >
-                <div class="col-md-6 col-8">
-                  <div style="padding-left: 20px">Management Stock</div>
-                </div>
-                <div class="col-md-2 col-2">
-                  <img
-                    class=""
-                    src="../../assets/vector/bottom-arrow.svg"
-                    alt="arrow"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-11 col-11 collapse content-layanan"
-              id="collapseExample1"
-            >
-              <p>
-                Pemantauan jumlah barang lebih mudah dengan laporan yang selalu
-                kami update
-              </p>
-            </div>
-          </div>
-          <div class="row row-layanan">
-            <div class="col-11 col-11 subhead-layanan">
-              <div
-              :active="this.activeAccordionId == 'collapseExample2'"
-                v-on:click="activate"
-                class="row justify-content-between"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseExample2"
-                aria-expanded="false"
-                aria-controls="collapseExample2"
-              >
-                <div class="col-md-6 col-10">
-                  <div style="padding-left: 20px">
-                    Pengemasan dan pengiriman
+            <div class="row row-layanan">
+              <div class="col-lg-11 col-11 subhead-layanan">
+                <div
+                  :active="this.activeAccordionId == 'collapseExample'"
+                  v-on:click="activate"
+                  class="row justify-content-between"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample"
+                  aria-expanded="true"
+                  aria-controls="collapseExample"
+                >
+                  <div class="col-md-6 col-5">
+                    <div style="padding-left: 20px">Penyimpanan</div>
+                  </div>
+                  <div class="col-md-2 col-2">
+                    <img
+                      class=""
+                      src="../../assets/vector/bottom-arrow.svg"
+                      alt="arrow"
+                    />
                   </div>
                 </div>
-                <div class="col-md-2 col-2">
-                  <img
-                    class=""
-                    src="../../assets/vector/bottom-arrow.svg"
-                    alt="arrow"
-                  />
-                </div>
+              </div>
+              <div
+                class="col-lg-11 col-11 collapse content-layanan collapse show"
+                id="collapseExample"
+              >
+                <p>
+                  Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
+                  barangmu
+                </p>
               </div>
             </div>
-            <div
-              class="col-lg-11 col-11 collapse content-layanan"
-              id="collapseExample2"
-            >
-              <p>
-                Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
-                pilihanmu
-              </p>
+            <div class="row row-layanan">
+              <div class="col-lg-11 col-11 subhead-layanan">
+                <div
+                  :active="this.activeAccordionId == 'collapseExample1'"
+                  v-on:click="activate"
+                  class="row justify-content-between"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample1"
+                  aria-expanded="false"
+                  aria-controls="collapseExample1"
+                >
+                  <div class="col-md-6 col-8">
+                    <div style="padding-left: 20px">Management Stock</div>
+                  </div>
+                  <div class="col-md-2 col-2">
+                    <img
+                      class=""
+                      src="../../assets/vector/bottom-arrow.svg"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-11 col-11 collapse content-layanan"
+                id="collapseExample1"
+              >
+                <p>
+                  Pemantauan jumlah barang lebih mudah dengan laporan yang
+                  selalu kami update
+                </p>
+              </div>
+            </div>
+            <div class="row row-layanan">
+              <div class="col-11 col-11 subhead-layanan">
+                <div
+                  :active="this.activeAccordionId == 'collapseExample2'"
+                  v-on:click="activate"
+                  class="row justify-content-between"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample2"
+                  aria-expanded="false"
+                  aria-controls="collapseExample2"
+                >
+                  <div class="col-md-6 col-10">
+                    <div style="padding-left: 20px">
+                      Pengemasan dan pengiriman
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-2">
+                    <img
+                      class=""
+                      src="../../assets/vector/bottom-arrow.svg"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-11 col-11 collapse content-layanan"
+                id="collapseExample2"
+              >
+                <p>
+                  Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
+                  pilihanmu
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan collapse show"
-          id="collapseExample"
-        >
-          <img src="../../assets/partials/penyimpanan.svg" alt="layanan" />
-        </div>
-        <div
-          class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan"
-          id="collapseExample1"
-        >
-          <img src="../../assets/partials/stock.svg" alt="stock" />
-        </div>
-        <div
-          class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan"
-          id="collapseExample2"
-        >
-          <img src="../../assets/partials/packing.svg" alt="packing" />
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 img-layanan collapse show"
+            style="width: 45%; padding-top: 10vh"
+            id="collapseExample"
+          >
+            <img src="../../assets/partials/penyimpanan.png" alt="layanan" />
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan"
+            style="width: 45%; padding-top: 10vh"
+            id="collapseExample1"
+          >
+            <img src="../../assets/partials/stock.png" alt="stock" />
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan"
+            style="width: 45%; padding-top: 10vh"
+            id="collapseExample2"
+          >
+            <img src="../../assets/partials/packing.png" alt="packing" />
+          </div>
         </div>
       </div>
     </section>
     <section id="alur">
+      <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
-        <carousel :per-page="4" :autoplay="true" :autoplay-interval="3000">
+        <carousel
+          :per-page="4"
+          :autoplay="true"
+          :autoplay-interval="3000"
+          :navigation-enabled="true"
+          :navigation-next-label="nextNavigation"
+          :navigation-prev-label="prevNavigation"
+          >
           <slide v-for="item in alur_items" :key="item.id">
             <div class="card card-alur">
               <div class="icon-card">

@@ -1,8 +1,8 @@
 <template>
-  <div class="header" id="header">
+  <div class="header container" id="header">
     <div class="row row_header ">
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container-fluid cntr_header">
+        <div class="container cntr_header">
           <a class="navbar-brand"
             ><img src="../assets/logo-kompack.png" alt=""
           /></a>
@@ -154,7 +154,7 @@ img {
 /* animated humberger menu end */
 
 .navbar-brand {
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .row_header > * {
   padding-right: 0px;
@@ -173,7 +173,7 @@ img {
 
 .navbar-collapse {
   justify-content: flex-end;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
 .navbar-nav {
   margin-right: 0%;

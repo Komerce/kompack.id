@@ -9,7 +9,7 @@ img {
 
 .home {
   text-align: -webkit-center;
-  padding-top: 12vh;
+  padding-top: 10vh;
 }
 
 /* scrolltotop */
@@ -36,6 +36,7 @@ img {
 /* <-- section_1 --> */
 .section_1 {
   background-color: #f6f6f9;
+  padding-top: 13vh;
 }
 .judul-komponen {
   font-style: normal;
@@ -307,17 +308,17 @@ img {
 /* end section-5 Komship */
 /* <-- section_7 --> */
 #section-7 {
-  background-color: #f6f6f9;
+  background-color: #ffffff;
   padding-bottom: 80px;
   text-align: -webkit-center;
 }
 .row-sect7 {
   background-color: #f66a1e;
-  width: 80%;
+  width: 70%;
+  min-height: 25vh;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 37px;
-  margin-top: -1vh;
 }
 .col1-sect7 {
   align-self: center;
@@ -341,6 +342,9 @@ img {
 }
 
 /* Layanan */
+.mobile-layanan {
+  background-color: #EDF8FF;
+}
 .layanan {
   text-align: -webkit-left;
   margin-top: 15vh;
@@ -371,6 +375,9 @@ img {
   background-image: url(../../assets/vector/line.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-position-x: 18vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 .card-alur {
   width: 240px;
@@ -381,6 +388,11 @@ img {
 .content-card {
   font-weight: 600;
 }
+
+
+
+
+
 /* <-- section_8 --> */
 #section-8 {
   text-align: -webkit-center;
