@@ -36,7 +36,7 @@
         <div class="container">
           <div class="row sect-2 row_sect2">
             <div class="col-xl-12">
-              <div class="head-sect2 col-md-10 col-8">
+              <div class="head-sect2 col-md-10 col-12">
                 <h2>Apakah kamu mengalami masalah ini?</h2>
               </div>
               <div class="row mt-3 justify-content-center">
@@ -48,10 +48,10 @@
                     <img src="../../assets/icon-1.png" alt="" />
                   </div>
                   <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
-                    <p
-                      >Keterbatasan tempat dan biaya dalam menyediakan fasilitas
-                      gudang sendiri</p
-                    >
+                    <p>
+                      Keterbatasan tempat dan biaya dalam menyediakan fasilitas
+                      gudang sendiri
+                    </p>
                   </div>
                 </div>
                 <div class="row justify-content-center content-sect2">
@@ -59,10 +59,10 @@
                     <img src="../../assets/icon-2.png" alt="" />
                   </div>
                   <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
-                    <p
-                      >Tidak cukup waktu dalam mengurus penyimpanan hingga
-                      pengemasan barang</p
-                    >
+                    <p>
+                      Tidak cukup waktu dalam mengurus penyimpanan hingga
+                      pengemasan barang
+                    </p>
                   </div>
                 </div>
               </div>
@@ -188,8 +188,7 @@
             </div>
           </div>
           <div
-            class="col-xl-4 col-lg-4 col-md-5 col-12"
-            style="padding-left: 5vw"
+            class="col-xl-4 col-lg-4 col-md-5 col-12 content-sect4-22"
           >
             <div class="row justify-content-center content-sect4-3">
               <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
@@ -292,7 +291,7 @@
           </div>
           <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-md-3 p-4 head">Diskon Ongkir</div>
-            <div class="col-md-3 p-4">Reg 25%</div>
+            <div class="col-md-3 p-4"><p>Reg 25%</p></div>
             <div class="col-md-3 p-4">
               <li class="list-benefit">Reg 30%</li>
               <li class="list-benefit">
@@ -309,23 +308,23 @@
           <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-md-3 p-4 head">Biaya COD</div>
             <div class="col-md-3 p-4">
-              2.8%
-              <div>(PPN ditanggung Komship)</div>
+              <p>2.8%</p>
+              <div><p>(PPN ditanggung Komship)</p></div>
             </div>
             <div class="col-md-3 p-4">
-              2.8%
-              <div>(PPN ditanggung Komship)</div>
+              <p>2.8%</p>
+              <div><p>(PPN ditanggung Komship)</p></div>
             </div>
             <div class="col-md-3 p-4">
-              2.8%
-              <div>(PPN ditanggung Komship)</div>
+              <p>2.8%</p>
+              <div><p>(PPN ditanggung Komship)</p></div>
             </div>
           </div>
           <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-md-3 p-4 head">Biaya Retur</div>
-            <div class="col-md-3 p-4">Gratis se-lndonesia*</div>
-            <div class="col-md-3 p-4">Gratis se-lndonesia*</div>
-            <div class="col-md-3 p-4">Gratis se-lndonesia*</div>
+            <div class="col-md-3 p-4"><p>Gratis se-lndonesia*</p></div>
+            <div class="col-md-3 p-4"><p>Gratis se-lndonesia*</p></div>
+            <div class="col-md-3 p-4"><p>Gratis se-lndonesia*</p></div>
           </div>
         </div>
         <div class="benefit-table-mobile">
@@ -381,7 +380,7 @@
           <div class="row" data-aos="zoom-in" data-aos-duration="1500">
             <div class="col-5 pt-4 head">Diskon Ongkir</div>
             <div v-if="benefitContent === 'JNE'" class="col-6 content">
-              Reg 25%
+              <p>Reg 25%</p>
             </div>
             <div v-if="benefitContent === 'SICEPAT'" class="col-6 content">
               <li class="list-benefit">Reg 30%</li>
@@ -399,28 +398,28 @@
           <div class="row" data-aos="zoom-in" data-aos-duration="1500">
             <div class="col-5 head">Biaya COD</div>
             <div v-if="benefitContent === 'JNE'" class="col-6 content">
-              2.8%
-              <div>(PPN ditanggung Komship)</div>
+              <p>2.8%</p>
+              <div><p>(PPN ditanggung Komship)</p></div>
             </div>
             <div v-if="benefitContent === 'SICEPAT'" class="col-6 content">
-              2.8%
-              <div>(PPN ditanggung Komship)</div>
+              <p>2.8%</p>
+              <div><p>(PPN ditanggung Komship)</p></div>
             </div>
             <div v-if="benefitContent === 'IDEXPRESS'" class="col-6 content">
-              2.8%
-              <div>(PPN ditanggung Komship)</div>
+              <p>2.8%</p>
+              <div><p>(PPN ditanggung Komship)</p></div>
             </div>
           </div>
           <div class="row" data-aos="zoom-in" data-aos-duration="1500">
             <div class="col-5 head">Biaya Retur</div>
             <div v-if="benefitContent === 'JNE'" class="col-6 content">
-              Gratis se-lndonesia*
+              <p>Gratis se-lndonesia*</p>
             </div>
             <div v-if="benefitContent === 'SICEPAT'" class="col-6 content">
-              Gratis se-lndonesia*
+              <p>Gratis se-lndonesia*</p>
             </div>
             <div v-if="benefitContent === 'IDEXPRESS'" class="col-6 content">
-              Gratis se-lndonesia*
+              <p>Gratis se-lndonesia*</p>
             </div>
           </div>
         </div>
@@ -485,29 +484,27 @@
         </div>
       </section>
     </section>
-    <section id="layanan" class="container layanan">
+    <section id="layanan" class="layanan">
       <div class="">
         <div class="row justify-content-between">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-12 mobile-layanan">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 p-4 mobile-layanan">
             <div class="col-lg-5 col-7 head-layanan">
               <h2>Layanan Kami</h2>
             </div>
             <div class="row row-layanan">
               <div class="col-lg-11 col-11 subhead-layanan">
                 <div
-                  :active="this.activeAccordionId == 'collapseExample'"
-                  v-on:click="activate"
                   class="row justify-content-between"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseExample"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  <div class="col-md-6 col-5">
+                  <div class="col-md-6 col-11">
                     <div style="padding-left: 20px">Penyimpanan</div>
                   </div>
-                  <div class="col-md-2 col-2">
+                  <div class="col-md-2 col-1">
                     <img
                       class=""
                       src="../../assets/vector/bottom-arrow.svg"
@@ -529,8 +526,6 @@
             <div class="row row-layanan">
               <div class="col-lg-11 col-11 subhead-layanan">
                 <div
-                  :active="this.activeAccordionId == 'collapseExample1'"
-                  v-on:click="activate"
                   class="row justify-content-between"
                   type="button"
                   data-bs-toggle="collapse"
@@ -538,10 +533,10 @@
                   aria-expanded="false"
                   aria-controls="collapseExample1"
                 >
-                  <div class="col-md-6 col-8">
+                  <div class="col-md-10 col-11">
                     <div style="padding-left: 20px">Management Stock</div>
                   </div>
-                  <div class="col-md-2 col-2">
+                  <div class="col-md-2 col-1">
                     <img
                       class=""
                       src="../../assets/vector/bottom-arrow.svg"
@@ -563,8 +558,6 @@
             <div class="row row-layanan">
               <div class="col-11 col-11 subhead-layanan">
                 <div
-                  :active="this.activeAccordionId == 'collapseExample2'"
-                  v-on:click="activate"
                   class="row justify-content-between"
                   type="button"
                   data-bs-toggle="collapse"
@@ -572,12 +565,12 @@
                   aria-expanded="false"
                   aria-controls="collapseExample2"
                 >
-                  <div class="col-md-6 col-10">
+                  <div class="col-md-10 col-11">
                     <div style="padding-left: 20px">
                       Pengemasan dan pengiriman
                     </div>
                   </div>
-                  <div class="col-md-2 col-2">
+                  <div class="col-md-2 col-1">
                     <img
                       class=""
                       src="../../assets/vector/bottom-arrow.svg"
@@ -598,25 +591,25 @@
             </div>
           </div>
           <div
-            class="col-xl-6 col-lg-6 col-md-6 img-layanan collapse show"
+            class="col-xl-6 col-lg-6 col-md-6 p-4 img-layanan"
             style="width: 45%; padding-top: 10vh"
-            id="collapseExample"
           >
-            <img src="../../assets/partials/penyimpanan.png" alt="layanan" />
-          </div>
-          <div
-            class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan"
-            style="width: 45%; padding-top: 10vh"
-            id="collapseExample1"
-          >
-            <img src="../../assets/partials/stock.png" alt="stock" />
-          </div>
-          <div
-            class="col-xl-6 col-lg-6 col-md-6 collapse img-layanan"
-            style="width: 45%; padding-top: 10vh"
-            id="collapseExample2"
-          >
-            <img src="../../assets/partials/packing.png" alt="packing" />
+            <img
+              class="collapse show"
+              id="collapseExample"
+              src="../../assets/partials/penyimpanan.png"
+              alt="layanan"
+            />
+            <img class="collapse hide"
+              id="collapseExample1"
+              src="../../assets/partials/stock.png"
+              alt="stock"
+            />
+            <img class=" collapse hide"
+              id="collapseExample2"
+              src="../../assets/partials/packing.png"
+              alt="packing"
+            />
           </div>
         </div>
       </div>
@@ -626,11 +619,15 @@
       <div class="row">
         <carousel
           ref="carousel"
-          :perPageCustom="[[200, 1],[768, 3], [1024, 4]]"
+          :perPageCustom="[
+            [200, 1],
+            [768, 3],
+            [1024, 4],
+          ]"
           :paginationEnabled="false"
           :navigationEnabled="true"
           class="ayam"
-          >
+        >
           <slide v-for="item in alur_items" :key="item.id">
             <div class="card card-alur">
               <div class="icon-card">
@@ -688,8 +685,8 @@
     </section>
     <section id="section-9">
       <div class="sect9">
-        <div class="head-sect9">
-          <h2>Percayakan Layanan Pergudangan Bisnismu pada Kompack</h2>
+        <div class="head-sect9 row justify-content-center">
+          <h2 class="col-lg-11 col-md-12 col-10">Percayakan Layanan Pergudangan Bisnismu pada Kompack</h2>
         </div>
         <div class="subhead-sect9">
           <p>Rasakan kemudahannya! Hubungi kami untuk informasi lebih lanjut</p>

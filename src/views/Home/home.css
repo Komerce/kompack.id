@@ -199,6 +199,10 @@ img {
   font-weight: 600;
 }
 
+.content-sect4-22 {
+  padding-left: 5vw;
+}
+
 .content-sect4-1 {
   margin-bottom: 9vh;
 }
@@ -362,7 +366,7 @@ img {
 }
 
 .head-sect7 {
-  font-weight: 600;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -532,11 +536,107 @@ img {
   font-weight: 600;
 }
 
+@media (max-width: 350px) {
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .section_1 {
+    padding-top: 3vh;
+    text-align: center;
+  }
 
-@media (max-width: 600px) {
+  .model-img {
+    display: none;
+  }
+
+  .judul-komponen {
+    text-align: center;
+  }
+
+  .ket-komponen {
+    text-align: center;
+  }
+
+  .button-komponen {
+    text-align: -webkit-center;
+  }
+
+  .row-sect3 {
+    display: none;
+  }
+  .head-sect3 {
+    margin-bottom: 7vh;
+  }
+
+  .content-mobile-sect3 {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 12%);
+    width: 80%;
+    border-radius: 28px;
+  }
+  .content-mobile-sect3 img {
+    margin-top: -10vh;
+  }
+  .section-4 {
+    background-image: none;
+    height: 43vh;
+  }
+  .content-sect4-22 {
+    padding-left: 0vw;
+  }
+  .content-sect4-1 {
+    margin-bottom: 2vh;
+  }
+  .content-sect4-3 {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  }
+  .content-sect4-4 {
+    margin-bottom: 2vh;
+  }
+  #section-7 {
+    padding-bottom: 0px;
+  }
+
+  .head-sect7 h2 {
+    font-size: 20px;
+  }
+
+  .row-sect7 {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .col1-sect7 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-right: none;
+    border-bottom: solid 2px #ffffff;
+  }
+
+  .subhead-sect7 {
+    text-align: center;
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .bold-sect7 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 575px) {
+
   .section_1 {
     max-height: 40vh;
-    padding-top: 0vh;
+    padding-top: 3vh;
     padding-left: 10px;
   }
 
@@ -568,8 +668,17 @@ img {
 
   .head-sect2 {
     padding: 0px;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    width: 40%;
+  }
+
+  .judul-komponen {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 
   .content-sect2 {
@@ -620,6 +729,10 @@ img {
     margin-bottom: 3vh;
   }
 
+  .content-sect4-22 {
+    padding-left: 0vw;
+  }
+
   .content-sect4-1 {
     margin-bottom: 1rem;
   }
@@ -635,6 +748,10 @@ img {
 
   #section-7 {
     padding-bottom: 0px;
+  }
+
+  .head-sect7 h2 {
+    font-size: 24px;
   }
 
   .row-sect7 {
@@ -660,7 +777,6 @@ img {
   }
 
   .bold-sect7 {
-    font-weight: 700;
     font-size: 17px;
   }
 
@@ -691,6 +807,22 @@ img {
     width: 70px;
   }
 
+  .benefit-table-mobile .head {
+    font-size: 12px;
+  }
+
+  .benefit-table-mobile li {
+    font-weight: 400;
+  }
+
+  .benefit-table-mobile p {
+    font-weight: 400;
+  }
+
+  .recommend {
+    margin-top: 1rem !important;
+  }
+
   .recommend .card {
     width: 80%;
   }
@@ -706,6 +838,7 @@ img {
 
   .layanan {
     margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 
   .head-layanan {
@@ -714,6 +847,7 @@ img {
 
   .subhead-layanan {
     text-align: left;
+    padding: 15px 0px 15px 0px;
   }
 
   .mobile-layanan {
@@ -782,9 +916,16 @@ img {
     border-radius: 0px 8px 8px 0px;
     padding: 20px 5px 20px 5px;
   }
+
+  .sect9 .button button {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 992px) {
   .img-dekstop {
     display: block;
   }
@@ -847,7 +988,53 @@ img {
     width: 20%;
   }
 
-  .benefit-table-desktop .head .subhead {
-    font-size: 18px;
+  .benefit-table-desktop .head {
+    font-size: 16px;
+  }
+
+  .benefit-table-desktop .subhead {
+    font-size: 16px;
+  }
+
+  .benefit-table-desktop li {
+    font-size: 12px;
+  }
+
+  .benefit-table-desktop p {
+    font-size: 12px;
+  }
+
+  .recommend .card .image {
+    height: 100px;
+  }
+
+  .recommend .card .content {
+    font-size: 12px;
+  }
+
+  .layanan {
+    margin-bottom: 10vh;
+  }
+
+  .subhead-layanan {
+    padding: 15px 0px 15px 0px;
+  }
+
+  .card-alur {
+    width: 180px;
+    height: 220px;
+  }
+
+  .sect-8 {
+    width: 50%;
+  }
+
+  #section-8 {
+    padding-bottom: 0px;
+  }
+
+  .kardus {
+    width: 80%;
+    margin-top: -18vh;
   }
 }
