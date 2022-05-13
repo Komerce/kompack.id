@@ -63,9 +63,6 @@ export default {
           title: "Partner membayar invoice per bulan",
         },
       ],
-
-      nextNavigation: Image.next,
-      prevNavigation: Image.prev,
     };
   },
   methods: {
@@ -86,4 +83,7 @@ export default {
       this.activeAccordionId = event.currentTarget.id;
     },
   },
+  mounted() {
+    console.log('current',this.$refs.carousel.$el.lastElementChild.classList)
+  }
 };

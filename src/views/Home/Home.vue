@@ -36,7 +36,7 @@
         <div class="container">
           <div class="row sect-2 row_sect2">
             <div class="col-xl-12">
-              <div class="head-sect2 col-8">
+              <div class="head-sect2 col-md-10 col-8">
                 <h2>Apakah kamu mengalami masalah ini?</h2>
               </div>
               <div class="row mt-3 justify-content-center">
@@ -44,24 +44,24 @@
                   class="row justify-content-center mb-4 content-sect2"
                   style="margin-right: 2vw"
                 >
-                  <div class="col-lg-2 col-md-1 col-3 icon-sect2">
+                  <div class="col-lg-2 col-md-2 col-3 icon-sect2">
                     <img src="../../assets/icon-1.png" alt="" />
                   </div>
-                  <div class="col-lg-8 col-md-4 col-8 subhead-sect2">
-                    <span
+                  <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
+                    <p
                       >Keterbatasan tempat dan biaya dalam menyediakan fasilitas
-                      gudang sendiri</span
+                      gudang sendiri</p
                     >
                   </div>
                 </div>
                 <div class="row justify-content-center content-sect2">
-                  <div class="col-lg-2 col-md-1 col-3 icon-sect2">
+                  <div class="col-lg-2 col-md-2 col-3 icon-sect2">
                     <img src="../../assets/icon-2.png" alt="" />
                   </div>
-                  <div class="col-lg-8 col-md-4 col-8 subhead-sect2">
-                    <span
+                  <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
+                    <p
                       >Tidak cukup waktu dalam mengurus penyimpanan hingga
-                      pengemasan barang</span
+                      pengemasan barang</p
                     >
                   </div>
                 </div>
@@ -168,18 +168,18 @@
         <div class="row justify-content-between row-sect4">
           <div class="col-xl-4 col-lg-4 col-md-5 col-12">
             <div class="row justify-content-center content-sect4-1">
-              <div class="col-lg-2 col-md-3 col-2" style="align-self: center">
+              <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
                 <img src="../../assets/icon/group-1.png" alt="" />
               </div>
-              <div class="col-lg-9 col-md-8 col-7" style="align-self: center">
+              <div class="col-lg-9 col-md-6 col-7" style="align-self: center">
                 <p>Jaminan barang disimpan di gudang yang terpercaya</p>
               </div>
             </div>
             <div class="row justify-content-center content-sect4-2">
-              <div class="col-lg-2 col-md-3 col-2" style="align-self: center">
+              <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
                 <img src="../../assets/icon/group-2.png" alt="" />
               </div>
-              <div class="col-lg-9 col-md-8 col-7" style="align-self: center">
+              <div class="col-lg-9 col-md-6 col-7" style="align-self: center">
                 <p>
                   Adanya SOP untuk mendukung keamanan dan kelancaran proses
                   fullfilment
@@ -189,29 +189,29 @@
           </div>
           <div
             class="col-xl-4 col-lg-4 col-md-5 col-12"
-            style="padding-left: 2vw"
+            style="padding-left: 5vw"
           >
             <div class="row justify-content-center content-sect4-3">
-              <div class="col-lg-2 col-md-3 col-2" style="align-self: center">
+              <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
                 <img src="../../assets/icon/group-3.png" alt="" />
               </div>
-              <div class="col-lg-8 col-md-8 col-7" style="align-self: center">
+              <div class="col-lg-10 col-md-6 col-7" style="align-self: center">
                 <p>Harga layanan terjangkau</p>
               </div>
             </div>
             <div class="row justify-content-center content-sect4-4">
-              <div class="col-lg-2 col-md-3 col-2" style="align-self: center">
+              <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
                 <img src="../../assets/icon/group-4.png" alt="" />
               </div>
-              <div class="col-lg-8 col-md-8 col-7" style="align-self: center">
+              <div class="col-lg-10 col-md-6 col-7" style="align-self: center">
                 <p>Bisa kirim barang ke gudang kapanpun</p>
               </div>
             </div>
             <div class="row justify-content-center content-sect4-5">
-              <div class="col-lg-2 col-md-3 col-2" style="align-self: center">
+              <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
                 <img src="../../assets/icon/group-5.png" alt="" />
               </div>
-              <div class="col-lg-8 col-md-8 col-7" style="align-self: center">
+              <div class="col-lg-10 col-md-6 col-7" style="align-self: center">
                 <p>Tim yang memiliki keterampilan pergudangan</p>
               </div>
             </div>
@@ -625,12 +625,11 @@
       <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
         <carousel
-          :per-page="4"
-          :autoplay="true"
-          :autoplay-interval="3000"
-          :navigation-enabled="true"
-          :navigation-next-label="nextNavigation"
-          :navigation-prev-label="prevNavigation"
+          ref="carousel"
+          :perPageCustom="[[200, 1],[768, 3], [1024, 4]]"
+          :paginationEnabled="false"
+          :navigationEnabled="true"
+          class="ayam"
           >
           <slide v-for="item in alur_items" :key="item.id">
             <div class="card card-alur">
