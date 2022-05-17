@@ -1,6 +1,6 @@
 <template>
   <div class="Tentang">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center py-3">
       <div class="col-xl-10 col-lg-10 col-md-10 col-10">
         <h1 class="head-about">Tentang Kami</h1>
         <div class="subhead1-about">

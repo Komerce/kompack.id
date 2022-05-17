@@ -55,6 +55,7 @@ img {
 
 .ket-komponen {
   font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.5px;
   text-align: left;
@@ -558,6 +559,7 @@ img {
 
   .ket-komponen {
     text-align: center;
+    font-size: 14px;
   }
 
   .button-komponen {
@@ -647,11 +649,16 @@ img {
   .img-mobile {
     display: block;
     text-align: -webkit-right;
-    margin-top: -25vh;
+    margin-top: -30vh;
+  }
+
+  .ket-komponen {
+    font-size: 14px;
   }
 
   .row_home {
     justify-content: center;
+    margin-top: 3%;
   }
 
   .button-komponen .btn-1 {
@@ -664,11 +671,13 @@ img {
 
   .row_sect2 {
     text-align: -webkit-left;
+    padding-top: 25%;
   }
 
   .head-sect2 {
     padding: 0px;
     margin-top: 1vh;
+    margin-left: 8%;
     margin-bottom: 5vh;
     width: 40%;
   }
@@ -748,6 +757,7 @@ img {
 
   #section-7 {
     padding-bottom: 0px;
+    padding-top: 20%;
   }
 
   .head-sect7 h2 {
@@ -923,7 +933,8 @@ img {
   }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
   .img-dekstop {
@@ -931,6 +942,10 @@ img {
   }
 
   .img-mobile {
+    display: none;
+  }
+
+  #row-mobile-sect3 {
     display: none;
   }
 
@@ -1036,5 +1051,11 @@ img {
   .kardus {
     width: 80%;
     margin-top: -18vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .row-mobile-sect3 {
+    display: none;
   }
 }

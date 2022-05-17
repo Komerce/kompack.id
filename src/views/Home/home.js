@@ -9,7 +9,7 @@ window.onscroll = function () {
 function myFunction() {
   if (
     document.body.scrollTop > 150 ||
-    document.documentElement.scrollTop < 750
+    document.documentElement.scrollTop < 250
   ) {
     document.getElementById("scrolltotop").classList.add("d-none");
   } else {

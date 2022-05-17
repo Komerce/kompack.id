@@ -2,7 +2,7 @@
   <div class="home">
     <section id="section_1" class="section_1">
       <div class="row container row_home">
-        <div class="col-xl-5 col-lg-5 col-md-5 col-12 colom-pertama">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-10 colom-pertama">
           <div class="komponen-pertama">
             <h2 class="judul-komponen">
               <span style="color: #ed5f07">Jasa Pergudangan</span> Terpercaya
@@ -105,7 +105,7 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center row-mobile-sect3">
+      <div class="row justify-content-center row-mobile-sect3" id="row-mobile-sect3">
         <div class="col-xl-3 col-lg-3 col-md-4 col-12">
           <div
             class="row justify-content-between content-mobile-sect3 pt-3 pb-4"

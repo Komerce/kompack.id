@@ -1,6 +1,6 @@
 <template>
   <div class="Kebijakan">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center py-3">
       <div class="col-xl-10 col-lg-10 col-md-10 col-10">
         <div class="head-kebijakan">Kebijakan Privasi</div>
         <div class="content-kebijakan">
