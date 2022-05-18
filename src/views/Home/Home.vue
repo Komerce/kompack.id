@@ -105,7 +105,10 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center row-mobile-sect3" id="row-mobile-sect3">
+      <div
+        class="row justify-content-center row-mobile-sect3"
+        id="row-mobile-sect3"
+      >
         <div class="col-xl-3 col-lg-3 col-md-4 col-12">
           <div
             class="row justify-content-between content-mobile-sect3 pt-3 pb-4"
@@ -187,9 +190,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-xl-4 col-lg-4 col-md-5 col-12 content-sect4-22"
-          >
+          <div class="col-xl-4 col-lg-4 col-md-5 col-12 content-sect4-22">
             <div class="row justify-content-center content-sect4-3">
               <div class="col-lg-2 col-md-2 col-2" style="align-self: center">
                 <img src="../../assets/icon/group-3.png" alt="" />
@@ -486,20 +487,26 @@
     </section>
     <section id="layanan" class="layanan">
       <div class="">
-        <div class="row justify-content-between">
+        <div
+          class="row accordion accordion-flush justify-content-between"
+          id="accordionFlushExample"
+        >
           <div class="col-xl-6 col-lg-6 col-md-6 col-12 p-4 mobile-layanan">
             <div class="col-lg-5 col-7 head-layanan">
               <h2>Layanan Kami</h2>
             </div>
-            <div class="row row-layanan">
-              <div class="col-lg-11 col-11 subhead-layanan">
+            <div class="row accordion-item row-layanan">
+              <div
+                class="col-lg-11 col-11 accordion-header subhead-layanan"
+                id="flush-headingOne"
+              >
                 <div
-                  class="row justify-content-between"
+                  class="row accordion-button collapsed justify-content-between"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample"
+                  data-bs-target="#flush-collapseOne"
                   aria-expanded="false"
-                  aria-controls="collapseExample"
+                  aria-controls="flush-collapseOne"
                 >
                   <div class="col-md-6 col-11">
                     <div style="padding-left: 20px">Penyimpanan</div>
@@ -514,24 +521,34 @@
                 </div>
               </div>
               <div
-                class="col-lg-11 col-11 collapse content-layanan collapse show"
-                id="collapseExample"
+                id="flush-collapseOne"
+                class="
+                  col-lg-11 col-11
+                  content-layanan
+                  accordion-collapse
+                  collapse
+                "
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
               >
-                <p>
+                <p class="accordion-body">
                   Kami menerapkan SOP untuk menyimpan dan menjamin keamanan
                   barangmu
                 </p>
               </div>
             </div>
-            <div class="row row-layanan">
-              <div class="col-lg-11 col-11 subhead-layanan">
+            <div class="row accordion-item row-layanan">
+              <div
+                class="col-lg-11 col-11 accordion-header subhead-layanan"
+                id="flush-headingTwo"
+              >
                 <div
-                  class="row justify-content-between"
+                  class="row accordion-button collapsed justify-content-between"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample1"
+                  data-bs-target="#flush-collapseTwo"
                   aria-expanded="false"
-                  aria-controls="collapseExample1"
+                  aria-controls="flush-collapseTwo"
                 >
                   <div class="col-md-10 col-11">
                     <div style="padding-left: 20px">Management Stock</div>
@@ -546,24 +563,34 @@
                 </div>
               </div>
               <div
-                class="col-lg-11 col-11 collapse content-layanan"
-                id="collapseExample1"
+                id="flush-collapseTwo"
+                class="
+                  col-lg-11 col-11
+                  content-layanan
+                  accordion-collapse
+                  collapse
+                "
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
               >
-                <p>
+                <p class="accordion-body">
                   Pemantauan jumlah barang lebih mudah dengan laporan yang
                   selalu kami update
                 </p>
               </div>
             </div>
-            <div class="row row-layanan">
-              <div class="col-11 col-11 subhead-layanan">
+            <div class="row accordion-item row-layanan">
+              <div
+                class="col-lg-11 col-11 accordion-header subhead-layanan"
+                id="flush-headingThree"
+              >
                 <div
-                  class="row justify-content-between"
+                  class="row accordion-button collapsed justify-content-between"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample2"
+                  data-bs-target="#flush-collapseThree"
                   aria-expanded="false"
-                  aria-controls="collapseExample2"
+                  aria-controls="flush-collapseThree"
                 >
                   <div class="col-md-10 col-11">
                     <div style="padding-left: 20px">
@@ -580,10 +607,17 @@
                 </div>
               </div>
               <div
-                class="col-lg-11 col-11 collapse content-layanan"
-                id="collapseExample2"
+                id="flush-collapseThree"
+                class="
+                  col-lg-11 col-11
+                  content-layanan
+                  accordion-collapse
+                  collapse
+                "
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
               >
-                <p>
+                <p class="accordion-body">
                   Kami bantu kemas dan kirimkan barang melalui ekspedisi sesuai
                   pilihanmu
                 </p>
@@ -595,18 +629,20 @@
             style="width: 45%; padding-top: 10vh"
           >
             <img
-              class="collapse show"
-              id="collapseExample"
+              class="accordion-collapse collapse"
+              id="flush-collapseOne"
               src="../../assets/partials/penyimpanan.png"
               alt="layanan"
             />
-            <img class="collapse hide"
-              id="collapseExample1"
+            <img
+              class="accordion-collapse collapse"
+              id="flush-collapseTwo"
               src="../../assets/partials/stock.png"
               alt="stock"
             />
-            <img class=" collapse hide"
-              id="collapseExample2"
+            <img
+              class="accordion-collapse collapse"
+              id="flush-collapseThree"
               src="../../assets/partials/packing.png"
               alt="packing"
             />
@@ -614,31 +650,494 @@
         </div>
       </div>
     </section>
-    <section id="alur">
+
+    <!-- <swiper
+      class="swiper"
+      :modules="modules"
+      direction="horizontal"
+      :slides-per-view="3"
+      :space-between="30"
+      :navigation="true"
+      @swiper="setSwiperRef"
+      @resize="handleResize"
+    >
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-1.svg" />
+          </div>
+          <div class="content-card">
+            <p>Melakukan Registrasi</p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-2.svg" />
+          </div>
+          <div class="content-card">
+            <p>Penentuan biaya dan persetujuan surat perjanjian</p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-3.svg" />
+          </div>
+          <div class="content-card">
+            <p>Mengirim barang ke gudang</p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-4.svg" />
+          </div>
+          <div class="content-card">
+            <p>Mitra gudang menyimpan barangmu</p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-5.svg" />
+          </div>
+          <div class="content-card">
+            <p>Mengirim data order ke mitra gudang</p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-6.svg" />
+          </div>
+          <div class="content-card">
+            <p>Mitra gudang menyiapkan orderan customer</p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card card-alur">
+          <div class="icon-card">
+            <img src="../../assets/icon/alur-7.svg" />
+          </div>
+          <div class="content-card">
+            <p>Partner membayar invoice per bulan</p>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper> -->
+
+    <section id="alur" class="carousel-desktop">
       <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
-        <carousel
-          ref="carousel"
-          :perPageCustom="[
-            [200, 1],
-            [768, 3],
-            [1024, 4],
-          ]"
-          :paginationEnabled="false"
-          :navigationEnabled="true"
-          class="ayam"
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
         >
-          <slide v-for="item in alur_items" :key="item.id">
-            <div class="card card-alur">
-              <div class="icon-card">
-                <img :src="item.image" />
-              </div>
-              <div class="content-card">
-                <p>{{ item.title }}</p>
+          <div class="carousel-inner d-flex">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-1.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Melakukan Registrasi</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-2.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Penentuan biaya dan persetujuan surat perjanjian</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-3.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mengirim barang ke gudang</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-4.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mitra gudang menyimpan barangmu</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </slide>
-        </carousel>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-4.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mitra gudang menyimpan barangmu</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-5.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mengirim data order ke mitra gudang</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-6.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mitra gudang menyiapkan orderan customer</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-7.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Partner membayar invoice per bulan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <i
+                class="material-icons"
+                style="
+                  font-size: 34px;
+                  background-color: #ed5f07;
+                  color: #ffffff;
+                  border-radius: 16px;
+                "
+                >keyboard_arrow_left</i
+              >
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <i
+                class="material-icons"
+                style="
+                  font-size: 34px;
+                  background-color: #ed5f07;
+                  color: #ffffff;
+                  border-radius: 16px;
+                "
+                >keyboard_arrow_right</i
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="alur" class="carousel-tablet">
+      <h2 class="mb-5">Alur Partner Kompack</h2>
+      <div class="row">
+        <div
+          id="carouselExampleControls2"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner d-flex">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-1.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Melakukan Registrasi</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-2.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Penentuan biaya dan persetujuan surat perjanjian</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-3.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mengirim barang ke gudang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-4.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mitra gudang menyimpan barangmu</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-5.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mengirim data order ke mitra gudang</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-6.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mitra gudang menyiapkan orderan customer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-5.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mengirim data order ke mitra gudang</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-6.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Mitra gudang menyiapkan orderan customer</p>
+                  </div>
+                </div>
+                <div class="card card-alur">
+                  <div class="icon-card">
+                    <img src="../../assets/icon/alur-7.svg" />
+                  </div>
+                  <div class="content-card">
+                    <p>Partner membayar invoice per bulan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <i
+                class="material-icons"
+                style="
+                  font-size: 34px;
+                  background-color: #ed5f07;
+                  color: #ffffff;
+                  border-radius: 16px;
+                "
+                >keyboard_arrow_left</i
+              >
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <i
+                class="material-icons"
+                style="
+                  font-size: 34px;
+                  background-color: #ed5f07;
+                  color: #ffffff;
+                  border-radius: 16px;
+                "
+                >keyboard_arrow_right</i
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="alur" class="carousel-mobile">
+      <h2 class="mb-5">Alur Partner Kompack</h2>
+      <div class="row">
+        <div
+          id="carouselExampleControls1"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner d-flex carousel-mobile">
+            <div class="carousel-item active">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-1.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Melakukan Registrasi</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-2.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Penentuan biaya dan persetujuan surat perjanjian</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-3.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Mengirim barang ke gudang</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-4.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Mitra gudang menyimpan barangmu</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-4.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Mitra gudang menyimpan barangmu</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-5.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Mengirim data order ke mitra gudang</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-6.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Mitra gudang menyiapkan orderan customer</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card card-alur">
+                <div class="icon-card">
+                  <img src="../../assets/icon/alur-7.svg" />
+                </div>
+                <div class="content-card">
+                  <p>Partner membayar invoice per bulan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls1"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <i
+                class="material-icons"
+                style="
+                  font-size: 34px;
+                  background-color: #ed5f07;
+                  color: #ffffff;
+                  border-radius: 16px;
+                "
+                >keyboard_arrow_left</i
+              >
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls1"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <i
+                class="material-icons"
+                style="
+                  font-size: 34px;
+                  background-color: #ed5f07;
+                  color: #ffffff;
+                  border-radius: 16px;
+                "
+                >keyboard_arrow_right</i
+              >
+            </button>
+          </div>
+        </div>
       </div>
     </section>
     <section id="section-8">
@@ -686,7 +1185,9 @@
     <section id="section-9">
       <div class="sect9">
         <div class="head-sect9 row justify-content-center">
-          <h2 class="col-lg-11 col-md-12 col-10">Percayakan Layanan Pergudangan Bisnismu pada Kompack</h2>
+          <h2 class="col-lg-11 col-md-12 col-10">
+            Percayakan Layanan Pergudangan Bisnismu pada Kompack
+          </h2>
         </div>
         <div class="subhead-sect9">
           <p>Rasakan kemudahannya! Hubungi kami untuk informasi lebih lanjut</p>
@@ -706,5 +1207,5 @@
   </div>
 </template>
 
-<script src="./home.js"></script>
+<script lang="ts" src="./home.js"></script>
 <style src="./home.css" scoped></style>

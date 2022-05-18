@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@1,900&display=swap");
 
+
 * {
   padding: 0%;
   margin: 0%;
@@ -434,22 +435,21 @@ img {
   width: 240px;
   height: 280px;
   border-radius: 20px;
+  margin-right: 3rem;
+  margin-left: 3rem;
   justify-content: space-evenly;
 }
+
 
 .content-card {
   font-weight: 600;
 }
 
-.VueCarousel-navigation-button::before {
-  content: "";
-  position: relative;
-  top: 8px;
-  height: 25px;
-  width: 25px;
+.carousel-control-next,
+.carousel-control-prev {
+  position: relative !important;
+  padding-top: 5vh;
 }
-
-
 
 /* <-- section_8 --> */
 #section-8 {
@@ -537,13 +537,19 @@ img {
   font-weight: 600;
 }
 
+.accordion-button {
+  background-color: none !important;
+}
+
 @media (max-width: 350px) {
   p {
     font-size: 12px;
   }
+
   h2 {
     font-size: 20px;
   }
+
   .section_1 {
     padding-top: 3vh;
     text-align: center;
@@ -569,6 +575,7 @@ img {
   .row-sect3 {
     display: none;
   }
+
   .head-sect3 {
     margin-bottom: 7vh;
   }
@@ -580,26 +587,33 @@ img {
     width: 80%;
     border-radius: 28px;
   }
+
   .content-mobile-sect3 img {
     margin-top: -10vh;
   }
+
   .section-4 {
     background-image: none;
     height: 43vh;
   }
+
   .content-sect4-22 {
     padding-left: 0vw;
   }
+
   .content-sect4-1 {
     margin-bottom: 2vh;
   }
+
   .content-sect4-3 {
     margin-bottom: 2vh;
     margin-top: 2vh;
   }
+
   .content-sect4-4 {
     margin-bottom: 2vh;
   }
+
   #section-7 {
     padding-bottom: 0px;
   }
@@ -632,6 +646,19 @@ img {
   .bold-sect7 {
     font-size: 16px;
   }
+
+  .carousel-desktop {
+    display: none;
+  }
+
+  .carousel-tablet {
+    display: none;
+  }
+
+  .carousel-mobile {
+    display: block;
+  }
+
 }
 
 @media (min-width: 350px) and (max-width: 575px) {
@@ -931,9 +958,171 @@ img {
     font-size: 12px;
     padding: 10px;
   }
+
+  .carousel-desktop {
+    display: none;
+  }
+
+  .carousel-tablet {
+    display: none;
+  }
+
+  .carousel-mobile {
+    display: block;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  #row-mobile-sect3 {
+    display: none;
+  }
+
+  .section-4 {
+    background-image: none;
+  }
+
+  .row-sect4 {
+    font-size: 12px;
+    margin-bottom: 3vh;
+  }
+
+  .content-sect4-22 {
+    padding-left: 0vw;
+  }
+
+  .content-sect4-1 {
+    margin-bottom: 1rem;
+  }
+
+  .content-sect4-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .content-sect4-4 {
+    margin-bottom: 1rem;
+  }
+
+  #section-7 {
+    padding-bottom: 0px;
+    padding-top: 0%;
+  }
+
+  .head-sect7 h2 {
+    font-size: 24px;
+  }
+
+  .row-sect7 {
+    width: 100%;
+    border-radius: 0px;
+    padding: 1rem;
+  }
+
+  .col1-sect7 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-right: none;
+    border-bottom: solid 2px #ffffff;
+  }
+
+  .subhead-sect7 {
+    text-align: center;
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .bold-sect7 {
+    font-size: 17px;
+  }
+
+  .benefit-table-desktop {
+    display: none;
+  }
+
+  .benefit-table-mobile {
+    display: block;
+  }
+
+  .benefit-table-mobile .btn-menu {
+    width: auto;
+    margin-right: 6px;
+    color: #c2c2c2;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+
+  .benefit-table-mobile .btn-menu:hover {
+    opacity: 0.7;
+  }
+
+  .benefit-table-mobile .btn-menu:focus {
+    box-shadow: unset;
+  }
+
+  .benefit-table-mobile .active {
+    color: #ff6a3a;
+    border: 1px solid #ff6a3a;
+  }
+
+  .benefit-table-mobile .subhead {
+    background-color: #F6F6F9;
+    margin: 1px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 5px 0px 20px 0px;
+  }
+
+  .benefit-table-mobile .head {
+    background-color: #FFFFFF;
+    margin: 1px;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .benefit-table-mobile .content {
+    background-color: #FFFFFF;
+    margin: 1px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 20px 5px 20px 5px;
+  }
+
+  .recommend .card {
+    max-width: 58vw;
+  }
+
+  .img-layanan {
+    display: none;
+  }
+
+  .sect-8 {
+    width: 65%;
+  }
+
+  .kardus {
+    width: 100%;
+    margin-top: -19vh;
+    padding-right: 10px;
+  }
+
+  .carousel-desktop {
+    display: none;
+  }
+
+  .carousel-tablet {
+    display: block;
+  }
+
+  .carousel-mobile {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -1052,10 +1241,56 @@ img {
     width: 80%;
     margin-top: -18vh;
   }
+
+  .carousel-desktop {
+    display: none;
+  }
+
+  .carousel-tablet {
+    display: block;
+  }
+
+  .carousel-mobile {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
   .row-mobile-sect3 {
+    display: none;
+  }
+
+  .carousel-desktop {
+    display: block;
+  }
+
+  .carousel-tablet {
+    display: none;
+  }
+
+  .carousel-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .row-mobile-sect3 {
+    display: none;
+  }
+
+  .content-sect4-22 {
+    padding-left: 0vw;
+  }
+
+  .carousel-desktop {
+    display: block;
+  }
+
+  .carousel-tablet {
+    display: none;
+  }
+
+  .carousel-mobile {
     display: none;
   }
 }
