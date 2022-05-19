@@ -492,7 +492,7 @@
           id="accordionFlushExample"
         >
           <div class="col-xl-6 col-lg-6 col-md-6 col-12 p-4 mobile-layanan">
-            <div class="col-lg-5 col-7 head-layanan">
+            <div class="col-lg-7 col-md-7 col-7 head-layanan">
               <h2>Layanan Kami</h2>
             </div>
             <div class="row accordion-item row-layanan">
@@ -501,22 +501,15 @@
                 id="flush-headingOne"
               >
                 <div
-                  class="row accordion-button collapsed justify-content-between"
+                  class="row accordion-button collapsed justify-content-between custom__class"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
-                  aria-expanded="false"
+                  aria-expanded="true"
                   aria-controls="flush-collapseOne"
                 >
-                  <div class="col-md-6 col-11">
+                  <div class="col-md-6 col-10">
                     <div style="padding-left: 20px">Penyimpanan</div>
-                  </div>
-                  <div class="col-md-2 col-1">
-                    <img
-                      class=""
-                      src="../../assets/vector/bottom-arrow.svg"
-                      alt="arrow"
-                    />
                   </div>
                 </div>
               </div>
@@ -526,7 +519,7 @@
                   col-lg-11 col-11
                   content-layanan
                   accordion-collapse
-                  collapse
+                  collapse show
                 "
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
@@ -543,22 +536,15 @@
                 id="flush-headingTwo"
               >
                 <div
-                  class="row accordion-button collapsed justify-content-between"
+                  class="row accordion-button justify-content-between custom__class"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo"
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                  <div class="col-md-10 col-11">
+                  <div class="col-md-10 col-10">
                     <div style="padding-left: 20px">Management Stock</div>
-                  </div>
-                  <div class="col-md-2 col-1">
-                    <img
-                      class=""
-                      src="../../assets/vector/bottom-arrow.svg"
-                      alt="arrow"
-                    />
                   </div>
                 </div>
               </div>
@@ -585,24 +571,17 @@
                 id="flush-headingThree"
               >
                 <div
-                  class="row accordion-button collapsed justify-content-between"
+                  class="row accordion-button collapsed justify-content-between custom__class"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree"
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  <div class="col-md-10 col-11">
+                  <div class="col-md-10 col-10">
                     <div style="padding-left: 20px">
                       Pengemasan dan pengiriman
                     </div>
-                  </div>
-                  <div class="col-md-2 col-1">
-                    <img
-                      class=""
-                      src="../../assets/vector/bottom-arrow.svg"
-                      alt="arrow"
-                    />
                   </div>
                 </div>
               </div>
@@ -629,7 +608,7 @@
             style="width: 45%; padding-top: 10vh"
           >
             <img
-              class="accordion-collapse collapse"
+              class="accordion-collapse collapse show"
               id="flush-collapseOne"
               src="../../assets/partials/penyimpanan.png"
               alt="layanan"
@@ -650,89 +629,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <swiper
-      class="swiper"
-      :modules="modules"
-      direction="horizontal"
-      :slides-per-view="3"
-      :space-between="30"
-      :navigation="true"
-      @swiper="setSwiperRef"
-      @resize="handleResize"
-    >
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-1.svg" />
-          </div>
-          <div class="content-card">
-            <p>Melakukan Registrasi</p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-2.svg" />
-          </div>
-          <div class="content-card">
-            <p>Penentuan biaya dan persetujuan surat perjanjian</p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-3.svg" />
-          </div>
-          <div class="content-card">
-            <p>Mengirim barang ke gudang</p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-4.svg" />
-          </div>
-          <div class="content-card">
-            <p>Mitra gudang menyimpan barangmu</p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-5.svg" />
-          </div>
-          <div class="content-card">
-            <p>Mengirim data order ke mitra gudang</p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-6.svg" />
-          </div>
-          <div class="content-card">
-            <p>Mitra gudang menyiapkan orderan customer</p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="card card-alur">
-          <div class="icon-card">
-            <img src="../../assets/icon/alur-7.svg" />
-          </div>
-          <div class="content-card">
-            <p>Partner membayar invoice per bulan</p>
-          </div>
-        </div>
-      </swiper-slide>
-    </swiper> -->
-
     <section id="alur" class="carousel-desktop">
       <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
@@ -740,6 +636,8 @@
           id="carouselExampleControls"
           class="carousel slide"
           data-bs-ride="carousel"
+          data-bs-interval="false"
+          data-bs-wrap="false"
         >
           <div class="carousel-inner d-flex">
             <div class="carousel-item active">
@@ -750,6 +648,7 @@
                   </div>
                   <div class="content-card">
                     <p>Melakukan Registrasi</p>
+                    <p></p>
                   </div>
                 </div>
                 <div class="card card-alur">
@@ -757,7 +656,7 @@
                     <img src="../../assets/icon/alur-2.svg" />
                   </div>
                   <div class="content-card">
-                    <p>Penentuan biaya dan persetujuan surat perjanjian</p>
+                    <p style="font-size: 15px;">Penentuan biaya dan persetujuan surat perjanjian</p>
                   </div>
                 </div>
                 <div class="card card-alur">
@@ -869,6 +768,8 @@
           id="carouselExampleControls2"
           class="carousel slide"
           data-bs-ride="carousel"
+          data-bs-interval="false"
+          data-bs-wrap="false"
         >
           <div class="carousel-inner d-flex">
             <div class="carousel-item active">
@@ -1010,6 +911,8 @@
           id="carouselExampleControls1"
           class="carousel slide"
           data-bs-ride="carousel"
+          data-bs-interval="false"
+          data-bs-wrap="false"
         >
           <div class="carousel-inner d-flex carousel-mobile">
             <div class="carousel-item active">

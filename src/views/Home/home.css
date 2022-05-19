@@ -183,7 +183,7 @@ img {
 #section-4 {
   background-color: #edf8ff;
   padding-top: 5vh;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 
 .section-4 {
@@ -191,7 +191,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-position-x: 18vw;
-  height: 60vh;
+  height: 52vh;
+  margin-bottom: 2rem;
 }
 
 .row-sect4 {
@@ -337,7 +338,7 @@ img {
 .recommend .card .content {
   background-color: #ffffff;
   padding: 20px;
-  min-height: 22vh;
+  min-height: 26vh;
   border-radius: 0px 0px 20px 20px;
   font-size: 18px;
   font-weight: 600;
@@ -348,8 +349,9 @@ img {
 /* end section-5 Komship */
 /* <-- section_7 --> */
 #section-7 {
-  background-color: #ffffff;
-  padding-bottom: 80px;
+  margin-top: -12vh;
+  margin-bottom: -15vh;
+  padding-bottom: 30vh;
   text-align: -webkit-center;
 }
 
@@ -435,11 +437,10 @@ img {
   width: 240px;
   height: 280px;
   border-radius: 20px;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
   justify-content: space-evenly;
 }
-
 
 .content-card {
   font-weight: 600;
@@ -449,6 +450,7 @@ img {
 .carousel-control-prev {
   position: relative !important;
   padding-top: 5vh;
+  width: 10%;
 }
 
 /* <-- section_8 --> */
@@ -537,8 +539,23 @@ img {
   font-weight: 600;
 }
 
-.accordion-button {
-  background-color: none !important;
+.row-layanan {
+  background: none;
+  border: none;
+}
+
+.custom__class {
+  background: none;
+  color:  #FFFFFF;
+}
+
+.custom__class::after {
+  background-image: url(../../assets/vector/bottom-arrow.svg);
+  margin-right: 1rem;
+}
+
+.custom__class:not(.collapsed) {
+  box-shadow: inset 0 0px 0 rgb(0 0 0 / 0%);
 }
 
 @media (max-width: 350px) {
@@ -592,6 +609,10 @@ img {
     margin-top: -10vh;
   }
 
+  #section-4 {
+    padding-bottom: 10vh;
+  }
+
   .section-4 {
     background-image: none;
     height: 43vh;
@@ -616,6 +637,8 @@ img {
 
   #section-7 {
     padding-bottom: 0px;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
   }
 
   .head-sect7 h2 {
@@ -753,7 +776,7 @@ img {
   }
 
   #section-4 {
-    padding-bottom: 0px;
+    padding-bottom: 10vh;
   }
 
   .section-4 {
@@ -784,7 +807,9 @@ img {
 
   #section-7 {
     padding-bottom: 0px;
-    padding-top: 20%;
+    padding-top: 0%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
   }
 
   .head-sect7 h2 {
@@ -1006,6 +1031,8 @@ img {
   #section-7 {
     padding-bottom: 0px;
     padding-top: 0%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
   }
 
   .head-sect7 h2 {
@@ -1159,7 +1186,8 @@ img {
   }
 
   .section-4 {
-    background-size: 50%;
+    background-size: 45%;
+    background-position-x: 21vw;
     height: 55vh;
   }
 
@@ -1255,7 +1283,7 @@ img {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 993px) {
   .row-mobile-sect3 {
     display: none;
   }
@@ -1270,6 +1298,9 @@ img {
 
   .carousel-mobile {
     display: none;
+  }
+  .section-4 {
+    background-size: 50%;
   }
 }
 
