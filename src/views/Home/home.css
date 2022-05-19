@@ -786,7 +786,7 @@ img {
 
   .head-sect2 {
     padding: 0px;
-    margin-top: 1vh;
+    margin-top: -5vh;
     margin-left: 8%;
     margin-bottom: 5vh;
     width: 40%;
@@ -836,12 +836,12 @@ img {
   }
 
   #section-4 {
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
   }
 
   .section-4 {
     background-image: none;
-    height: 60vh;
+    height: 40vh;
   }
 
   .row-sect4 {
@@ -960,7 +960,7 @@ img {
   }
 
   .layanan {
-    margin-top: 5vh;
+    margin-top: 0vh;
     margin-bottom: 5vh;
   }
 

@@ -37,7 +37,4 @@ export default {
       this.activeAccordionId = event.currentTarget.id;
     },
   },
-  mounted() {
-    console.log('current',this.$refs.carousel.$el.lastElementChild.classList)
-  }
 };
