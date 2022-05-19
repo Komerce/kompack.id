@@ -358,7 +358,7 @@
             </button>
           </div>
           <div class="row" data-aos="zoom-in" data-aos-duration="1500">
-            <div class="col-5 head">Benefit</div>
+            <div class="col-5 align-self-center head">Benefit</div>
             <div v-if="benefitContent === 'JNE'" class="col-6 subhead">
               <img
                 class="logo"
