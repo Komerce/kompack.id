@@ -742,6 +742,10 @@ img {
   #alur {
     background-position-x: 22vw;
   }
+  .sect9 .button button {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 
 @media (min-width: 350px) and (max-width: 575px) {
@@ -836,7 +840,7 @@ img {
   }
 
   #section-4 {
-    padding-bottom: 5vh;
+    padding-bottom: 20vh;
   }
 
   .section-4 {
@@ -1255,10 +1259,14 @@ img {
     padding-top: 2vh;
   }
 
+  #section-4 {
+    padding-bottom: 5vh;
+  }
+
   .section-4 {
     background-size: 45%;
     background-position-x: 22vw;
-    height: 63vh;
+    height: 53vh;
   }
 
   .section-4 p {
@@ -1353,7 +1361,7 @@ img {
   }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 993px) and (max-width: 1200px) {
   .row-mobile-sect3 {
     display: none;
   }
@@ -1371,16 +1379,15 @@ img {
   }
 
   .section-4 {
-    background-size: 50%;
+    background-position-x: 16vw;
+    height: 70vh;
+    background-position-y: 15vh;
+    background-size: 55%;
   }
 
-  .section-4 {
-    background-position-x: 17vw;
-    height: 70vh;
-  }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
   .row-mobile-sect3 {
     display: none;
   }
@@ -1402,7 +1409,35 @@ img {
   }
 
   .section-4 {
-    background-position-x: 15vw;
+    background-position-x: 14vw;
+    background-position-y: 12vh;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1401px) { 
+  .row-mobile-sect3 {
+    display: none;
+  }
+
+  .content-sect4-22 {
+    padding-left: 0vw;
+  }
+
+  .carousel-desktop {
+    display: block;
+  }
+
+  .carousel-tablet {
+    display: none;
+  }
+
+  .carousel-mobile {
+    display: none;
+  }
+  .section-4 {
+    background-position-x: 20vw;
+    background-position-y: 14vh;
     height: 60vh;
   }
 }

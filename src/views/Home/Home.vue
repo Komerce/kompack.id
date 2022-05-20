@@ -2,7 +2,12 @@
   <div class="home">
     <section id="section_1" class="section_1">
       <div class="row container row_home">
-        <div class="col-xl-5 col-lg-5 col-md-5 col-10 colom-pertama">
+        <div
+          class="col-xl-5 col-lg-5 col-md-5 col-11 colom-pertama"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <div class="komponen-pertama">
             <h2 class="judul-komponen">
               <span style="color: #ed5f07">Jasa Pergudangan</span> Terpercaya
@@ -21,7 +26,13 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 kolom-kedua">
+        <div
+          class="col-xl-5 col-lg-6 col-md-6 col-10 mb-5 kolom-kedua"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
           <div class="model-img">
             <img class="img-dekstop" src="@/assets/partials/hero.svg" alt="" />
           </div>
@@ -31,7 +42,7 @@
         <img class="img-mobile" src="@/assets/partials/hero-mobile.svg" alt=""
       /></span>
     </section>
-    <section id="section_2" class="section_2">
+    <section id="section_2" class="section_2" data-aos="fade-up">
       <div class="row justify-content-center">
         <div class="container">
           <div class="row sect-2 row_sect2">
@@ -72,11 +83,11 @@
       </div>
     </section>
     <section id="section-3">
-      <div class="head-sect3">
+      <div class="head-sect3" data-aos="fade-up">
         <h2>Mengapa Harus Kompack?</h2>
       </div>
       <div class="row justify-content-center row-sect3">
-        <div class="col-xl-3 col-lg-3 col-md-4 col-12">
+        <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-right">
           <div class="content-sect3 pt-3 pb-3">
             <img src="../../assets/icon/practis.svg" alt="" />
             <h4 class="pt-3">Praktis</h4>
@@ -85,7 +96,7 @@
             </p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-12">
+        <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-up">
           <div class="content-sect3 pt-3 pb-3">
             <img src="../../assets/icon/hemat.svg" alt="" />
             <h4 class="pt-3">Hemat</h4>
@@ -95,7 +106,7 @@
             </p>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-12">
+        <div class="col-xl-3 col-lg-3 col-md-4 col-12" data-aos="fade-left">
           <div class="content-sect3 pt-5 pb-3">
             <img src="../../assets/icon/mudah.svg" alt="" />
             <h4 class="pt-3">Mudah</h4>
@@ -164,7 +175,7 @@
       </div>
     </section>
     <section id="section-4">
-      <div class="container section-4">
+      <div class="container section-4" data-aos="zoom-in">
         <div class="head-sect4">
           <h4>Apa kelebihan Kompack?</h4>
         </div>
@@ -219,7 +230,7 @@
         </div>
       </div>
     </section>
-    <section id="section-7">
+    <section id="section-7" data-aos="zoom-in-up">
       <div class="row justify-content-center row-sect7">
         <div class="col-xl-6 col-lg-6 col-md-5 col-12 col1-sect7">
           <div class="head-sect7">
@@ -486,7 +497,7 @@
       </section>
     </section>
     <section id="layanan" class="layanan">
-      <div class="">
+      <div data-aos="fade-up" data-aos-duration="3000">
         <div
           class="row accordion accordion-flush justify-content-between"
           id="accordionFlushExample"
@@ -501,7 +512,13 @@
                 id="flush-headingOne"
               >
                 <div
-                  class="row accordion-button collapsed justify-content-between custom__class"
+                  class="
+                    row
+                    accordion-button
+                    collapsed
+                    justify-content-between
+                    custom__class
+                  "
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
@@ -519,7 +536,8 @@
                   col-lg-11 col-11
                   content-layanan
                   accordion-collapse
-                  collapse show
+                  collapse
+                  show
                 "
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
@@ -536,7 +554,12 @@
                 id="flush-headingTwo"
               >
                 <div
-                  class="row accordion-button justify-content-between custom__class"
+                  class="
+                    row
+                    accordion-button
+                    justify-content-between
+                    custom__class
+                  "
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo"
@@ -571,7 +594,13 @@
                 id="flush-headingThree"
               >
                 <div
-                  class="row accordion-button collapsed justify-content-between custom__class"
+                  class="
+                    row
+                    accordion-button
+                    collapsed
+                    justify-content-between
+                    custom__class
+                  "
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree"
@@ -629,7 +658,12 @@
         </div>
       </div>
     </section>
-    <section id="alur" class="carousel-desktop">
+    <section
+      id="alur"
+      class="carousel-desktop"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
         <div
@@ -656,7 +690,9 @@
                     <img src="../../assets/icon/alur-2.svg" />
                   </div>
                   <div class="content-card">
-                    <p style="font-size: 15px;">Penentuan biaya dan persetujuan surat perjanjian</p>
+                    <p style="font-size: 15px">
+                      Penentuan biaya dan persetujuan surat perjanjian
+                    </p>
                   </div>
                 </div>
                 <div class="card card-alur">
@@ -761,7 +797,12 @@
         </div>
       </div>
     </section>
-    <section id="alur" class="carousel-tablet">
+    <section
+      id="alur"
+      class="carousel-tablet"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
         <div
@@ -904,7 +945,12 @@
         </div>
       </div>
     </section>
-    <section id="alur" class="carousel-mobile">
+    <section
+      id="alur"
+      class="carousel-mobile"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <h2 class="mb-5">Alur Partner Kompack</h2>
       <div class="row">
         <div
@@ -1043,7 +1089,11 @@
         </div>
       </div>
     </section>
-    <section id="section-8">
+    <section
+      id="section-8"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    >
       <div class="row justify-content-center sect-8">
         <div class="isi-sect8">
           <div class="judul-sect8">
@@ -1085,7 +1135,12 @@
         />
       </div>
     </section>
-    <section id="section-9">
+    <section
+      id="section-9"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div class="sect9">
         <div class="head-sect9 row justify-content-center">
           <h2 class="col-lg-11 col-md-12 col-10">
