@@ -34,6 +34,13 @@ export default {
   font-size: 16px;
   margin-top: 0px;
   max-width: 100%;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
 }
 </style>

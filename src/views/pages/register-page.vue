@@ -1,6 +1,6 @@
 <template>
   <div class="register-page">
-    <div class="head_register text-center">
+    <div class="head_register text-center py-3">
       <div class="logo-white">
         <img src="@/assets/logo_kompack_white.png" alt="" />
       </div>

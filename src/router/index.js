@@ -10,7 +10,7 @@ const router = new Router({
         path: '/',
         name: 'Home',
         component: () =>
-            import ('@/views/pages/Home.vue'),
+            import ('@/views/Home/Home.vue'),
     }, {
         path: '/tentang',
         name: 'Tentang',

@@ -1,6 +1,6 @@
 <template>
   <div class="Syarat">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center py-3">
       <div class="col-xl-10 col-lg-10 col-md-10 col-10">
         <div class="head-syarat">Syarat dan Ketentuan</div>
         <div class="subhead1-syarat">Selamat datang di platform Kompack</div>
