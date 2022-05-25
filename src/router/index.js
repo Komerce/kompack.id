@@ -31,6 +31,11 @@ const router = new Router({
         name: 'Register',
         component: () =>
             import ('@/views/pages/register-page.vue'),
+    }, {
+        path: '/carousel',
+        name: 'Carousel',
+        component: () =>
+            import ('@/views/pages/carousel.vue'),
     }
 ]
 

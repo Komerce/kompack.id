@@ -1,80 +1,87 @@
 <template>
   <div class="footer">
     <div class="icon"></div>
-      <div class="row row_footer-1">
-        <div class="container cntr_footer-1 d-flex justify-content-center">
-          <div class="col-lg-5 col-md-6 col-12">
-            <div class="logo-location">
-              <div class="image-footer">
-                <img
-                  src="../assets/logo-kompack-white.png"
-                  width="150px"
-                  alt=""
-                />
+    <div class="row row_footer-1">
+      <div class="container cntr_footer-1 d-flex justify-content-center">
+        <div class="col-lg-5 col-md-6 col-12">
+          <div class="logo-location">
+            <div class="image-footer">
+              <img
+                src="../assets/logo-kompack-white.png"
+                width="150px"
+                alt=""
+              />
+            </div>
+            <div class="row bawah-logo-white pt-3 d-flex">
+              <div class="col-1 lokasi">
+                <div class=""><img src="../assets/lokasi.png" alt="" /></div>
               </div>
-              <div class="row bawah-logo-white pt-3 d-flex">
-                <div class="col-1 lokasi">
-                  <div class=""><img src="../assets/lokasi.png" alt="" /></div>
-                </div>
-                <div class="col-9">
-                  <span class="ket-loc">
-                    Head Office Komerce <br />
-                    Jln. Sawah Tengah No. 3 Desa Tunjungmuli Kecamatan
-                    Karangmoncol Kabupaten Purbalingga (53355)
-                  </span>
-                </div>
+              <div class="col-9">
+                <span class="ket-loc">
+                  Head Office Komerce <br />
+                  Jln. Sawah Tengah No. 3 Desa Tunjungmuli Kecamatan
+                  Karangmoncol Kabupaten Purbalingga (53355)
+                </span>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 tiga-dua">
-            <div class="perusahaan">
-              <div class=""><span class="title-footer">Perusahaan</span></div>
-              <div class="row text-title pt-3">
-                <div class="ul">
-                  <router-link class="ket-text link" to="/tentang" aria-current="page"
+        </div>
+        <div class="col-lg-3 col-xl-2 tiga-dua">
+          <div class="perusahaan">
+            <div class=""><span class="title-footer">Perusahaan</span></div>
+            <div class="row text-title pt-3">
+              <div class="ul">
+                <router-link
+                  class="ket-text link"
+                  to="/tentang"
+                  aria-current="page"
                   @click.native="movePage"
-                    ><span class="text-ket">Tentang Kami</span></router-link
-                  >
-                  <router-link class="ket-text link" to="/syarat" aria-current="page"
+                  ><span class="text-ket">Tentang Kami</span></router-link
+                >
+                <router-link
+                  class="ket-text link"
+                  to="/syarat"
+                  aria-current="page"
                   @click.native="movePage"
-                    ><span class="text-ket"
-                      >Syarat dan Ketentuan</span
-                    ></router-link
-                  >
-                  <router-link class="ket-text link" to="/kebijakan" aria-current="page"
+                  ><span class="text-ket"
+                    >Syarat dan Ketentuan</span
+                  ></router-link
+                >
+                <router-link
+                  class="ket-text link"
+                  to="/kebijakan"
+                  aria-current="page"
                   @click.native="movePage"
-                    ><span class="text-ket"
-                      >Kebijakan Privasi</span
-                    ></router-link
-                  >
-                </div>
+                  ><span class="text-ket">Kebijakan Privasi</span></router-link
+                >
               </div>
             </div>
           </div>
-          <div class="col-lg-3 tiga-tiga">
-            <div class="kontak">
-              <div class=""><span>Kontak</span></div>
-              <div class="row bawah-kontak pt-3">
-                <div class="col-satu d-flex">
-                  <div class="col-2 col_img">
-                    <img src="../assets/sms.png" alt="" />
-                  </div>
-                  <div class="col-10">
-                    <span class="col_text">bd@kompack.id</span>
-                  </div>
+        </div>
+        <div class="col-lg-3 tiga-tiga">
+          <div class="kontak">
+            <div class=""><span>Kontak</span></div>
+            <div class="row bawah-kontak pt-3">
+              <div class="col-satu d-flex">
+                <div class="col-2 col_img">
+                  <img src="../assets/sms.png" alt="" />
                 </div>
-                <div class="col-dua pt-2 d-flex">
-                  <div class="col-2 col_img">
-                    <img src="../assets/call.png" alt="" />
-                  </div>
-                  <div class="col-10">
-                    <span class="col_text">0813-2801-2118</span>
-                  </div>
+                <div class="col-10">
+                  <span class="col_text">bd@kompack.id</span>
+                </div>
+              </div>
+              <div class="col-dua pt-2 d-flex">
+                <div class="col-2 col_img">
+                  <img src="../assets/call.png" alt="" />
+                </div>
+                <div class="col-10">
+                  <span class="col_text">0813-2801-2118</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
     <!-- <-- -- Mobile -->
     <div class="row row_footer-2">
@@ -107,17 +114,24 @@
             <div class=""><span class="title-footer">Perusahaan</span></div>
             <div class="row justify-content-left text-title pt-3">
               <div class="col-9">
-                <router-link class="ket-text link" to="/tentang" aria-current="page"
+                <router-link
+                  class="ket-text link"
+                  to="/tentang"
+                  aria-current="page"
                   @click.native="movePage"
                   ><div class="text-ket">Tentang Kami</div></router-link
                 >
-                <router-link class="ket-text link" to="/syarat" aria-current="page"
+                <router-link
+                  class="ket-text link"
+                  to="/syarat"
+                  aria-current="page"
                   @click.native="movePage"
-                  ><div class="text-ket"
-                    >Syarat dan Ketentuan</div
-                  ></router-link
+                  ><div class="text-ket">Syarat dan Ketentuan</div></router-link
                 >
-                <router-link class="ket-text link" to="/kebijakan" aria-current="page"
+                <router-link
+                  class="ket-text link"
+                  to="/kebijakan"
+                  aria-current="page"
                   @click.native="movePage"
                   ><div class="text-ket">Kebijakan Privasi</div></router-link
                 >
@@ -155,7 +169,7 @@
         <span>Copyright 2022 kompack.id. All rights reserved.</span>
       </footer>
     </div>
-     <div class="icon-mobile"></div>
+    <div class="icon-mobile"></div>
   </div>
 </template>
 
@@ -308,8 +322,11 @@ ul {
     display: none;
   }
   .image-footer {
-    display: none;
+    display: block;
+    padding-left: 6%;
+    margin-top: 10%;
   }
+
   .footer {
     text-align: left;
     padding: 0%;
@@ -325,7 +342,6 @@ ul {
 
   .bawah-logo-white {
     padding-left: 6%;
-    margin-top: 10%;
   }
   .row_footer-3 {
     text-align: left;
@@ -335,15 +351,15 @@ ul {
     margin-right: 0%;
   }
   .icon-mobile {
-  background-image: url(../assets/icon-footer.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 25%;
-  margin-right: 50px;
-  z-index: 500px;
-  height: 100px;
-  margin-top: -50px;
-}
+    background-image: url(../assets/icon-footer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 25%;
+    margin-right: 50px;
+    z-index: 500px;
+    height: 100px;
+    margin-top: -50px;
+  }
 }
 @media (min-width: 430px) and (max-width: 768px) {
   .row_footer-2 {

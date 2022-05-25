@@ -1,8 +1,8 @@
 <template>
-  <div class="header container" id="header">
+  <div class="header" id="header">
     <div class="row row_header ">
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container cntr_header">
+        <div class="container-fluid cntr_header">
           <a class="navbar-brand"
             ><img src="../assets/logo-kompack.png" alt=""
           /></a>
@@ -154,7 +154,7 @@ img {
 /* animated humberger menu end */
 
 .navbar-brand {
-  /* margin-left: 50px; */
+  margin-left: 25px;
 }
 .row_header > * {
   padding-right: 0px;
@@ -169,11 +169,12 @@ img {
   max-width: 100%;
   padding-top: 0rem;
   padding-bottom: 0rem;
+  position: relative;
 }
 
 .navbar-collapse {
   justify-content: flex-end;
-  /* padding-right: 50px; */
+  padding-right: 50px;
 }
 .navbar-nav {
   margin-right: 0%;
@@ -230,7 +231,7 @@ ul {
 @media (max-width: 900px) {
   .humburgers {
     border: solid 0.5px #ff6a3a;
-    margin-right: 40px;
+    margin-right: 25px;
     width: 40px;
     height: 40px;
     padding: 10px;
