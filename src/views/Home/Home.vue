@@ -200,7 +200,7 @@
               <div class="col-lg-9 col-md-6 col-7" style="align-self: center">
                 <p>
                   Adanya SOP untuk mendukung keamanan dan kelancaran proses
-                  fullfilment
+                  fulfillment
                 </p>
               </div>
             </div>
