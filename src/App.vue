@@ -5,7 +5,12 @@
     </div>
     <div v-else>
       <Header />
-      <router-view></router-view>
+      <router-view> </router-view>
+      <div class="scrolltotop" id="scrolltotop">
+        <button class="button__to__top" @click="scrollToTop">
+          <i class="material-icons top">expand_less</i>
+        </button>
+      </div>
       <Footer />
     </div>
   </div>
@@ -20,6 +25,15 @@ export default {
   components: {
     Header,
     Footer,
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      document.getElementById("scrolltotop").classList.add("d-none");
+    },
   },
 };
 </script>
@@ -37,10 +51,35 @@ export default {
   background-color: #ffffff;
 }
 
-h1, h2, h3, h4{
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-    line-height: 1.2;
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* scrolltotop */
+.scrolltotop button {
+  width: 60px;
+  background-color: #ed5f07;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align-last: center;
+}
+
+.scrolltotop {
+  text-align-last: end;
+  margin-right: 10px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  position: fixed;
 }
 </style>

@@ -195,7 +195,7 @@ input[type="tel"]:focus {
   margin-bottom: 24px;
 }
 .form-register {
-  background-color: #ffffff;
+  background-color: #F6F6F9;
   padding: 0px 40px 40px 40px;
   width: 80%;
   text-align: left;
