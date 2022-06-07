@@ -11,12 +11,12 @@
               Kompack adalah solusi untuk masalah pergudangan, management, dan
               pengemasan barang.
             </p>
-            <div class="button-komponen">
+            <div id="UA-190475806-4" class="button-komponen">
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
                 target="_blank"
               >
-                <button type="button" class="btn btn-1 btn-outline-danger">
+                <button  type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
                 </button>
               </a>
@@ -466,7 +466,7 @@
             href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
             target="_blank"
           >
-            <button class="btn btn-danger">DAFTAR SEKARANG</button>
+            <button id="UA-190475806-4" class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
         </div>
       </div>
