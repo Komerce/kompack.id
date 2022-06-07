@@ -15,9 +15,13 @@
               Kompack adalah solusi untuk masalah pergudangan, management, dan
               pengemasan barang.
             </p>
-            <div class="button-komponen">
+            <div id="UA-190475806-4" class="button-komponen">
               <a href="/register">
-                <button type="button" class="btn btn-1 btn-outline-danger">
+                <button
+                  
+                  type="button"
+                  class="btn btn-1 btn-outline-danger"
+                >
                   DAFTAR SEKARANG
                 </button>
               </a>
@@ -31,8 +35,11 @@
           </div>
         </div>
 
-        <div class="container section-2" data-aos="fade-right"
-        data-aos-duration="3000">
+        <div
+          class="container section-2"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
           <div class="row sect-2">
             <div class="col-xl-12">
               <div class="head-sect2">
@@ -66,8 +73,7 @@
         </div>
       </div>
     </section>
-    <section id="section-3" data-aos="zoom-in-left"
-        data-aos-duration="3000">
+    <section id="section-3" data-aos="zoom-in-left" data-aos-duration="3000">
       <div class="row row-sect3">
         <div class="col-xl-4 col-lg-5 col-md-5 hero-sect3">
           <img src="../../assets/hero-sect3.png" alt="hero-sect3" />
@@ -122,8 +128,7 @@
         </div>
       </div>
     </section>
-    <section id="section-4" data-aos="zoom-in-right"
-        data-aos-duration="3000">
+    <section id="section-4" data-aos="zoom-in-right" data-aos-duration="3000">
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4 kardus">
           <img src="../../assets/model-4.png" alt="kardus" />
@@ -184,8 +189,11 @@
         </div>
       </div>
     </section>
-    <section id="section-5-dekstop" data-aos="zoom-in-top"
-        data-aos-duration="3000">
+    <section
+      id="section-5-dekstop"
+      data-aos="zoom-in-top"
+      data-aos-duration="3000"
+    >
       <div class="section-5">
         <div class="bebek">
           <img class="icon-right" src="../../assets/right-sect5.png" alt="" />
@@ -246,10 +254,13 @@
         </div>
       </div>
     </section>
-    <section id="section-5-mobile" data-aos="fade-right"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="1500"
-     data-aos-duration="1500">
+    <section
+      id="section-5-mobile"
+      data-aos="fade-right"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="1500"
+      data-aos-duration="1500"
+    >
       <div class="sect5-mobile">
         <div class="head-mobile-sect5">
           <span>Layanan Kami</span>
@@ -368,8 +379,7 @@
         </div>
       </div>
     </section>
-    <section id="section-6" data-aos="fade-up"
-      data-aos-duration="3000">
+    <section id="section-6" data-aos="fade-up" data-aos-duration="3000">
       <div class="row justify-content-center">
         <div class="col-xl-10 col-lg-10 col-md-10 image-alur-dekstop">
           <img src="../../assets/sect-6.png" alt="" />
@@ -379,7 +389,7 @@
         </div>
       </div>
     </section>
-    <section id="section-7" data-aos="fade-down"  data-aos-duration="3000">
+    <section id="section-7" data-aos="fade-down" data-aos-duration="3000">
       <div class="row justify-content-center row-sect7">
         <div class="col-xl-5 col-lg-6 col-md-5 col1-sect7">
           <div class="head-sect7">
@@ -400,7 +410,7 @@
         </div>
       </div>
     </section>
-    <section id="section7-mobile" data-aos="fade-left"  data-aos-duration="3000">
+    <section id="section7-mobile" data-aos="fade-left" data-aos-duration="3000">
       <div class="konten-sect7-mobile">
         <div class="head-sect7-mobile">
           <span>Pakai Kompack Lebih Hemat dan Terjangkau</span>
@@ -424,7 +434,7 @@
         <img src="../../assets/model-sect7.png" alt="hero-sect7" />
       </div>
     </section>
-    <section id="section-8" data-aos="fade-right"  data-aos-duration="3000">
+    <section id="section-8" data-aos="fade-right" data-aos-duration="3000">
       <div class="row justify-content-center sect-8">
         <div class="isi-sect8">
           <div class="judul-sect8">
@@ -461,7 +471,7 @@
         </div>
       </div>
     </section>
-    <section id="section-9" data-aos="fade-left"  data-aos-duration="3000">
+    <section id="section-9" data-aos="fade-left" data-aos-duration="3000">
       <div class="sect9">
         <div class="head-sect9">
           <span>Percayakan Layanan Pergudangan Bisnismu pada Kompack</span>
@@ -474,12 +484,17 @@
         </div>
         <div class="button">
           <router-link to="/register">
-            <button class="btn btn-danger">DAFTAR SEKARANG</button>
+            <button id="UA-190475806-4" class="btn btn-danger">DAFTAR SEKARANG</button>
           </router-link>
         </div>
       </div>
     </section>
-    <div class="scrolltotop" id="scrolltotop" data-aos="fade-down"  data-aos-duration="3000">
+    <div
+      class="scrolltotop"
+      id="scrolltotop"
+      data-aos="fade-down"
+      data-aos-duration="3000"
+    >
       <button class="button__to__top" @click="scrollToTop">
         <i class="material-icons top">expand_less</i>
       </button>
@@ -488,6 +503,7 @@
 </template>
 
 <script>
+
 window.onscroll = function () {
   myFunction();
 };
