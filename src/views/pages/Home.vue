@@ -16,7 +16,7 @@
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
                 target="_blank"
               >
-                <button  type="button" class="btn btn-1 btn-outline-danger">
+                <button  @click="handleDaftar" type="button" class="btn btn-1 btn-outline-danger">
                   DAFTAR SEKARANG
                 </button>
               </a>
@@ -466,7 +466,7 @@
             href="https://docs.google.com/forms/d/e/1FAIpQLSdy5NzlPPYE4zCgg-R7oCXHRfTwpF-Dws-ni7kUkeqBtKMSIQ/viewform"
             target="_blank"
           >
-            <button id="UA-190475806-4" class="btn btn-danger">DAFTAR SEKARANG</button>
+            <button id="UA-190475806-4" @click="handleDaftar" class="btn btn-danger">DAFTAR SEKARANG</button>
           </a>
         </div>
       </div>
@@ -502,6 +502,10 @@ export default {
         behavior: "smooth",
       });
       document.getElementById("scrolltotop").classList.add("d-none");
+    },
+     handleDaftar() {
+      window.fbq('trackCustom', 'signup');
+      this.openWindow('https://partner.komerce.id/komship-register')
     },
   },
 };
