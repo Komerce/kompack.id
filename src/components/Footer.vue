@@ -7,7 +7,7 @@
           <div class="logo-location">
             <div class="image-footer">
               <img
-                src="../assets/logo-kompack-white.png"
+                src="../assets/logo-kompack-new-white.png"
                 width="150px"
                 alt=""
               />
@@ -194,7 +194,7 @@ img {
   max-width: 100%;
 }
 .footer {
-  background-color: #ed5f07;
+  background-color: #4285F4;
   width: 100%;
   padding-bottom: 93px;
   padding-bottom: 24px;
@@ -305,7 +305,7 @@ ul {
   color: #fff;
 }
 .icon {
-  background-image: url(../assets/icon-footer.png);
+  /* background-image: url(../assets/icon-footer.png); */
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 13%;
@@ -351,7 +351,7 @@ ul {
     margin-right: 0%;
   }
   .icon-mobile {
-    background-image: url(../assets/icon-footer.png);
+    /* background-image: url(../assets/icon-footer.png); */
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 25%;

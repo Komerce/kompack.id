@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container-fluid cntr_header">
           <a class="navbar-brand"
-            ><img src="../assets/logo-kompack.png" alt=""
+            ><img src="../assets/logo-kompack-new.png" alt=""
           /></a>
           <div
             class="navbar"
@@ -98,7 +98,6 @@ export default {
 img {
   max-width: 100%;
 }
-
 /* animated humberger menu */
 
 .menu-button-container {
@@ -119,7 +118,7 @@ img {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #ff6a3a;
+  background-color: #4285F4;
   position: absolute;
   height: 3px;
   width: 30px;
@@ -199,7 +198,7 @@ ul {
   display: block;
   height: 2px;
   left: 50%;
-  background: #ff6a3a;
+  background: #4285F4;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
   right: 0;
@@ -219,10 +218,10 @@ ul {
   color: #828282;
 }
 .title-nav:hover {
-  color: #ff6a3a;
+  color: #4285F4;
 }
 .title-nav:hover:after {
-  color: #ff6a3a;
+  color: #4285F4;
 }
 .container-fluid {
   padding: 0%;
@@ -230,7 +229,7 @@ ul {
 
 @media (max-width: 900px) {
   .humburgers {
-    border: solid 0.5px #ff6a3a;
+    border: solid 0.5px #4285F4;
     margin-right: 25px;
     width: 40px;
     height: 40px;
@@ -285,7 +284,7 @@ ul {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   .navbar-collapse {
-    background-color: #ff6a3a;
+    background-color: #4285F4;
   }
 }
 @media (max-width: 450px) {

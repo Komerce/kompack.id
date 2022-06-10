@@ -10,7 +10,7 @@
         >
           <div class="komponen-pertama">
             <h2 class="judul-komponen">
-              <span style="color: #ed5f07">Jasa Pergudangan</span> Terpercaya
+              <span style="color: #4285F4">Jasa Pergudangan</span> Terpercaya
               untuk Bisnis Online Kamu
             </h2>
             <p class="ket-komponen">
@@ -19,7 +19,7 @@
             </p>
             <div class="button-komponen">
               <router-link to="/register">
-                <button type="button" class="btn btn-1 btn-outline-danger">
+                <button type="button" class="btn btn-1 btn-outline-primary">
                   Mulai Sekarang
                 </button>
               </router-link>
@@ -34,13 +34,13 @@
           data-aos-duration="500"
         >
           <div class="model-img">
-            <img class="img-dekstop" src="@/assets/partials/hero.svg" alt="" />
+            <img class="img-dekstop" src="@/assets/partials/hero-new.svg" alt="" />
           </div>
         </div>
         <div class="img-mobile">
           <img
             class="img-mobile rounded float-end"
-            src="@/assets/partials/hero-mobile.svg"
+            src="@/assets/partials/hero-mobile-new.svg"
             alt=""
           />
         </div>
@@ -60,7 +60,7 @@
                   style="margin-right: 2vw"
                 >
                   <div class="col-lg-2 col-md-2 col-3 icon-sect2">
-                    <img src="../../assets/icon-1.svg" alt="" />
+                    <img src="../../assets/home.png" alt="" />
                   </div>
                   <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
                     <p>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="row justify-content-center content-sect2">
                   <div class="col-lg-2 col-md-2 col-3 icon-sect2">
-                    <img src="../../assets/icon-2.png" alt="" />
+                    <img src="../../assets/jam.png" alt="" />
                   </div>
                   <div class="col-lg-8 col-md-8 col-8 subhead-sect2">
                     <p>
@@ -257,7 +257,7 @@
         <h2>Makin hemat atur pengiriman</h2>
         <h2>
           paket orderan dengan
-          <img src="../../assets/logo/komship-logo.svg" alt="" />
+          <img src="@/assets/logo/komship-logo-new.svg" alt="" />
         </h2>
       </div>
       <section class="benefit">
@@ -518,13 +518,7 @@
                 id="flush-headingOne"
               >
                 <div
-                  class="
-                    row
-                    accordion-button
-                    collapsed
-                    justify-content-between
-                    custom__class
-                  "
+                  class="row accordion-button collapsed justify-content-between custom__class"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
@@ -538,13 +532,7 @@
               </div>
               <div
                 id="flush-collapseOne"
-                class="
-                  col-lg-11 col-11
-                  content-layanan
-                  accordion-collapse
-                  collapse
-                  show
-                "
+                class="col-lg-11 col-11 content-layanan accordion-collapse collapse show"
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
@@ -560,12 +548,7 @@
                 id="flush-headingTwo"
               >
                 <div
-                  class="
-                    row
-                    accordion-button
-                    justify-content-between
-                    custom__class
-                  "
+                  class="row accordion-button justify-content-between custom__class"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo"
@@ -579,12 +562,7 @@
               </div>
               <div
                 id="flush-collapseTwo"
-                class="
-                  col-lg-11 col-11
-                  content-layanan
-                  accordion-collapse
-                  collapse
-                "
+                class="col-lg-11 col-11 content-layanan accordion-collapse collapse"
                 aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample"
               >
@@ -600,13 +578,7 @@
                 id="flush-headingThree"
               >
                 <div
-                  class="
-                    row
-                    accordion-button
-                    collapsed
-                    justify-content-between
-                    custom__class
-                  "
+                  class="row accordion-button collapsed justify-content-between custom__class"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree"
@@ -622,12 +594,7 @@
               </div>
               <div
                 id="flush-collapseThree"
-                class="
-                  col-lg-11 col-11
-                  content-layanan
-                  accordion-collapse
-                  collapse
-                "
+                class="col-lg-11 col-11 content-layanan accordion-collapse collapse"
                 aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
@@ -760,8 +727,7 @@
               data-bs-slide="prev"
             >
               <span class="carousel-control-prev-icon" aria-hidden="true"
-                ><i
-                  class="material-icons custom__material-icons"
+                ><i class="material-icons custom__material-icons"
                   >keyboard_arrow_left</i
                 ></span
               >
@@ -773,8 +739,7 @@
               data-bs-slide="next"
             >
               <span class="carousel-control-next-icon" aria-hidden="true"
-                ><i
-                  class="material-icons custom__material-icons"
+                ><i class="material-icons custom__material-icons"
                   >keyboard_arrow_right</i
                 ></span
               >
@@ -783,48 +748,79 @@
         </div>
       </div>
     </section>
-    <section
-      id="section-8"
-      data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom"
-    >
-      <div class="row justify-content-center sect-8">
+    <div class="row row-lokasi-gudang justify--content-center">
+      <h1>Lokasi Gudang</h1>
+    </div>
+    <section id="section-8" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="row justify-content-center sect-8">        
         <div class="isi-sect8">
-          <div class="judul-sect8">
-            <div class="head-sect8">
-              <h2>Lokasi Gudang</h2>
+          <div class="row row_sect-8 justify-content-center">
+            <div class="col col-tangerang">
+              <div class="icon-lokasi">
+                <img src="../../assets/lokasi.png" alt="">
+              </div>
+              <div class="text-tangerang">
+                <p>Gudang Tangerang</p>
+              </div>
+              <div class="content-lokasi d-flex">
+                <div class="col-2">
+                  <img src="@/assets/clock.png" alt="">
+                </div>
+                <div class="col-10">
+                  <p>
+                    Jam operasional gudang 24 jam
+                  </p>
+                </div>
+              </div>
+              <div class="content-lokasi d-flex">
+                <div class="col-2">
+                  <img src="@/assets/truck.png" alt="">
+                </div>
+                <div class="col-10">
+                  <p>
+                    Mendukung berbagai penggunaan ekspedisi untuk pengiriman
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row row-sect8">
-            <div class="col-1 icon-sect8">
-              <img src="../../assets/house-2.png" alt="" />
+            <div class="col col-bekasi">
+              <div class="icon-lokasi">
+                <img src="../../assets/lokasi.png" alt="">
+              </div>
+              <div class="text-bekasi">
+                <p>Gudang Bekasi</p>
+              </div>
+              <div class="content-lokasi d-flex">
+                <div class="col-2">
+                  <img src="@/assets/clock.png" alt="">
+                </div>
+                <div class="col-10">
+                  <p>
+                    Jam operasional gudang jam 08.00 - 17.00 WIB
+                  </p>
+                </div>
+              </div>
+              <div class="content-lokasi d-flex">
+                <div class="col-2">
+                  <img src="@/assets/truck.png" alt="">
+                </div>
+                <div class="col-10">
+                  <p>
+                    Mendukung berbagai penggunaan ekspedisi untuk pengiriman
+                  </p>
+                </div>
+              </div>
+              <div class="row-bawah-lokasi d-flex">
+                <div class="col-2">
+                  <img src="../../assets/ceklist.png" alt="">
+                </div>
+                <div class="col-10">
+                  <p>
+                    Tersedia penyimpanan pendingin
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-9 subhead-sect8">
-              <p class="gudang">Gudang Tangerang</p>
-            </div>
-          </div>
-          <div class="row row-sect8">
-            <div class="col-1 icon-sect8">
-              <img src="../../assets/clock.png" alt="" />
-            </div>
-            <div class="col-9 subhead-sect8">
-              <p>Jam operasional gudang 24 jam</p>
-            </div>
-          </div>
-          <div class="row row-sect8">
-            <div class="col-1 icon-sect8">
-              <img src="../../assets/truck.png" alt="" />
-            </div>
-            <div class="col-9 bottom-sect8 subhead-sect8">
-              <p>Mendukung berbagai penggunaan ekspedisi untuk pengiriman</p>
-            </div>
-          </div>
-          <div class="kardus">
-            <img
-              class="kardus-sect8"
-              src="../../assets/partials/kardus-sect8.svg"
-              alt=""
-            />
           </div>
         </div>
       </div>
@@ -846,7 +842,7 @@
         </div>
         <div class="button">
           <router-link to="/register">
-            <button class="btn btn-danger">DAFTAR SEKARANG</button>
+            <button class="btn btn-primary">DAFTAR SEKARANG</button>
           </router-link>
         </div>
       </div>
@@ -856,4 +852,3 @@
 
 <script lang="ts" src="./home.js"></script>
 <style src="./home.css" scoped></style>
-
