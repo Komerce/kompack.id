@@ -255,7 +255,7 @@ img {
   color: #fff;
 }
 .tiga-dua {
-  padding-left: 3%;
+  padding-left: 0%;
   padding-top: 1%;
 }
 .tiga-tiga {
@@ -384,8 +384,12 @@ ul {
     padding: 0%;
   }
   .kontak {
-    padding-left: 12%;
+    padding-left: 11%;
     margin-top: 6%;
+  }
+  .tiga-dua {
+    padding-left: 3%;
+    padding-top: 1%;
   }
   .perusahaan {
     padding-left: 10%;
@@ -439,6 +443,10 @@ ul {
   footer {
     text-align: center;
     padding-top: 93px;
+  }
+  .tiga-dua {
+    padding-left: 0%;
+    padding-top: 1%;
   }
   .icon {
     background-size: 10%;
