@@ -7,7 +7,7 @@
           <div class="logo-location">
             <div class="image-footer">
               <img
-                src="../assets/logo-kompack-white.png"
+                src="../assets/logo-kompack-new-white.png"
                 width="150px"
                 alt=""
               />
@@ -77,6 +77,27 @@
                 <div class="col-10">
                   <span class="col_text">0813-2801-2118</span>
                 </div>
+              </div>
+            </div>
+            <div class="pt-4">Partner Kolaborasi</div>
+            <div class="row row-partner mt-3">
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-1.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-2.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-3.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-4.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-5.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-6.svg" alt="">
               </div>
             </div>
           </div>
@@ -160,6 +181,27 @@
                 </div>
               </div>
             </div>
+            <div class="pt-3">Partner Kolaborasi</div>
+            <div class="row row-partner mt-3">
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-1.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-2.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-3.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-4.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-5.svg" alt="">
+              </div>
+              <div class="col-4 text-center">
+                <img src="../assets/partner/icon-6.svg" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -194,7 +236,7 @@ img {
   max-width: 100%;
 }
 .footer {
-  background-color: #ed5f07;
+  background-color: #4285F4;
   width: 100%;
   padding-bottom: 93px;
   padding-bottom: 24px;
@@ -213,8 +255,11 @@ img {
   color: #fff;
 }
 .tiga-dua {
-  padding-left: 5%;
+  padding-left: 0%;
   padding-top: 1%;
+}
+.tiga-tiga {
+  padding-left: 3%;
 }
 ul {
   padding: 0;
@@ -305,13 +350,20 @@ ul {
   color: #fff;
 }
 .icon {
-  background-image: url(../assets/icon-footer.png);
+  /* background-image: url(../assets/icon-footer.png); */
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 13%;
   height: 150px;
   z-index: 500px;
   margin-bottom: -80px;
+}
+.row-partner {
+  background: #FFFFFF;
+  border-radius: 4px;
+  align-items: center;
+  padding: 2%;
+  width: 200px;
 }
 
 @media (max-width: 429px) {
@@ -332,8 +384,12 @@ ul {
     padding: 0%;
   }
   .kontak {
-    padding-left: 15%;
+    padding-left: 11%;
     margin-top: 6%;
+  }
+  .tiga-dua {
+    padding-left: 3%;
+    padding-top: 1%;
   }
   .perusahaan {
     padding-left: 10%;
@@ -351,7 +407,7 @@ ul {
     margin-right: 0%;
   }
   .icon-mobile {
-    background-image: url(../assets/icon-footer.png);
+    /* background-image: url(../assets/icon-footer.png); */
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 25%;
@@ -387,6 +443,10 @@ ul {
   footer {
     text-align: center;
     padding-top: 93px;
+  }
+  .tiga-dua {
+    padding-left: 0%;
+    padding-top: 1%;
   }
   .icon {
     background-size: 10%;

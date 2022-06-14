@@ -64,7 +64,7 @@ h4 {
 /* scrolltotop */
 .scrolltotop button {
   width: 60px;
-  background-color: #ed5f07;
+  background-color: #4285F4;
   margin-bottom: 20px;
   padding-bottom: 50px;
   padding-top: 10px;
