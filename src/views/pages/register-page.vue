@@ -368,8 +368,8 @@ label {
 @media (min-width: 481px) and (max-width: 767px) {
   .form-register[data-v-c46d2978] {
     background-color: #F6F6F9;
-    padding: 0px 40px 40px 40px;
-    max-width: 80%;
+    padding: 0px 20px 20px 20px;
+    max-width: 90%;
     border-radius: 10px;
     text-align: left;
 }
@@ -388,21 +388,24 @@ label {
     text-align: right;
     margin-right: 0px;
     margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 }
 
-@media (max-width: 480px) {
+@media (min-width: 400px) and (max-width: 480px) {
   .row-form .button {
     text-align: right;
     margin-right: 0px;
     margin-top: 40px;
     display: flex;
+    justify-content: space-between;
 }
  .form-register[data-v-c46d2978] {
     background-color: #F6F6F9;
-    padding: 0px 40px 40px 40px;
-    max-width: 80%;
+    padding: 0px 15px 15px 15px;
+    max-width: 100%;
     border-radius: 10px;
     text-align: left;
 }
@@ -412,7 +415,7 @@ label {
     background-size: cover;
     height: 900px;
     border-radius: 0px;
-    padding-top: 45px;
+    padding-top: 5px;
   }
   .image img {
   display: none;
@@ -444,6 +447,49 @@ text-align: left;
 margin-top: 20px;
 }
 
+}
+@media (min-width: 240px) and (max-width: 399px) {
+  .form-register[data-v-c46d2978][data-v-c46d2978] {
+    background-color: #F6F6F9;
+    padding: 0px 15px 15px 15px;
+    max-width: 100%;
+    border-radius: 10px;
+    text-align: left;
+}
+.con-form[data-v-c46d2978] {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    border-radius: 0px;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+.text-reg .head h2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.text-reg .subhead h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.image img {
+  display: none;
+}
+.row-form .button[data-v-c46d2978] {
+    text-align: right;
+    margin-right: 0px;
+    margin-top: 40px;
+    display: flex;
+}
 }
   
 </style>
