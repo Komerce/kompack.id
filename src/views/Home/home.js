@@ -75,5 +75,8 @@ export default {
     activate(event) {
       this.activeAccordionId = event.currentTarget.id;
     },
+    handleDaftar() {
+      window.fbq('track', 'ViewContent');
+    }
   },
 };

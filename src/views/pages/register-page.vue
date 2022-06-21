@@ -100,7 +100,7 @@
                 @click.native="movePage"
                 >Kembali</router-link
               >
-              <input class="tombol" type="submit" value="Daftar" />
+              <input class="tombol" type="submit" value="Daftar" @click="handleDaftar()"/>
             </div>
           </div>
         </form>
@@ -132,6 +132,9 @@ export default {
     movePage() {
       window.scrollTo(0, 0);
     },
+    handleDaftar() {
+      window.fbq('track', 'ViewContent');
+    }
   },
 };
 </script>

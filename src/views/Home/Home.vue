@@ -19,7 +19,7 @@
             </p>
             <div class="button-komponen">
               <router-link to="/register">
-                <button type="button" class="btn btn-1 btn-outline-primary">
+                <button type="button" class="btn btn-1 btn-outline-primary" @click="handleDaftar()">
                   Mulai Sekarang
                 </button>
               </router-link>
@@ -842,7 +842,7 @@
         </div>
         <div class="button">
           <router-link to="/register">
-            <button class="btn btn-primary">DAFTAR SEKARANG</button>
+            <button class="btn btn-primary" @click="handleDaftar()">DAFTAR SEKARANG</button>
           </router-link>
         </div>
       </div>
